@@ -25,6 +25,20 @@ body {
  }
 
  #licoes_aprendidas {
-   margin-left: 90px;
+   
+   margin: 50px 90px;
 
  }
+
+#licoes_a_aprender {
+  margin: 0px 250px;
+  
+}
+
+div {
+ display: inline-block;
+}
+
+li {
+    font-family: bold;
+}
