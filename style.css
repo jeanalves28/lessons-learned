@@ -23,7 +23,7 @@ body {
   width: 200px;
   margin: 150px 10px 10px 1000px;
   border-radius: 30% 10%;
-	display: block;
+  display: inline-block;
 	
 }
 
@@ -63,6 +63,7 @@ body {
 .text {
   width: 600px;
 	margin: 10px 50px;
+	display: block;
 	
 }
 
