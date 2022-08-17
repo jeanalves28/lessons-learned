@@ -9,6 +9,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: rgba(0, 0, 0, 0.948);
     letter-spacing: 5px;
+    position: fixed;
+    width: 100%;
 }
 
 #titulo {
@@ -23,16 +25,18 @@ body {
 #sobre{
     display: inline-block;
     width: 100%;
+    margin-top: 5em;
 }
 #em_breve{
     float: right;
     margin-right: 10em;
+    width: 20em;
 }
 
 #lado {
     float: right;
     width: 10em;
-    margin-right: 18em;
+    margin-right: 28em;
 }
 
 #twice {
