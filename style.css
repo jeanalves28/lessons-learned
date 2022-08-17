@@ -32,6 +32,12 @@ body {
   border: 2px solid black;
 }
 
+.lado-esquerdo {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 60%;
+}
+
 #licoes_aprendidas p {
   font-size: 30px;
   font-weight: 600;
@@ -55,4 +61,10 @@ body {
 #licoes_a_aprender p {
   font-size: 30px;
   font-weight: 600;
+}
+
+#foto_capa {
+  height: 160px;
+  width: 70%;
+  margin-left: 190px;
 }
