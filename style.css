@@ -1,36 +1,69 @@
 * {
     background-color: rgb(253, 251, 251);
+    margin-left: 1px;
 }
-header{
-    width: 100%;
-    border: 5px solid #181D27;
-}
-#cabecalho{
+
+#cabecalho {
     position: fixed;
     top: 0px;
     text-align: center;
+    width: 100%;
+    border: 5px solid #181D27;
 }
-#minha_foto{
-    margin-top: 100px;
+
+#cabecalho:hover {color: red;
+}
+
+#minha_foto {margin-top: 100px;
     width: 300px;
     border-radius: 10%;
+    border: 1px solid blue;
 }
+
+#minha_foto:hover {
+    border: 5px dotted red;
+    transition: 1s;
+
+}
+
 aside {
     height: 500px;
     width: 400px;
     float: right;
     font-style: italic;
     padding-left: 10px;
-  }
+}
 
-  p{
+p {
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace, sans-serif;
     letter-spacing: 1px;
     line-height: 20px;
-  }
+}
 
-  h2{
+h2 {
     color: rgb(64, 156, 126)
-  }
-    
+}
+
+.esq {
+    display: inline-block;
+    margin-right: 300px;
+}
+
+.dir {
+    display: inline-block;
+}
+
+li {
+    font-size: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+
+}
+
+footer a {
+    background-color: aquamarine;
+}
