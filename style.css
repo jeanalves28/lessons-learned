@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  background-color: rgb(135, 118, 244);
+  font-family: montserrat;
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding: -50px;
+  text-align: center;
+  width: 100%;
+}
+
+#link {
+  border-radius: 20px;
+  position: absolute;
+  top: 25px;
+  width: 70px;
+  left: 20px;
+}
+
+#link-2 {
+  display: inline;
+  position: absolute;
+  width: 70px;
+  top: 25px;
+  left: 140px;
+  border-radius: 20px;
+}
