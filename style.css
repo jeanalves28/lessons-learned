@@ -41,6 +41,7 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 22px;
     padding-top: 20px;
+    color: #6D2E46;
 }
 
 #licoes_aprendidas {
@@ -72,5 +73,13 @@ p {
     text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#sobre_mim {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    padding-left: 20px;
+    padding-left: 20px;
     padding-bottom: 20px;
 }
