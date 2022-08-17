@@ -65,3 +65,18 @@ body {
 .lado_esquerdo {
   width: 30%;
 }
+
+#rodape {
+  width: 100%;
+  padding: 30px;
+  background-color: #666;
+  position: fixed;
+  bottom: 0;
+}
+
+#rodape p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+}
