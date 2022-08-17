@@ -1,6 +1,7 @@
 #body {
     background-color: rgb(253, 251, 251);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.8;
 }
 
 header {
@@ -34,7 +35,7 @@ header {
 
   #article {
     position: absolute;
-    top: 560px;
+    top: 600px;
   }
 
   aside {
@@ -48,11 +49,11 @@ header {
 
   #link{
     position: absolute;
-    top: 750px;
+    top: 800px;
   }
 
   #rodape {
     position: absolute;
     text-align: center;
-    top: 850px;
+    top: 900px;
   }
