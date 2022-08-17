@@ -1,3 +1,15 @@
 body {
-    rgb(253, 251, 251)
+    background: rgb(253, 251, 251);
+}
+#cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(40,195,62,1) 100%);
+}
+#titulo {
+    font-family: "Dancing Script" , cursive;
+    text-align: center;
 }
