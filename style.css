@@ -1,3 +1,12 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+#header {
+    position: absolute;
+    top: 0px;
+    background-color: #D5B9B2;
+}
+
+#h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
