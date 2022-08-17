@@ -12,8 +12,9 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-
+    
 }
+
 
 header h1{
     font-weight: 700;
@@ -24,10 +25,25 @@ header h1{
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-    color:rgb(52, 52, 52) ;
+    color:rgb(52, 52, 52);
     
-
 }
+
+#git{
+    text-decoration:none;
+    color:rgb(52, 52, 52);
+    
+}
+#git img{
+    width: 20px;
+    
+}
+
+#git:hover{
+    color:rgb(156, 0, 182);
+    transition:0.5s;
+}
+
 
 #minha_foto{
     width: 300px;
@@ -66,8 +82,7 @@ header h1{
 }
 
 #rodape{
-    justify-content: right;
-    align-items: center;
+    
     height: 80px;
     background-color: rgb(37, 37, 50);
     color:rgb(156, 0, 182);
