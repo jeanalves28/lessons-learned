@@ -18,8 +18,8 @@ header {
 
 }
 
-
-img {
+img #minhafoto {
   width: 200px;
-  border-radius: 50%;
+  border-radius: 200px;
 }
+
