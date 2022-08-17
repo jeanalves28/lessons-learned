@@ -1,6 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
   color: rgb(25, 88, 115);
+  font-family: monospace;
+  line-height: 17px;
 }
 
 #cabecalho {
@@ -42,4 +44,15 @@ aside {
     margin-left: 5px;
     text-align: justify;
     padding: 20px;
+}
+
+#foto-de-familia {
+    width: 150px;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+h2 {
+    font-size: 23px;
 }
