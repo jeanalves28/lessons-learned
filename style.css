@@ -27,10 +27,20 @@ body {
   padding-top: 20px;
 }
 
-#rodape > span {
-  font-family: Alex Brush;
+
+#rodape {
   position: fixed;
   right: 0;
   bottom: 0;
+}
+
+#rodape > span {
+  font-family: Alex Brush;
   font-size: 30px;
+}
+
+.logo {
+  width: 20px;
+  padding-top: 15px;
+  margin: 0 30px;
 }
