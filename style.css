@@ -57,12 +57,14 @@ body {
   padding: 22px;
   font-size: 16px;
   font-weight: 800;
+  margin-top: 16px;
 }
 
 nav {
   width: 100%;
   padding: 16px;
   background-color: var(--bg1);
+  margin-bottom: 16px;
 }
 
 nav a {
@@ -85,12 +87,21 @@ nav a:active {
   max-width: 256px;
 }
 
+.lists {
+  display: inline-block;
+}
+
 ol , ul {
   margin: 16px;
 }
 
 #licoes_aprendidas {
   list-style: decimal-leading-zero;
+  float: left;
+}
+
+#licoes_a_aprender {
+  float: right;
 }
 
 .articles {
@@ -106,4 +117,5 @@ aside {
   float: right;
   background-color: var(--bg2);
   color: var(--fg1);
+  border-radius: 8px;
 }
