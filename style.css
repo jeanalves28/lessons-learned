@@ -22,3 +22,13 @@ body {
     font-weight: 0;
     color: white;
 }
+
+main {
+    padding-top: 100px;
+    padding-left: 15px;
+}
+
+#minha_foto {
+    border-radius: 50%;
+    height: 100px;
+}
