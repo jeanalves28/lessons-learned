@@ -27,11 +27,13 @@ body {
  #licoes_aprendidas {
    
    margin: 50px 90px;
+   font-size: 25px;
 
  }
 
 #licoes_a_aprender {
   margin: 0px 250px;
+ font-size: 25px;
   
 }
 
@@ -39,6 +41,7 @@ div {
  display: inline-block;
 }
 
-li {
-    font-family: bold;
+#title {
+    margin-left: 60px;
+    font-size: 25px;
 }
