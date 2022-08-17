@@ -7,11 +7,25 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+main {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: 85px;
+}
+
 #cabecalho {
   display: inline-block;
   position: fixed;
+  text-align: center;
   width: 100%;
+  height: 80px;
   background-color: aqua;
   border: 1px solid red;
   top: 0;
+}
+
+#minha_foto {
+  width: 200px;
+  top: 130px;
 }
