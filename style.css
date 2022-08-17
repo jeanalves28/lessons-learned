@@ -1,4 +1,41 @@
-* {
+/* stylelint-disable color-no-hex */
+
+/* Alternative Pallete
+#f3f2ef -> background light shades
+#74766e -> lgitha ccent
+#6bc9d5 -> main theme
+#974f8e -> dark accent
+#335156 -> dark shades
+*/
+
+body {
+  padding: 0;
+  margin: 0;
   background-color: rgb(253, 251, 251);
 }
 
+#cabecalho {
+  background: #6bc9d5;
+  color: #f3f2ef;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  height: 100px;
+}
+
+#titulo {
+  font-family: Merriweather Sans, sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  font-family: Raleway, sans-serif;
+  list-style: none;
+  padding: 10px;
+}
