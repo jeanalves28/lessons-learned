@@ -29,11 +29,18 @@ main {
   margin: auto;
   border-radius: 50%;
   height: 100px;
-  
 }
 
 ol, ul {
   display: inline-block;
+  vertical-align: top;
+  width:200px;
+  height:250px;
+  padding: 50px;
+  padding-top: 25px;
+  margin: 10px;
+  outline: 3px solid rgb(47, 193, 140);
+  border-radius: 10%;
 }
 
 li {
