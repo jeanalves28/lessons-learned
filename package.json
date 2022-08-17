@@ -30,6 +30,7 @@
     "stylelint-config-standard": "^20.0.0"
   },
   "dependencies": {
-    "html_codesniffer": "^2.5.1"
+    "html_codesniffer": "^2.5.1",
+    "puppeteer-core": "^16.1.1"
   }
 }
