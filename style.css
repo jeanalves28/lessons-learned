@@ -73,6 +73,7 @@ a:hover {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.5rem;
+  width: 40%;
 }
 
 #licoes_a_aprender {
@@ -132,4 +133,13 @@ footer h4 {
   text-align: right;
   font-weight: 800;
   font-family: Cambria, Cochin, Georgia, Times, serif;
+}
+
+article {
+  margin-right: 5%;
+}
+
+article , aside {
+  display: inline-block;
+  width: 41%;
 }
