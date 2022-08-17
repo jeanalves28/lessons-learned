@@ -18,9 +18,12 @@ body {
 }
 
 #cabecalho h1 {
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 50px;
+  font-family: monospace;
+  font-size: 40px;
+  line-height: 10px;
 }
 
 main {
