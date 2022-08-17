@@ -8,8 +8,9 @@ body {
   background-color: red; /* placeholder: visible element */
 }
 
-
-aside, section {
+aside,
+figure,
+section {
   background-color: lightblue; /* placeholder: visible element */
   border: 2px solid black;
   margin: 1em;
