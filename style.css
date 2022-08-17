@@ -18,3 +18,21 @@ header h1{
     font-weight: 700;
 }
 
+section{
+    margin: 150px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color:rgb(52, 52, 52) ;
+   
+
+}
+
+#minha_foto{
+    width: 300px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(52, 52, 52);
+    border-width: 5px;
+}
+
