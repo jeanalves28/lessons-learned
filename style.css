@@ -26,8 +26,8 @@ body {
 }
 
 #true-cabecalho {
-  background: #6bc9d5;
-  color: #f3f2ef;
+  background: rgb(107, 201, 213);
+  color: rgb(243, 242, 239);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -57,10 +57,14 @@ ul li {
   padding: 10px;
 }
 
+p {
+  line-height: 1px;
+}
+
 #card-info {
   display: flex;
   flex-direction: column;
-  background-color: #974f8e;
+  background-color: rgb(151, 79, 142);
   width: 700px;
   height: 900px;
   border-radius: 5px;
@@ -86,7 +90,7 @@ ul li {
 }
 
 img {
-  color: #e6e6e6;
+  color: rgb(230, 230, 230);
   width: 20px;
   height: 20px;
 }
