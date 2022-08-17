@@ -1,5 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+  color: black;
+  line-height: 25px;
 }
 
 #cabecalho {
@@ -13,7 +17,7 @@ body {
 }
 
 ol {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 article {
