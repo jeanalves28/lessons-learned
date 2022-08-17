@@ -6,7 +6,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 20px 565px;
+  padding: 10px 447px 10px 447px;
   background-color: #4f7942;
   text-align: left;
 }
@@ -23,4 +23,8 @@ body {
   width: 200px;
   margin: 200px 10px 50px;
   border-radius: 30% 10%;
+}
+
+.space {
+	margin: 20px 10px 100px;
 }
