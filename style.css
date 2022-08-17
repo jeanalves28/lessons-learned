@@ -28,11 +28,19 @@ img {
 
 
 article {
-  display: block;
+  display: inline-block;
+  text-align: justify;
+  width: 68%;
+}
+
+aside {
+  float: right;
+  width: 28%;
   text-align: justify;
 }
 
 #rodape {
-  position: absolute;
+  position: relative;
+  width: 100%;
   bottom: 0;
 }
