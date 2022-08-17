@@ -91,11 +91,20 @@ li {
 
 article {
   padding: 30px 10px 50px;
-  max-width: 660px;
+  max-width: 60%;
   margin: auto;
+  display: inline-block;
+  margin-left: 50px;
 }
 
 .artigo p {
   margin: 20px;
   line-height: 1.4rem;
+}
+
+aside {
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+  margin-left: 50px;
 }
