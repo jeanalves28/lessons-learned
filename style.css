@@ -1,17 +1,22 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-#header {
+#cabecalho {
     position: absolute;
     top: 0px;
     background-color: #D5B9B2;
+    max-width: 500px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
 }
 
 #titulo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#minhafoto {
+#minha_foto {
     width: 350px;
     margin-top: 100px;
     border-radius: 70%;
