@@ -41,3 +41,27 @@ footer {
     width: 100%;
     display: table;
     }
+#licoes{
+    position: relative;
+    width: 100%;
+    height: 291px;
+    display:table
+    }
+#aprendidas{
+    display: table-cell;
+    float: left;
+    width: 48%;
+    border: 1px solid black;
+    height: 100%;
+    }
+#aprender {
+    position: absolute;
+    display: table-cell;
+    float: left;
+    width: 48%;
+    margin-left: 50%;
+    border: 1px solid black;
+    height: 100%;
+
+}
+
