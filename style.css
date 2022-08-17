@@ -1,11 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: montserrat;
+  font-family: Montserrat;
 }
 
 #cabecalho {
   background-color: rgb(135, 118, 244);
-  font-family: montserrat;
+  font-family: Montserrat;
   top: 0;
   left: 0;
   position: fixed;
@@ -55,8 +55,8 @@ body {
   background-color: black;
   color: white;
   border-radius: 45%;
-  padding: 0.50%;
-  margin: 0.50%;
+  padding: 0.5%;
+  margin: 0.5%;
   display: block;
 }
 
@@ -76,8 +76,8 @@ body {
   background-color: black;
   color: white;
   border-radius: 45%;
-  padding: 0.50%;
-  margin: 0.50%;
+  padding: 0.5%;
+  margin: 0.5%;
   display: block;
 }
 
@@ -85,12 +85,6 @@ body {
   position: absolute;
   top: 170px;
   left: 450px;
-  background-color: black;
-  color: white;
-  border-radius: 45%;
-  padding: 0.50%;
-  margin: 0.50%;
-  display: block;
 }
 
 #paragrafo_artigo {
@@ -99,4 +93,20 @@ body {
   left: 465px;
   font-size: 125%;
   font-weight: 400;
+}
+
+#titulo_aside {
+  position: absolute;
+  left: 1600px;
+  top: 170px;
+}
+
+#paragrafo_aside {
+  position: absolute;
+  top: 250px;
+  left: 1600px;
+  font-size: 125%;
+  background-color: rgb(135, 118, 244);
+  border-radius: 8%;
+  margin-right: 0.5%;
 }
