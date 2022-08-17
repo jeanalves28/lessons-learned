@@ -29,3 +29,10 @@ th {
 #minha_foto {
   width: 100px;
 }
+
+main {
+  font-family: ' Courier New', Courier, monospace;
+  line-height: 20px;
+  color: blue;
+  font-size: 20px;
+}
