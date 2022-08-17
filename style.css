@@ -14,6 +14,14 @@ main {
   top: 85px;
 }
 
+main table {
+  margin: auto;
+}
+
+#table {
+  margin: auto;
+}
+
 #cabecalho {
   display: inline-block;
   position: fixed;
