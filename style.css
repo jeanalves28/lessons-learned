@@ -7,7 +7,8 @@ body {
     top: 0%;
     left: 0%;
     right: 0%;
-    height: 100px;
+    bottom: 0%;
+    height: 70px;
     background-color: green;
 }
 
@@ -15,3 +16,11 @@ h1 {
     color: aliceblue;
 }
 
+footer {
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    height: 50px;
+    background-color: rgb(40, 27, 216);
+}
