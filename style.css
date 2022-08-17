@@ -3,3 +3,10 @@ body {
 background-color: rgb(253, 251, 251);
 }
 
+.bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 565px;
+    background-color:pink;
+}
