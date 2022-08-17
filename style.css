@@ -3,17 +3,17 @@ body {
   margin: 0;
 }
 
-header {
-  text-align: center;
-  background-color: darkcyan;
-  margin-top: 0;
-}
-
-#cabecalho {
-  margin-top: 0;
-}
-
 #titulo {
   margin-top: 0;
   padding: 1em;
+  background-color: aquamarine;
+  text-align: center;
+  position: fixed top 0;
+}
+
+header #cabecalho {
+  background-color: aquamarine;
+  text-align: center;
+  position: fixed top 0;
+
 }
