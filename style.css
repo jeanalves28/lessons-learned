@@ -50,7 +50,7 @@
     padding: 2%;
   }
 
-  #fotoMatheus {
+  #minha_foto {
     max-width: 10%;
     border-radius: 10%;
     float: left;
@@ -65,13 +65,13 @@
     padding: 2%;
   }
 
-  .habilidades {
+  .licoes_aprendidas, .licoes_a_aprender {
     margin-top: 3%;
     border-top: 1px solid rgb(253, 251, 251);
     padding: 2%;
   }
 
-  .habilidades ol {
-    padding: 2%;
+  .licoes_aprendidas ol, .licoes_a_aprender ol {
+    padding: 2% 2% 0;
     margin-left: 2%;
   }
