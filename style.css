@@ -49,7 +49,7 @@ body {
 main {
   background-color: rgb(46,139,87);
   color: rgb(253, 251, 251);
-  margin: 7% 5% 0.2%;
+  margin: 9% 5% 2%;
   border-radius: 3%;
   padding: 2%;
 }
@@ -80,6 +80,15 @@ article p {
   margin-left: 2%;
 }
 
+footer {
+    padding: 2% 2% 0;
+}
+
+footer h3 {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
 footer, a {
     background-color: rgb(46,139,87);
     color: rgb(253, 251, 251);
@@ -88,4 +97,15 @@ footer, a {
 
 .iconeRedeSocial {
   max-width: 2%;
+  padding-right: 20%;
+  margin-left: 12%;
+}
+
+.nomeRedeSocial {
+    margin-left: 11%;
+    padding-bottom: 1%;
+}
+
+footer p {
+    margin-left: 80%;
 }
