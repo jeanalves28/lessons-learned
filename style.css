@@ -39,5 +39,11 @@ a {
 #rodape {
   display: block;
   position: fixed;
-  top: 860px;
+  top: 810px;
+}
+
+#artigo {
+  display: block;
+  position: fixed;
+  top: 890px;
 }
