@@ -98,6 +98,7 @@ nav a:active {
 
 ol , ul {
   margin: 16px;
+  line-height: 20px;
 }
 
 #licoes_aprendidas {
@@ -109,19 +110,30 @@ ol , ul {
   float: right;
 }
 
-.articles {
-  background-color: var(--bg1);
-  color: var(--fg0);
-  border-radius: 8px;
-  padding: 16px;
-}
-
 aside {
-  width: 30%;
-  padding: 16px;
-  float: right;
   background-color: var(--bg2);
   color: var(--fg1);
+  padding: 16px;
   border-radius: 8px;
-  line-height: 20px;
+}
+
+.articles {
+  width: 100%;
+}
+
+article {
+  background-color: var(--bg1);
+  color: var(--fg0);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+}
+
+.lado-direito {
+  float: right;
+  width: 25%;
 }
