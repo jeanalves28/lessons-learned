@@ -43,6 +43,8 @@ background-color: bisque;
     padding: 2rem;
 }
 
+/* request #7 */
+
 #rodape a{
     text-decoration: none;
     font-size: large;
@@ -51,12 +53,17 @@ background-color: bisque;
     padding: 1rem;
 }
 
-/* request #7 */
-
 /* request #8 */
+
+article {
+    background-color: lightblue;
+}
 
 /* request #9 */
 
+aside {
+    background-color: lightblue;
+}
 /* request #10 */
 
 /* request #11 */
