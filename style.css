@@ -9,6 +9,10 @@ body {
 
 #minha_foto {
   width: 300px;
+  margin: 2px;
+  padding: 5px;
+  border: 1px;
+  border-color: gray;
 }
 
 table , th , td {
