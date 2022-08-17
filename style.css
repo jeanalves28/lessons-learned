@@ -32,20 +32,20 @@ header {
 
 footer {
     font-style: italic;
+    margin: 10px;
 }
 
 
 .left-side {
     display: inline-block;
-    width: 800px;
+    width: 1000px;
     border: 2px solid green;
 
 }
 
 .right-side {
     display: inline-block;
-    width: 300px;
-    margin-bottom: 500px;
+    width: 150px;
     border: 2px solid green;
 
 }
