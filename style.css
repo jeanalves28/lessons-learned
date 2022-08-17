@@ -61,6 +61,20 @@ main table {
   /* margin-left: 50px; */
 }
 
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
+  top: 0;
+}
+
+.lado-esquerdo {
+  width: 45%;
+}
+
+.lado-direito {
+  width: 30%;
+  right: 10px;
+}
+
 #background {
   position: absolute;
   background-color: rgba(223, 223, 223, 0.603);
