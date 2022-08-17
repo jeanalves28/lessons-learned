@@ -5,6 +5,7 @@ body {
 #cabecalho {
     top: 0;
     position: fixed;
+    z-index: 2;
 }
 
 #minha_foto {
@@ -14,12 +15,11 @@ body {
   object-fit: cover;
   margin-top: 100px;
   position: absolute;
-
-
+  z-index: 1;
 }
 
 #licoes_aprendidas {
-
+ 
 }
 
 #licoes_a_aprender {
