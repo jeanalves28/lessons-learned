@@ -1,8 +1,55 @@
+* {
+    margin: 0%;
+}
+
 body {
-      background-color: rgb(253, 251, 251);
+
+
+    background-color: rgb(253, 251, 251);
+}
+
+#titulo {
+    text-align: center;
 }
 
 #cabecalho {
-    position: fixed ;
+    width: 102%;
+    margin: 0;
+    /* BACK GROUD GRADIENTE RETIRADO RETIRADDA PAGINA : https://cssgradient.io/  */
+    background: linear-gradient(260deg, rgba(2, 0, 36, 1) 0%, rgba(32, 32, 226, 0.35057773109243695) 79%, rgba(0, 212, 255, 1) 100%);
+    position: fixed;
     top: 0;
+}
+
+#minha_foto {
+    width: 25%;
+    margin: 5.5% 10% 3% 40%;
+}
+
+#menu {
+    padding: 0%, 0%, 0%, 10%;
+}
+
+#link {
+    text-decoration: none;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+article {
+    
+    width: 10%;
+    margin:  5.5% 10% 3% 19%;
+    border-style: dashed;
+
+}
+
+aside {
+    width: 10%;
+    margin:  -28.5%10% 3% 64%;
+    border-style: dashed;
+
+}
+td{
+   border-style: dashed;
 }
