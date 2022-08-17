@@ -9,12 +9,10 @@
   text-align: center;
   width: 100%;
   padding: 30px;
-  
 }
 
 #titulo {
   color: rgb(253, 251, 251);
-  font-family: 'Courier New', Courier, monospace;
 }
 
 #minha_foto {
@@ -56,22 +54,20 @@
   left: 300px;
 }
 
-#artigo {
+#article {
   position: absolute;
   top: 725px;
- 
 }
 
-#barra_lateral {
+#aside {
   position: absolute;
   top: 725px;
-  right: 10px;
+  left: 600px;
 }
 
 #rodape {
   background-color: green;
   color: rgb(253, 251, 251);
-  font-family: 'Courier New', Courier, monospace;
   position: absolute;
   top: 100%;
   width: 100%;
