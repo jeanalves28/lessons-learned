@@ -1,11 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0%;
 }
 
 #cabecalho {
   top: 0;
   background-color: rgb(3, 109, 85);
-  margin-left: -8px;
   position: fixed;
   width: 1360px;
 }
@@ -36,9 +36,23 @@ body {
 #rodape {
   background-color: rgb(3, 109, 85);
   text-align: center;
-  margin-top: 146px;
-  margin-left: -8px;
+  margin-top: 96px;
   width: 1360px;
   height: 60px;
+}
+
+#direitos {
+  position: relative;
+  display: inline-block;
+  color: white;
+  height: 30px;
+  padding-top: 15px;
+  margin-bottom: 0%;
+}
+
+#canal {
+  display: inline-block;
+  margin-left: 605px;
+  margin-top: 30px;
 }
 
