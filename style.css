@@ -3,11 +3,37 @@ body {
 }
 
 #cabecalho {
-    top:0;
+    top: 0;
+    margin-left: 300px;
     position: fixed;
     text-align: center;
 }
 
 #minha_foto {
     width: 150px;
+    margin: 100px 10px 2px;
 }
+
+#tabela {
+    border: 1px black solid;
+    padding: 10px;
+    
+}
+
+#link {
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.modification_text {
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(46, 11, 11);
+
+}
+
+#lado_esquerdo {
+    
+}
+    
