@@ -48,20 +48,17 @@ a {
 }
 
 article {
-  display: inline-block;
-  margin-left: 10px;
+  padding: 10px;
 }
 
 aside {
-  display: inline-block;
-  margin-left: 10px;
+  padding: 10px;
 }
 
 #minha_foto {
   width: 300px;
   height: 300px;
   margin-left: 20px;
-  border-radius: 10px;
   padding-bottom: 10px;
 }
 
@@ -89,8 +86,19 @@ footer p {
   border-radius: 8px;
 }
 
-table {
+table , th , td {
   border: 1px solid rgb(2, 48, 49);
-  border-radius: 8px;
   margin-top: 30px;
+  margin-left: 10px;
 }
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 400px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 400px;
+}
+
