@@ -4,10 +4,10 @@ body {
 
 #cabecalho {
   top: 0;
-  background-color: #036b52;
+  background-color: rgb(3, 109, 85);
   margin-left: -8px;
   position: fixed;
-  width: 1345px;
+  width: 1360px;
 }
 
 #titulo {
@@ -26,10 +26,19 @@ body {
 
 #licoes_aprendidas {
   margin-top: -210px;
-  margin-left: 0px;
 }
 
 #licoes_a_aprender {
   margin-left: 823px;
-  margin-top: -210px
+  margin-top: -210px;
 }
+
+#rodape {
+  background-color: rgb(3, 109, 85);
+  text-align: center;
+  margin-top: 146px;
+  margin-left: -8px;
+  width: 1360px;
+  height: 60px;
+}
+
