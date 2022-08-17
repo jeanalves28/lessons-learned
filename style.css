@@ -6,3 +6,7 @@ div#cabecalho {
   position: fixed;
   top: 0;
 }
+
+img#minha-foto {
+  bottom: 100px;
+}
