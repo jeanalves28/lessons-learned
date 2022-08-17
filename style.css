@@ -52,7 +52,7 @@ h2 {
   text-align: center;
 }
 
-#licoes_aprendidas {
+#licoes_aprendidas , #licoes_a_aprender {
   text-align: lef;
   max-width: 660px;
   margin: 20px 10px;
