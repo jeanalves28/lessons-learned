@@ -8,18 +8,28 @@ body {
 }
 
 main {
-  text-align: center;
+  /* text-align: center; */
   display: inline-block;
   position: relative;
   top: 85px;
+  margin: 5px 50px 0px 50px;
+}
+
+#minha_foto {
+  transition: 0.5s all;
+  width: 200px;
+  top: 130px;
+  border-radius: 40%;
+}
+
+#minha_foto:hover {
+  width: 220px;
+  border-radius: 10%;
 }
 
 main table {
-  margin: auto;
-}
-
-#table {
-  margin: auto;
+  display: inline-block;
+  margin-left: 50px;
 }
 
 #cabecalho {
@@ -33,7 +43,4 @@ main table {
   top: 0;
 }
 
-#minha_foto {
-  width: 200px;
-  top: 130px;
-}
+
