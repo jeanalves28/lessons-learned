@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
-
 body {background-color: rgb(253, 251, 251);
-  font-family: 'Crimson Text', serif;
+  font-family: Impact, Haettenschweiler, sans-serif;
 }
 
 #cabecalho {
@@ -30,3 +28,6 @@ body {background-color: rgb(253, 251, 251);
   margin-top: 20px;
 }
 
+table , th , td {
+  border: 2px solid rgb(3, 64, 48);
+}
