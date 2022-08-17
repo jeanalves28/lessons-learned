@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html , body {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   background-color: #fdfbfb;
 }
@@ -30,3 +35,33 @@ body {
   display: block;
 }
 
+#licoes {
+  margin-top: 20px;
+  padding: 0 0 0 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+#licoes_aprendidas {
+  padding: 0 0 0 30px;
+}
+
+#licoes_a_aprender {
+  padding: 0 0 0 30px;
+}
+
+#article_aside {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.lado_direito {
+  width: 50%;
+  font-size: 20px;
+}
+
+.lado_esquerdo {
+  width: 30%;
+}
