@@ -45,3 +45,9 @@ div {
     margin-left: 60px;
     font-size: 25px;
 }
+
+#rodape {
+    padding: 40px;
+    background-color: rgb(34, 156, 232);
+    margin-bottom: 0;
+}
