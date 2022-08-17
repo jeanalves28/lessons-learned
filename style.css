@@ -2,4 +2,5 @@ body { background-color: rgb(253, 251, 251); } /* cor de fundo */
 
 #cabecalho { position: fixed; top: 0; } /* cabecalho fixo no topo da pagina */
 
-
+img { width: 200px; } /* ajusta tamanho da imagem */
+ 
