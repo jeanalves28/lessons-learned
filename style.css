@@ -6,3 +6,12 @@ body {
     top: 0px;
     position: fixed;
 }
+
+a {
+    display: block;
+    font-size: large;
+}
+
+table {
+    border: 2px solid black;
+}
