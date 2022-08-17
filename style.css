@@ -17,7 +17,7 @@ header {
   }
 
 .nav {
-    color: blueviolet;
+    color: white;
     background-color: #50d884;
 
 }
@@ -36,6 +36,7 @@ header {
   #article {
     position: absolute;
     top: 600px;
+    margin-right: 30px;
   }
 
   table {
@@ -44,7 +45,8 @@ header {
     left: 300px;
     text-align: center;
     border: 1px solid;
-    border-collapse: separate;
+    border-collapse: collapse;
+    width: 200px;
   }
 
   aside {
@@ -58,11 +60,11 @@ header {
 
   #link{
     position: absolute;
-    top: 800px;
+    top: 750px;
   }
 
   #rodape {
     position: absolute;
     text-align: center;
-    top: 900px;
+    top: 850px;
   }
