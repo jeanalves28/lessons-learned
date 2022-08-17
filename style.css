@@ -35,3 +35,8 @@ h2 {
     padding-left: 22px;
     padding-top: 20px;
 }
+
+#licoes_aprendidas {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
