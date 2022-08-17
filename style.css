@@ -92,3 +92,10 @@ ol , ul {
 #licoes_aprendidas {
   list-style: decimal-leading-zero;
 }
+
+.articles {
+  background-color: var(--bg1);
+  color: var(--fg0);
+  border-radius: 8px;
+  padding: 16px;
+}
