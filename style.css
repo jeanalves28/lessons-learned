@@ -13,3 +13,10 @@ body {
     font-family: "Dancing Script" , cursive;
     text-align: center;
 }
+
+#minha_foto {
+    overflow: hidden;
+    padding-left: 20px;
+    vertical-align: bottom;
+    width: 10%;
+  }
