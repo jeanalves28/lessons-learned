@@ -1,6 +1,7 @@
 body {
   background: rgb(253, 251, 251);
   padding-top: 140px;
+  margin: 0px;
 }
 
 #cabecalho {
@@ -44,6 +45,11 @@ body {
 #photo-description {
   margin-block-start: 0;
   padding-left: 130px;
+}
+
+.list-container {
+  border: 1px solid black;
+  margin-bottom: 10px;
 }
 
 #licoes_aprendidas {
