@@ -21,3 +21,12 @@ h1 {
   font-size: 1.2rem;
   color: rgb(0, 49, 0);
 }
+
+img {
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-top: 7rem;
+  width: 18rem;
+  border-radius: 1rem;
+  border: 0.4rem solid rgb(1, 42, 1);
+}
