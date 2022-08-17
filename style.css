@@ -1,4 +1,3 @@
-
 #body {
   background-color: rgb(253, 251, 251);
 }
@@ -10,6 +9,7 @@
   text-align: center;
   width: 100%;
   padding: 30px;
+  
 }
 
 #titulo {
@@ -22,6 +22,18 @@
   border-radius: 100%;
   position: absolute;
   top: 150px;
+}
+
+#linkedin {
+  top: 300px;
+  left: 400px;
+  position: absolute;
+}
+
+#github {
+  top: 300px;
+  left: 500px;
+  position: absolute;
 }
 
 #aprendidas {
@@ -42,4 +54,25 @@
 #licoes_a_aprender {
   top: 500px;
   left: 300px;
+}
+
+#artigo {
+  position: absolute;
+  top: 725px;
+ 
+}
+
+#barra_lateral {
+  position: absolute;
+  top: 725px;
+  right: 10px;
+}
+
+#rodape {
+  background-color: green;
+  color: rgb(253, 251, 251);
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  top: 100%;
+  width: 100%;
 }
