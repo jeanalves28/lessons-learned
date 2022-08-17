@@ -7,9 +7,10 @@ body {
 }
 
 #cabecalho {
-    background-color: rgb(28, 84, 36);
+    background-color: rgb(34, 156, 232);
     position: fixed;
     width: 100%;
+    padding: 20px;
     
 }
 
@@ -17,3 +18,13 @@ body {
     text-align: center;
     padding: 30px;
 }
+
+#minha_foto {
+    width: 20%;
+    margin: 13% 2%;
+ }
+
+ #licoes_aprendidas {
+   margin-left: 90px;
+
+ }
