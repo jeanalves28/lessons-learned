@@ -4,11 +4,12 @@
 }
 
 #cabecalho {
- top: 0%;
- position: fixed;
- background-color: green;
- text-align: center;
- width: 100%;
+  top: 0%;
+  position: fixed;
+  background-color: green;
+  text-align: center;
+  width: 100%;
+  padding: 30px;
 }
 
 #titulo {
@@ -17,11 +18,28 @@
 }
 
 #minha_foto {
-  display: block;
-  margin: auto;
   width: 300px;
-  position: absolute;
   border-radius: 100%;
-  text-align: center;
+  position: absolute;
+  top: 150px;
+}
 
+#aprendidas {
+  position: absolute;
+  top: 450px;
+}
+
+#licoes_aprendidas {
+  top: 500px;
+}
+
+#desejo_aprender {
+  position: absolute;
+  top: 450px;
+  left: 300px;
+}
+
+#licoes_a_aprender {
+  top: 500px;
+  left: 300px;
 }
