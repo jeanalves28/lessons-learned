@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: poppins;
+  font-family: poppins, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -116,6 +116,7 @@ header h1 {
   background-color: rgb(48, 48, 48);
   color: rgb(156, 0, 182);
   font-weight: 500;
+  line-height: 30px;
 }
 
 #italic {
