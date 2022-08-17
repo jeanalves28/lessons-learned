@@ -16,6 +16,7 @@ body {
   margin-top: 100px;
   position: absolute;
   z-index: 1;
+  margin-left: 670px;
 }
 
 #licoes_aprendidas {
@@ -43,9 +44,19 @@ aside {
 .lista1 {
  display: inline-block;
  margin-top: 250px;
+ margin-left: 550px;
 }
 
 .lista2 {
  display: inline-block;
  margin-top: 250px;
+ margin-left: 30px;
+}
+
+.text-article {
+    font-style: italic;
+    text-align: center;
+    display: inline-block;
+    margin-left: 300px;
+    margin-right: 300px;
 }
