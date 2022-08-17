@@ -27,3 +27,9 @@ main {
   margin-left: 20px;
   border-radius: 10px;
 }
+
+#rodape {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(47, 193, 140);
+}
