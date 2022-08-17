@@ -110,3 +110,8 @@ body {
   border-radius: 8%;
   margin-right: 0.5%;
 }
+
+footer {
+  bottom: 0;
+  position: absolute;
+}
