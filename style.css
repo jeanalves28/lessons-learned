@@ -11,14 +11,14 @@ header {
   text-align: center;
   line-height: 10px;
   height: 80px;
-  background: #50d884;
-  color: rgb(255, 255, 255);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgba(80, 216, 132, 0.89);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav {
   color: white;
-  background-color: #50d884;
+  background-color: rgba(80, 216, 132, 0.89);
 
 }
 
