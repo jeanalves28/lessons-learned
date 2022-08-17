@@ -1,0 +1,43 @@
+#body {
+    background-color: rgb(253, 251, 251);
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    line-height: 10px;
+    height: 80px;
+    background: #50d884;
+    color: rgb(255, 255, 255);
+    font-family: 'PT Sans', sans-serif;
+  }
+
+.nav {
+    color: blueviolet;
+    background-color: #50d884;
+
+}
+
+
+  #minha_foto {
+    position: absolute;
+    top: 100px;
+  }
+
+  #licoes_aprendidas {
+    position: absolute;
+    top: 350px;
+  }
+
+  #link{
+    position: absolute;
+    top: 560px;
+  }
+
+  #rodape {
+    position: absolute;
+    text-align: center;
+    top: 650px;
+  }
