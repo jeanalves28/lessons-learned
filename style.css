@@ -13,6 +13,7 @@ body {
   height: 120px;
   object-fit: cover;
   margin-top: 100px;
+  position: absolute;
 
 
 }
@@ -37,4 +38,14 @@ aside {
     font-style: italic;
     background-color: rgb(209, 206, 206);
     float: right;
+}
+
+.lista1 {
+ display: inline-block;
+ margin-top: 250px;
+}
+
+.lista2 {
+ display: inline-block;
+ margin-top: 250px;
 }
