@@ -38,6 +38,15 @@ header {
     top: 600px;
   }
 
+  table {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    text-align: center;
+    border: 1px solid;
+    border-collapse: separate;
+  }
+
   aside {
     margin-top: 100px;
     width: 30%;
