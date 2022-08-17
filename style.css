@@ -1,13 +1,13 @@
 * {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 body {
-  background-color: rgba(239, 239, 232, 0.9);
+  background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
   background-color: aquamarine;
   position: fixed;
   width: 100%;
@@ -16,19 +16,19 @@ body {
   left: 0;
 }
 
-#titulo{
+#titulo {
   text-align: center;
 }
 
-.sectionModel{
-  background-color: rgb(253, 251, 251);
+.sectionModel {
+  background-color: rgba(241, 241, 237, 0.9);
   border: 1px solid rgb(194, 197, 197);
   border-radius:7pt;
   padding: 25px;
 
 }
 
-main{
+main {
   display: flex;
   justify-content: center;
   column-gap: 30px;
@@ -44,24 +44,43 @@ div.mainContent{
 }
 
 section.infoPerfil{
+  display: inline-block;
+  height: fit-content;
+  padding: 0;
+}
+
+section.infoPerfil img:first-child {
+  border-radius:7pt 7pt 0pt 0pt;
+  width: fit-content;
+  max-width: 800px;
+  margin-top: 0px;
 }
 
 #minha_foto{
-  width: 500px;
+  display: block;
   background-size: cover;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  margin: -130px auto 5px;
 }
 
-section.listasLicoes{
+section.infoPerfil h2{
+  text-align: center;
 }
 
-section.aprendizado{
+section.infoPerfil p, #links{
+  margin: auto 20px 15px;
+}
+
+section.infoPerfil a{
+  display: inline-block;
+  text-decoration: none;
 }
 
 div.sideContent{
   width: 300px;
-}
-
-section aside{
 }
 
 #rodape{
