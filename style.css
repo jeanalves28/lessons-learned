@@ -22,3 +22,11 @@ body {
 #rodape {
 
 }
+
+aside {
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-style: italic;
+    background-color: rgb(209, 206, 206);
+}
