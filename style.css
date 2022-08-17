@@ -1,7 +1,8 @@
+/* stylelint-disable declaration-block-no-duplicate-properties */
 body {
   background: rgb(253, 251, 251);
   padding-top: 140px;
-  margin: 0px;
+  margin: auto;
 }
 
 #cabecalho {
@@ -58,4 +59,30 @@ body {
 
 #licoes_a_aprender {
   display: inline-block;
+}
+
+#link-externo {
+  display: block;
+}
+
+.context-container {
+  place-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  grid-template-columns: repeat(20, 1fr);
+}
+
+#article {
+  max-width: 500px;
+  grid-column: span 10;
+  display: inline-block;
+}
+
+#aside {
+  display: inline-block;
+  grid-column: span 10;
+  max-width: 500px;
 }
