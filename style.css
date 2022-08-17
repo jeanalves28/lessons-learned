@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
   top: 0;
   text-align: center;
@@ -12,43 +13,46 @@ body {
 }
 
 #minha_foto {
-    height: 350px;
-    width: 350px;
-    border-radius: 10px;
-    margin-left: 30px;
-    margin-top: 40px;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 40px;
 }
+
 #link_github {
-    display:block;
-    padding: 8px;
-    margin-right: 840px;
-    margin-left: 130px;
-    font-size: 25px;  
-    background-color: rgb(233, 185, 80); 
-    text-decoration: none;
-    border-radius: 4px;
-    border: 2px solid black;
+  display: block;
+  padding: 8px;
+  margin-right: 1150px;
+  margin-left: 100px;
+  font-size: 25px;
+  background-color: rgb(233, 185, 80);
+  text-decoration: none;
+  border-radius: 4px;
+  border: 2px solid black;
 }
 
 #licoes_aprendidas p {
-    font-size: 30px;
-    font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
 }
+
 #licoes_aprendidas {
-    font-size: 25px;
-    font-family: Arial Bold;
-    font-style: oblique;
-    margin-left: 40px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  margin-left: 40px;
 }
 
 #licoes_a_aprender {
-    font-size: 25px;
-    font-family: Arial Bold;
-    font-style: oblique;
-    margin-left: 500px;
-    margin-top: -380px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  margin-left: 500px;
+  margin-top: -380px;
 }
+
 #licoes_a_aprender p {
-    font-size: 30px;
-    font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
 }
