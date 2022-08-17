@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: large;
   color: black;
   line-height: 25px;
@@ -21,7 +21,7 @@ ol {
 }
 
 article {
- padding: 2%;
+ padding:2%;
 }
 
 aside {
