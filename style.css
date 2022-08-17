@@ -28,6 +28,7 @@ body {
   left: 20px;
   border-radius: 10px;
   z-index: 2;
+  display: inline;
 }
 
 #licoes_aprendidas {
@@ -56,4 +57,12 @@ body {
   width: 500px;
   margin-left: 150px;
 
+}
+
+.imagem {
+  position: absolute;
+  width: 40px;
+  display: inline-block;
+  top: 87px;
+  left: 102px;
 }
