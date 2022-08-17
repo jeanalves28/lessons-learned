@@ -24,3 +24,9 @@ body {
   color: #fff;
   font-size: 50px;
 }
+
+#minha_foto {
+  margin-top: 130px;
+  display: block;
+}
+
