@@ -19,3 +19,7 @@ main {
 #minha_foto {
   width: 200px;
 }
+
+a {
+  display: block;
+}
