@@ -2,5 +2,5 @@ body {
     background-color: rgb(253, 251, 251);
 }
 #titulo {
-    top: 0;
+    margin-top: 0;
 }
