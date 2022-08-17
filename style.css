@@ -15,8 +15,9 @@ body {
 }
 
 #minha_foto {
-    overflow: hidden;
-    padding-left: 20px;
-    vertical-align: bottom;
-    width: 10%;
+   position: absolute;
+   left: 20px;
+   top: 150px;
+   height: 200px;
+   width: 200px;
   }
