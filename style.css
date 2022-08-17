@@ -31,7 +31,7 @@ main {
   height: 100px;
 }
 
-ol, ul {
+#licoes_aprendidas, #licoes_a_aprender {
   display: inline-block;
   vertical-align: top;
   width: 200px;
@@ -43,7 +43,7 @@ ol, ul {
   border-radius: 10%;
 }
 
-li {
+#licoes_aprendidas, #licoes_a_aprender li {
   text-align: left;
 }
 
