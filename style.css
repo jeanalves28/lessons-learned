@@ -11,13 +11,13 @@ body {
 a {
     display: block;
     font-size: large;
-    line-height: 0ch;
 }
 
 table {
     border: 2px solid black;
     margin: 0px;
     padding: 0%;
+    line-height: 15px;
 }
 
 h2, h3 {
