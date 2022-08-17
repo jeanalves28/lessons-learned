@@ -26,6 +26,7 @@ a {
 
 article , aside {
   border: 2px solid black;
+  margin-bottom: 40px;
 }
 
 p {
@@ -46,5 +47,6 @@ p {
 }
 
 footer {
-  margin-top: 600px;
+  bottom: 0;
+  position: fixed;
 }
