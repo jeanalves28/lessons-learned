@@ -36,7 +36,7 @@ body {
 }
 
 #minha_foto {
-  position: absolute;
+  position: relative;
   width: 370px;
   top: 130px;
   left: 30px;
@@ -116,7 +116,7 @@ body {
   margin-right: 0.5%;
 }
 
-footer {
+#rodape {
   bottom: 0;
   position: fixed;
   left: 0;
@@ -130,3 +130,13 @@ div {
   position: absolute;
   top: 1800px;
 }
+
+#tabela {
+  position: absolute;
+  top: 1200px;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 150%;
+  line-height: 2;
+}
+
