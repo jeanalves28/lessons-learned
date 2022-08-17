@@ -104,6 +104,12 @@ body {
   position: absolute;
   left: 1600px;
   top: 170px;
+  background-color: black;
+  color: white;
+  border-radius: 45%;
+  padding: 0.5%;
+  margin: 0.5%;
+  display: block;
 }
 
 #paragrafo_aside {
