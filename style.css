@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color:#7d6d61;
+  background-color: hsl(26, 13%, 44%);
   position: fixed;
   top: 0;
   width: 98.5%;
@@ -20,7 +20,7 @@ header h1 {
 
 #minha_foto {
   width: 200px;
-  border: solid #0A688A 3px;
+  border: solid rgb(10, 104, 138) 3px;
   border-radius: 50%;
   margin-top: 100px;
   z-index: 1;
@@ -28,7 +28,7 @@ header h1 {
 }
 
 
-.start p {
+#portifolio {
   font-family: monospace;
   display: inline-block;
   margin: 2%;
@@ -61,7 +61,7 @@ header h1 {
   float: right;
   position: static;
   margin: 1px 2%;
-  background-color: #4C4C4C;
+  background-color: rgb(76, 76, 76);
   color: white;
   padding: 8px;
   border-radius: 5px;
@@ -70,7 +70,7 @@ header h1 {
 
 footer {
   text-align: center;
-  background-color: #AEAC93;
+  background-color: rgb(174, 172, 147);
   position: relative;
   padding: 10px;
   bottom: 0;
@@ -80,7 +80,7 @@ footer {
 }
 
 .backgroud-main {
-  background-color: #51825B;
+  background-color: rgb(82, 130, 91);
   width: 80%;
   border-radius: 6px;
 }
@@ -97,7 +97,7 @@ li , p {
   top: 10%;
 }
 
-#decoration1{
+#decoration1 {
   width: 15%;
   position: absolute;
   right: 25%;
@@ -108,6 +108,6 @@ h2 {
   font-size: 25px;
 }
 
-h3{
+h3 {
   font-size: 22px;
 }
