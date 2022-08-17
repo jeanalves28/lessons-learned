@@ -24,7 +24,7 @@ table , th , td {
   border-collapse: collapse;
 }
 
-.lado_esquerdo .lado_direito {
+.lado-esquerdo , .lado-direito {
   display: inline-block;
 }
 
