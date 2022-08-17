@@ -50,7 +50,7 @@ h2 {
 
 .licoes {
   text-align: center;
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(236, 236, 236);
   padding: 40px 10px 50px;
 }
 
@@ -78,6 +78,7 @@ li {
   text-align: center;
   font-weight: 600;
   color: rgb(0, 48, 56);
+  margin-top: 40px;
 }
 
 #rodape a {
@@ -108,4 +109,24 @@ aside {
   width: 20%;
   text-align: right;
   margin-left: 50px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#planejamento {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+}
+
+td {
+  border: 1px solid rgb(214, 126, 11);
+  width: 130px;
+  height: 27px;
 }
