@@ -26,7 +26,7 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: rgb(0, 49, 0);
   text-transform: uppercase;
 }
@@ -61,6 +61,7 @@ a:hover {
 }
 
 #lesson {
+  text-align: center;
   font-family: Courier, monospace;
   font-weight: 700;
   margin-left: 1rem;
@@ -76,7 +77,13 @@ a:hover {
   width: 40%;
 }
 
+#licoes_aprendidas {
+  margin-left: 3rem;
+}
+
 #licoes_a_aprender {
+  direction: rtl;
+  text-align: right;
   margin-left: 1rem;
 }
 
