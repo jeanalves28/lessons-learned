@@ -44,8 +44,10 @@ body {
   max-width: 256px;
 }
 
+ol , ul {
+  margin: 16px;
+}
+
 #licoes_aprendidas {
   list-style: decimal-leading-zero;
-  padding: 16px;
-  margin: 16px;
 }
