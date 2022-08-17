@@ -1,3 +1,25 @@
+#titulo{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    margin: auto;
+    left: 500px;
+  
+    
+
+}
+#cabecalho{
+background-color: green;
+  top: 0;
+ left: 0;
+  right: 0;
+  height: 150px;
+  position: fixed;
+
+  
+  
+}
+
 body{
  background-color:rgb(253, 251, 251);
 }
