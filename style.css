@@ -28,3 +28,11 @@ ul , ol {
 article {
   line-height: 25px;
 }
+
+.lado-esquerdo {
+  float: left
+}
+
+.lado-direto {
+  float: right
+}
