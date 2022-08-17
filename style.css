@@ -1,5 +1,8 @@
 body {
     background-color: rgb(111, 159, 216);
+    display: block;
+    height: auto;
+    width: auto;
 }
 header{
     width: 100%;
@@ -16,3 +19,22 @@ header{
     color:black;
     font-family: Epilogue;
 }
+
+main   {
+
+     margin-top: 100px;
+     display: block;
+     width: auto;
+     height: auto;
+}
+
+main section {
+margin-left: 40%;
+
+}
+main section img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
