@@ -8,15 +8,34 @@
   box-sizing: border-box;
 }
 
+/* Header Form */
 #cabecalho {
   position: fixed;
   padding: 1.5em;
   align-content: center;
-  margin: auto;
+  background-size: 25vh;
 }
 
 #titulo {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 2em;
   color: rgba(125, 122, 096, 0.8);
+  width: auto;
+}
+
+/* Main Form */
+#main_scenario ,
+#minha_foto {
+  padding: 2em;
+  border-left: 1em;
+  font-family: "Montserrat";
+}
+
+#minha_foto {
+  width: 300px;
+  background: linear-gradient(rgba (0, 0, 0, 0.6), rgba (0, 0, 0, 0.6));
+}
+
+#about-my-learn {
+  line-height: 1.2em;
 }
