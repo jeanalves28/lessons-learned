@@ -22,4 +22,9 @@ main {
 
 a {
   display: block;
+  padding: 10px;
+}
+
+article {
+  border: 2px solid black;
 }
