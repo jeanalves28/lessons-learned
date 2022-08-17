@@ -13,8 +13,8 @@ body {
     top: 0;
     text-align: center;
     position: fixed;
-    display: block;
-    left: 50%;
+    display: inline-block;
+    width: 80%;
     font-family: Amiri;
 }
 
@@ -23,8 +23,6 @@ body {
     height: 330px;
     float: right;
     margin-top: 40px;
-    
-
 }
 .section-lista-aprendidas {
     /* border: 2px solid black; */
@@ -34,8 +32,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     left: 50%;
-   
-
+    font-weight: 550;
 }
 .section-lista-aprender {
     /* border: 2px solid black; */
@@ -45,20 +42,56 @@ body {
     padding-right: 30px;
     margin-top: 100px;
     left: 50%;
+    font-weight: 550;
 }
-
 .info-listas {
-    
+    text-align: justify;
+    font-family: Amiri;
+    font-weight: 550;
+    margin-top: 30px;
+    text-indent: 35px;
+    margin-bottom: 20px;
 }
-.trybe-aprendizado {
-    
+.lado-esquerdo {
+    text-align: justify;
+    font-family: Amiri;
+    font-weight: 550;
+    text-indent: 35px;
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 45%;
+    margin-right: 3%;
 }
-.tabela-escola {
-
+#tabela-escola, th, td {
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-left: 40px;
 }
-.sobre-mim {
-
+.lado-direito {
+    text-align: justify;
+    font-family: Amiri;
+    font-weight: 550;
+    text-indent: 35px;
+    /* border: 2px solid black; */
+    width: 45%;
+    display: inline-block;
+    margin-top: -600px; 
 }
 #rodape {
 
  }
+.section-table {
+    font-family: Amiri;
+    font-weight: 550;
+}
+#navegacao {
+    line-height: 10px;
+    color: blueviolet;
+    text-decoration: none;
+    text-decoration-color: blueviolet;
+    text-decoration-line: none;
+    font-size: larger;
+}
+
