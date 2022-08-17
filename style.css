@@ -55,7 +55,6 @@ main {
 }
 
 aside {
-    border: 1px solid red;
     width: 13%;
     padding: 1%;
     margin-right: 1%;
@@ -88,13 +87,13 @@ article p {
   padding: 2%;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#habilidadesAdquiridas, #habilidadesNaoAdquiridas {
   margin-top: 3%;
   border-top: 1px solid rgb(253, 251, 251);
   padding: 2%;
 }
 
-#licoes_aprendidas ol, #licoes_a_aprender ol {
+#habilidadesAdquiridas ol, #habilidadesNaoAdquiridas ul {
   padding: 2% 2% 0;
   margin-left: 2%;
 }
