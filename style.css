@@ -23,3 +23,6 @@ img #minhafoto {
   border-radius: 200px;
 }
 
+div #cabecalho {
+  position: fixed top 0;
+}
