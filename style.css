@@ -82,8 +82,14 @@ footer {
 
 article {
     background-color: #036b52;
+    float: left;
+    width: 70%;
 }
 
 .learning {
     background-color: #dddddd;
+}
+aside {
+    float:right;
+    width: 20%;
 }
