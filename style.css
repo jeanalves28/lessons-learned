@@ -5,6 +5,10 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Tahoma, sans-serif;
+  color: black;
+  font-size: 14px;
+  line-height: 99.5%;
 }
 
 #cabecalho {
@@ -27,4 +31,5 @@ main {
 
 #minha_foto {
   width: 250px;
+  margin-bottom: 5px;
 }
