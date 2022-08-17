@@ -11,9 +11,15 @@ body {
   position: fixed top 0;
 }
 
-header #cabecalho {
+header {
   background-color: aquamarine;
   text-align: center;
   position: fixed top 0;
 
+}
+
+
+img {
+  width: 200px;
+  border-radius: 50%;
 }
