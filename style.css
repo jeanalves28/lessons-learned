@@ -4,7 +4,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  margin-top: 0;
+  top: 0px;
   background-color: green;
   text-align: center;
   height: 3cm;
