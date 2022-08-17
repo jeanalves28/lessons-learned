@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
 
 #cabecalho {
@@ -10,11 +11,15 @@ body {
 a {
     display: block;
     font-size: large;
+    line-height: 0ch;
 }
 
 table {
     border: 2px solid black;
-    margin: auto;
-    border: 0ch;
+    margin: 0px;
     padding: 0%;
+}
+
+h2, h3 {
+    color: green;
 }
