@@ -1,0 +1,20 @@
+
+/* request #1 */
+
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+/* request #2 */
+
+#cabecalho {
+    top: 0;
+    position: fixed;
+}
+
+/* request #3 */
+
+#minha_foto {
+   margin-top: 5%;
+   width: 250px;
+   border-radius: 50%;
