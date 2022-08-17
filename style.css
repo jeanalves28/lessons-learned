@@ -19,13 +19,9 @@ font-family: 'Crimson Text', serif;
     margin-top: 100px;
 }
 
-section {
-    margin-left: 40%;
-}
-
-.licoes-aprendidas {
+.licoes {
     border: 5px solid rgb(3, 64, 48);
-    margin-right: 30%;
+    margin-right: 70%;
     border-radius: 10%;
-}
+    }
 
