@@ -28,3 +28,11 @@ a {
 article {
   border: 2px solid black;
 }
+
+p {
+  font-family: ' Courier New', Courier, monospace;
+  color: blueviolet;
+  line-height: 40px;
+  font-size: 20px;
+}
+
