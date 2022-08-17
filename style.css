@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 30px 50px;
 }
 
 #cabecalho {
@@ -9,5 +10,27 @@ body {
 
 #minha_foto {
   width: 300px;
-  margin-top: 70px;
+  margin-top: 90px;
 }
+
+h1, h2 , h3 { 
+  margin: 40px 20px 15px;
+}
+
+#rodape {
+  margin: 40px 0px 30px;
+  text-align: center;
+}
+
+ul#licoes_a_aprender {
+  display: inline-block;
+}
+
+ol#licoes_aprendidas {
+  display: inline-block;
+}
+
+table , td, th{
+  border: 1px solid black;
+}
+
