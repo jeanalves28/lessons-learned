@@ -1,5 +1,20 @@
+* {
+    margin-top: 0;
+}
 html {
-    
+    background-image: url(./onda.jpg);
+    animation: colors 25s ease infinite;
+}
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 body {
     background-color: rgb(253, 251, 251);
@@ -33,6 +48,7 @@ body {
     padding-right: 30px;
     left: 50%;
     font-weight: 550;
+    margin-left: 2%;
 }
 .section-lista-aprender {
     /* border: 2px solid black; */
@@ -43,6 +59,7 @@ body {
     margin-top: 100px;
     left: 50%;
     font-weight: 550;
+    margin-left: 2%;
 }
 .info-listas {
     text-align: justify;
@@ -51,6 +68,7 @@ body {
     margin-top: 30px;
     text-indent: 35px;
     margin-bottom: 20px;
+    margin-left: 2%;
 }
 .lado-esquerdo {
     text-align: justify;
@@ -61,6 +79,7 @@ body {
     /* border: 2px solid black; */
     width: 45%;
     margin-right: 3%;
+    margin-left: 2%;
 }
 #tabela-escola, th, td {
     border: 2px solid black;
@@ -80,11 +99,15 @@ body {
     margin-top: -600px; 
 }
 #rodape {
-
- }
+    text-align: center;
+    color: brown;
+    font-size: larger;
+}
 .section-table {
     font-family: Amiri;
     font-weight: 550;
+    margin-left: 2%;
+    text-indent: 35px;
 }
 #navegacao {
     line-height: 10px;
