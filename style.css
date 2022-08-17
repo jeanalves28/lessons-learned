@@ -19,6 +19,9 @@ body {
 }
 
 #minha_foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 300px;
   padding-top: 150px;
   padding-left: 20px;
@@ -34,3 +37,4 @@ body {
   color: rgb(223, 174, 111);
   text-decoration: none;
 }
+
