@@ -1,3 +1,4 @@
+
 #body {
   background-color: rgb(253, 251, 251);
 }
@@ -5,4 +6,22 @@
 #cabecalho {
  top: 0%;
  position: fixed;
+ background-color: green;
+ text-align: center;
+ width: 100%;
+}
+
+#titulo {
+  color: rgb(253, 251, 251);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#minha_foto {
+  display: block;
+  margin: auto;
+  width: 300px;
+  position: absolute;
+  border-radius: 100%;
+  text-align: center;
+
 }
