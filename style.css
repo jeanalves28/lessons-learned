@@ -3,7 +3,7 @@ body {
 }
 
 #cabecalho {
-    position:absolute ;
+    position:fixed ;
     top: 0;
 
 }
@@ -14,5 +14,5 @@ body {
 }
 
 .help_box{
-    
+    box-sizing: border-box;
 }
