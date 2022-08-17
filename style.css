@@ -41,3 +41,9 @@
     margin-right: 10px;
     float: right;
   }
+
+  main {
+    background-color: rgb(46,139,87);
+    margin: 7% 5%;
+    border-radius: 2%;
+  }
