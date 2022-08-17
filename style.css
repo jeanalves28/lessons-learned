@@ -19,17 +19,20 @@ img {
 }
 
 #lista {
-  position: fixed;
-  width: 25%;
+  display: inline-block;
 }
 
 #lista2 {
-  position: fixed;
-  margin-left: 25%;
+  display: inline-block;
 }
 
-#rodape{
-  position: fixed;
+
+article {
+  display: block;
+  text-align: justify;
+}
+
+#rodape {
+  position: absolute;
   bottom: 0;
-  text-align: center;
 }
