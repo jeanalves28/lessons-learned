@@ -5,15 +5,25 @@ body {
 #cabecalho {
   top: 0;
   background-color: #036b52;
+  margin-left: -8px;
   position: fixed;
-  margin-left: 412px;
+  width: 1345px;
 }
 
 #titulo {
   color: white;
+  text-align: center;
 }
 
 #minha_foto {
   width: 300px;
-  margin-top: 80px;
+  margin-top: 100px;
+}
+
+#foto-gustavo {
+  text-align: center;
+}
+
+#licoes_aprendidas {
+  margin-top: -210px;
 }
