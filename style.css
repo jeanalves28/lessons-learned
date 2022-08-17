@@ -31,13 +31,27 @@ header {
     top: 350px;
   }
 
-  #link{
+  #article {
     position: absolute;
     top: 560px;
+  }
+
+  aside {
+    margin-top: 100px;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-right: 30px;
+    float: right;
+  }
+
+  #link{
+    position: absolute;
+    top: 750px;
   }
 
   #rodape {
     position: absolute;
     text-align: center;
-    top: 650px;
+    top: 850px;
   }
