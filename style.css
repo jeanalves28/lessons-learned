@@ -45,7 +45,6 @@ main {
 }
 
 #minha_foto:hover {
-  
   width: 220px;
   border-radius: 10%;
 }
@@ -53,17 +52,17 @@ main {
 main span {
   display: inline-block;
   width: 55%;
-} 
+}
 
 main table {
   font-size: 15px;
   display: inline-block;
+
   /* margin-left: 50px; */
 }
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
-  top: 0;
 }
 
 .lado-esquerdo {
