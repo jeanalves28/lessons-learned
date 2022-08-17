@@ -21,10 +21,15 @@ body {
 
 .foto {
   width: 200px;
-  margin: 200px 10px 50px;
+  margin: 150px 10px 50px;
   border-radius: 30% 10%;
 }
 
 .space {
-	margin: 20px 10px 100px;
+  margin: 20px 10px 100px;
 }
+
+.forrodape {
+  text-align: center;
+}
+
