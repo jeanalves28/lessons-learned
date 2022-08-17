@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(253, 251,251);
+
+}
+#titulo {
+    margin-top: 0;
+    text-align: center;
+}
+#minha_foto {
+    width: 180px;
+}
+.listas_de_licoes ul,ol{
+    align-items: center;
+}
