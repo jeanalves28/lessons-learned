@@ -1,13 +1,16 @@
 .body{
+    top: 0;
     background-color: rgb(253, 251, 251)
 }
 #cabecalho{
-    text-align: ;
-    position: fixed;
     top: 0;
+    position: fixed;
+    margin-left: 700px;
+}
+.main{
+    display: flex;
 }
 #minha_foto{
-    border: 5px red;
- display: inline-block;
- float: right:
+    margin-top: 100px;
+    
 }
