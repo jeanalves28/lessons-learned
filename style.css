@@ -43,3 +43,9 @@ body {
 #minha_foto {
   max-width: 256px;
 }
+
+#licoes_aprendidas {
+  list-style: decimal-leading-zero;
+  padding: 16px;
+  margin: 16px;
+}
