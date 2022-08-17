@@ -50,6 +50,8 @@ h2 {
 
 .licoes {
   text-align: center;
+  background-color: rgb(219, 219, 219);
+  padding: 40px 10px 50px;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
@@ -67,4 +69,22 @@ h2 {
 
 li {
   text-align: left;
+}
+
+#rodape {
+  background-color: rgb(214, 126, 11);
+  padding: 20px 10px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(0, 48, 56);
+}
+
+#rodape a {
+  text-decoration: none;
+  color: rgb(0, 48, 56);
+  transition: 0.5s;
+}
+
+#rodape a:hover {
+  color: rgb(213, 213, 213);
 }
