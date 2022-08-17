@@ -5,48 +5,50 @@ body {
     padding: 0%;
     margin-top: 0%;
 }
-
-
 img {
     width: 200px;
     display: block;
 }
 
-.button {
- 
-    
-}
-
-.minha_foto {
-
-
-}
-
-
-.cabecalho {
-    background-color: dimgrey;
+.links_topo {
+    background-color: darkgrey;
     text-align: center;
-    
-
-    
-    
-}
+    top: 0%;
+    }
 
 .links {
-    
     justify-content: space-around;
     display: flex;
-    
 }
+
 #titulo {
     margin: 0%;
 }
-#licoes_aprendidas {
 
-
-}
 .quadrados {
     border: 10px double blueviolet;
     border-radius: 10px;
     padding: 20px;
+}
+#minha_foto {
+    border-radius: 50%;
+    
+    display: block;
+}
+.social {
+    justify-content: space-around;
+    text-align: center;
+    top: 0%;
+    background-color: black;
+    color: white;
+    padding: 11px 2px;
+    text-align: center; 
+}
+#licoes_a_aprender {
+    
+}
+#identidade {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+
 }
