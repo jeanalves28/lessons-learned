@@ -50,7 +50,7 @@ body {
 
 .list-container {
   border: 1px solid black;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #licoes_aprendidas {
@@ -72,17 +72,28 @@ body {
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
   padding: 10px;
-  grid-template-columns: repeat(20, 1fr);
+  grid-template-columns: 1fr repeat(20);
+  line-height: 30px;
+  font-family: Times New Roman, Times, serif;
+  color: red;
+  font-size: 15px;
 }
 
 #article {
-  max-width: 500px;
-  grid-column: span 10;
+  max-width: auto;
   display: inline-block;
 }
 
 #aside {
   display: inline-block;
-  grid-column: span 10;
-  max-width: 500px;
+  max-width: auto;
+}
+
+#table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table , th , td {
+  border: 1px solid black;
 }
