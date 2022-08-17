@@ -1,11 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
 }
 
 #cabecalho {
   background-color: rgb(135, 118, 244);
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   top: 0;
   left: 0;
   position: fixed;
