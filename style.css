@@ -60,6 +60,18 @@
     margin: 2%;
     margin-left: 13%;
   }
+
   article p {
     padding: 2%;
+  }
+
+  .habilidades {
+    margin-top: 3%;
+    border-top: 1px solid rgb(253, 251, 251);
+    padding: 2%;
+  }
+
+  .habilidades ol {
+    padding: 2%;
+    margin-left: 2%;
   }
