@@ -9,3 +9,7 @@ header {
     background-color: azure;
     top: 0;
 }
+#minha_foto {
+    position: absolute;
+    margin-top: 80px;
+}
