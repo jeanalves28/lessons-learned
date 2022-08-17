@@ -10,6 +10,9 @@ body{
 #titulo{
     text-align: center;
     padding: 50pt;
-    font-weight: 600;
+    font-weight: 550;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.8px;
+    font-size: 30pt;
+    padding-top: 18px;
 }
