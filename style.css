@@ -43,9 +43,23 @@ header h1{
     text-align: center;
     padding: 1px 0px;
     margin-right: 0px;
+    display: inline-block;
+    margin-left: 400px;
 }
 
-ol li{
+.licoes_napr{ 
+    background-color: rgb(52, 52, 52);
+    color:rgb(156, 0, 182);
+    width: 15%;
+    text-align: center;
+    padding: 1px 0px;
+    margin-right: 0px;
+    float: right;
+    margin-right: 400px;
+
+}
+
+.pdr{
     text-align: left;
     font-size: 18px;
 }
