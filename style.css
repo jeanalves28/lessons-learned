@@ -32,15 +32,27 @@ body {
   border: 2px solid black;
 }
 
+.lado-direito {
+  float: right;
+  margin-right: 40%;
+  margin-top: -350px;
+}
+
+.lado-direito h3 {
+  font-size: 25px;
+  font-style: italic;  
+}
+
 .lado-esquerdo {
-    font-size: 20px;
-    margin-left: 30px;
-    margin-right: 60%;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 60%;
 }
 
 #licoes_aprendidas p {
   font-size: 30px;
   font-weight: 600;
+  color: green;
 }
 
 #licoes_aprendidas {
@@ -61,6 +73,7 @@ body {
 #licoes_a_aprender p {
   font-size: 30px;
   font-weight: 600;
+  color: green;
 }
 
 #foto_capa {
