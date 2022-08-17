@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+.barra {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 100px;
+    background-color: green;
+}
