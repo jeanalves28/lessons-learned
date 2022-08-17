@@ -3,14 +3,19 @@ body {
 }
 
 #cabecalho {
-  margin-top: 0;
+  top: 0;
   position: fixed;
   background-color: green;
   text-align: center;
-  height: 3cm;
-  width: 35cm;
+  height: cm;
+  width: 33cm;
+  border: 2px solid red;
 }
 
 #titulo {
   color: aliceblue;
+}
+
+#minha_foto {
+  margin-top: 6cm;
 }
