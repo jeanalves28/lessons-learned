@@ -35,5 +35,7 @@ body {
   width: 100%;
   background-color: var(--bg0);
   color: var(--fg0);
-  padding: 16px;
+  padding: 48px;
+  font-size: 32px;
+  font-weight: 800;
 }
