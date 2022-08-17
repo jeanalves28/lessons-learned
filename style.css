@@ -7,6 +7,7 @@ div#cabecalho {
   top: 0;
 }
 
-img#minha-foto {
-  bottom: 100px;
+#minha_foto {
+  float: right;
+  border-radius: 50%;
 }
