@@ -1,9 +1,10 @@
 * {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgba(239, 239, 232, 0.9);
 }
 
 #cabecalho{
@@ -19,12 +20,48 @@ body {
   text-align: center;
 }
 
+.sectionModel{
+  background-color: rgb(253, 251, 251);
+  border: 1px solid rgb(194, 197, 197);
+  border-radius:7pt;
+  padding: 25px;
+
+}
+
 main{
-  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin: 70px auto;
+  width: 1300px;
+}
+
+div.mainContent{
+  /*border: 1px solid black;*/
+  width: 800px;
+  display: grid;
+  gap: 10px;
+}
+
+section.infoPerfil{
 }
 
 #minha_foto{
-  width: 400px;
+  width: 500px;
+  background-size: cover;
+}
+
+section.listasLicoes{
+}
+
+section.aprendizado{
+}
+
+div.sideContent{
+  width: 300px;
+}
+
+section aside{
 }
 
 #rodape{
