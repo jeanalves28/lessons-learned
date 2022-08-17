@@ -45,5 +45,12 @@ margin-left: 70px;
     margin-top: 300px;
 }
 #artigo{
+    display: inline-block;
     width: 500px;
+
+}
+#aside{
+    display: inline-block;
+    width: 500px;
+    margin-left: 150px;
 }
