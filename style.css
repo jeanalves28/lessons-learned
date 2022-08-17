@@ -10,4 +10,13 @@
 
 #cabecalho {
   position: fixed;
+  padding: 1.5em;
+  align-content: center;
+  margin: auto;
+}
+
+#titulo {
+  font-family: Montserrat;
+  font-size: 2em;
+  color: rgba(125, 122, 096, 0.8);
 }
