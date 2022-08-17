@@ -33,7 +33,18 @@ body {
 
 }
 
-#lado_esquerdo {
+.lado-esquerdo {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 400px;
+    border: 1px solid black;
     
 }
-    
+
+.lado-direito {
+   display: inline-block;
+   margin-left: 20px;
+   width: 400px;
+   border: 1px solid black;
+
+}
