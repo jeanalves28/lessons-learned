@@ -11,3 +11,13 @@ body {
   top: 0;
   position: fixed;
 }
+
+#licoes_aprendidas {
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+#licoes_a_aprender {
+  padding-left: 100px;
+  padding-top: 20px;
+}
