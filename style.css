@@ -8,7 +8,7 @@ body {background-color: rgb(253, 251, 251);
   top: 0;
   text-align: center;
   background-color: rgb(3, 64, 48);
-  color: rgb(255, 255, 255);
+  color: white;
   position: fixed;
   width: 100%;
 }
@@ -16,7 +16,7 @@ body {background-color: rgb(253, 251, 251);
 #minha_foto {
   width: 25%;
   height: 25%;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .licoes {
