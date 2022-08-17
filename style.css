@@ -49,9 +49,28 @@ body {
 main {
   background-color: rgb(46,139,87);
   color: rgb(253, 251, 251);
-  margin: 9% 5% 2%;
+  margin: 9% 17% 2% 3%;
   border-radius: 3%;
   padding: 2%;
+}
+
+aside {
+    border: 1px solid red;
+    width: 13%;
+    padding: 1%;
+    margin-right: 1%;
+    float: right;
+    border-radius: 3%;
+    background-color: rgb(46,139,87);
+    color: rgb(253, 251, 251);
+}
+aside h3 {
+    text-align: center;
+    border-bottom: 1px solid rgb(253, 251, 251);
+}
+aside p {
+    margin-top: 5%;
+    text-align: justify;
 }
 
 #minha_foto {
