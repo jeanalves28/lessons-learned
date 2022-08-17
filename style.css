@@ -12,8 +12,8 @@ body {
 }
 
 #minha_foto {
-  float: right;
   border-radius: 50%;
+  float: right;
 }
 
 ol {
@@ -28,5 +28,18 @@ aside {
   border: 1px;
   padding: 3%;
   margin-left: 2%;
-  text-align: center;
+}
+
+.lado-esquerdo {
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  float: left;
+}
+
+.lado-direito {
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  float: right;
 }
