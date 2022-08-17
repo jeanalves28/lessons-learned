@@ -7,6 +7,11 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+@font-face {
+  font-family: Alex Brush;
+  src: url(fonts/Alex_Brush_Regular.20.ttf);
+}
+
 #cabecalho {
   top: 0;
   position: fixed;
@@ -20,4 +25,12 @@ body {
 #licoes_a_aprender {
   padding-left: 100px;
   padding-top: 20px;
+}
+
+#rodape > span {
+  font-family: Alex Brush;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  font-size: 30px;
 }
