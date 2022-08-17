@@ -17,18 +17,17 @@
 }
 
 #titulo {
-  font-family: "Montserrat";
+  font-family: Righteous, cursive;
   font-size: 2em;
   color: rgba(125, 122, 096, 0.8);
   width: auto;
 }
 
 /* Main Form */
-#main_scenario ,
-#minha_foto {
+#main_scenario , #minha_foto {
   padding: 2em;
   border-left: 1em;
-  font-family: "Montserrat";
+  font-family: Montserrat, sans-serif;
 }
 
 #minha_foto {
