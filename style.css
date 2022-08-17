@@ -18,13 +18,13 @@ header h1{
     font-weight: 700;
 }
 
-section{
+.foto{
     margin: 150px;
     text-align: center;
     font-weight: 700;
     font-size: 30px;
     color:rgb(52, 52, 52) ;
-   
+    
 
 }
 
@@ -35,4 +35,21 @@ section{
     border-color: rgb(52, 52, 52);
     border-width: 5px;
 }
+
+.licoes_apr{
+    background-color: rgb(52, 52, 52);
+    color:rgb(156, 0, 182);
+    width: 15%;
+    text-align: center;
+    padding: 1px 0px;
+    margin-right: 0px;
+}
+
+ol li{
+    text-align: left;
+}
+
+
+
+
 
