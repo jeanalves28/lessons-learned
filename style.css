@@ -146,3 +146,10 @@ div {
   line-height: 2;
 }
 
+.lado-direto {
+  float: right;
+}
+
+.lado-esquerdo {
+  float: left;
+}
