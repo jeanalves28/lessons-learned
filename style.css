@@ -6,7 +6,8 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: sans-serif;
-  padding-top: 110px;
+  padding-top: 90px;
+  color: rgb(56, 56, 56);
 }
 
 #cabecalho {
@@ -25,14 +26,45 @@ body {
   padding: 40px 10px;
 }
 
-h3 {
+.autora p {
   color: rgb(197, 95, 0);
   text-align: center;
   margin-bottom: 20px;
   font-style: italic;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 #minha_foto {
   max-width: 200px;
   border-radius: 50%;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: rgb(0, 48, 56);
+  text-align: center;
+  margin: 30px 10px;
+
+}
+
+.licoes {
+  text-align: center;
+}
+
+#licoes_aprendidas {
+  text-align: lef;
+  max-width: 660px;
+  margin: 20px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#aprendizado {
+  max-width: 300px;
+  margin: 10px 30px;
+}
+
+li {
+  text-align: left;
 }
