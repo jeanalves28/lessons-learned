@@ -6,3 +6,7 @@ body {
     top: 0;
     position: fixed;
 }
+
+table {
+    padding: 15px;
+}
