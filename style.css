@@ -8,8 +8,10 @@ header{
 #cabecalho{
     position: fixed;
     top: 0px;
+    text-align: center;
 }
 #minha_foto{
     margin-top: 100px;
     width: 300px;
+    border-radius: 10%;
 }
