@@ -58,4 +58,10 @@ body {
 
 #artigo {
   margin: 80px 16px;
+  text-align: center;
+}
+
+#descricao {
+  margin: 80px 16px;
+  text-align: center;
 }
