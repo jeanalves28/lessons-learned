@@ -11,3 +11,18 @@ body {
   float: right;
   border-radius: 50%;
 }
+
+ol {
+  margin-top: 100px;
+}
+
+article {
+ padding: 2%;
+}
+
+aside {
+  border: 1px;
+  padding: 3%;
+  margin-left: 2%;
+  text-align: center;
+}
