@@ -6,7 +6,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 10px 447px 10px 447px;
+  padding: 10px 447px;
   background-color: #4f7942;
   text-align: left;
 }
@@ -21,8 +21,10 @@ body {
 
 .foto {
   width: 200px;
-  margin: 150px 10px 50px;
+  margin: 150px 10px 10px 1000px;
   border-radius: 30% 10%;
+	display: block;
+	
 }
 
 .forlists {
@@ -47,5 +49,20 @@ body {
 
 .forlinks:hover {
   background-color: #4f7942;
+}
+
+.about {
+  display: inline-block;
+  width: 220px;
+	text-align: justify;
+	margin-left: 400px;
+	
+
+}
+
+.text {
+  width: 600px;
+	margin: 10px 50px;
+	
 }
 
