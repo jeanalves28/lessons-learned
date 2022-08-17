@@ -12,6 +12,13 @@ body{
 #minha_foto{
     width: 20em;
     margin-left: 5em;
+    display: inline-block;
+}
+#lado{
+    display: inline-block;
+    width: 10em;
+    position: fixed;
+    margin-left: 1em;
 }
 #twice{
     margin-left: 6em;
