@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin-left: 30px;
 }
 
 #cabecalho {
@@ -11,7 +12,8 @@ body {
 
 #minha_foto {
     width: 150px;
-    margin: 100px 10px 2px;
+    height: 150px;
+    margin: 90px 10px 2px;
 }
 
 #tabela {
@@ -36,15 +38,24 @@ body {
 .lado-esquerdo {
     display: inline-block;
     margin-bottom: 30px;
-    width: 400px;
+    width: 350px;
     border: 1px solid black;
     
 }
 
 .lado-direito {
    display: inline-block;
-   margin-left: 20px;
-   width: 400px;
+   margin-left: 80px;
+   width: 380px;
    border: 1px solid black;
 
 }
+/* 
+.lista-direita {
+    display: inline-block;
+}
+
+.lista-esquerda { 
+    display: inline-block;
+}
+     */
