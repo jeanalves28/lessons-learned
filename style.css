@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
+
+img {
+  margin-top: 10%;
+  width: 200px;
+}
+
+#geral{
+    width: 100%;
+    overflow: hidden;
+}
+
+#lista {
+  position: fixed;
+  width: 25%;
+}
+
+#lista2 {
+  position: fixed;
+  margin-left: 25%;
+}
+
+#rodape{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
