@@ -16,16 +16,17 @@ body {
 }
 
 #minha_foto {
-    width: 150px;
-    margin-top: 100px;
-    display: inline-block;
+  width: 150px;
+  margin-top: 100px;
+  display: inline-block;
 }
+
 ol {
-    display: inline-block;
+  display: inline-block;
 }
 
 ul {
-    display: inline-block;
+  display: inline-block;
 }
 
 #rodape {
@@ -38,21 +39,21 @@ ul {
 }
 
 aside {
-    display: inline-block;
-    position: fixed;
-    margin-top: 90px;
-    margin-left: 5px;
-    text-align: justify;
-    padding: 20px;
+  display: inline-block;
+  position: fixed;
+  margin-top: 90px;
+  margin-left: 5px;
+  text-align: justify;
+  padding: 20px;
 }
 
 #foto-de-familia {
-    width: 150px;
-    display: inline-block;
-    margin-top: 200px;
-    margin-left: 250px;
+  width: 150px;
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 250px;
 }
 
 h2 {
-    font-size: 23px;
+  font-size: 23px;
 }
