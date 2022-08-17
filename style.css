@@ -12,6 +12,7 @@ body {
   padding: -50px;
   text-align: center;
   width: 100%;
+  z-index: 1;
 }
 
 #link {
@@ -20,7 +21,9 @@ body {
   top: 25px;
   width: 70px;
   left: 20px;
+  z-index: 1;
 }
+
 
 #link-2 {
   display: inline;
@@ -29,15 +32,17 @@ body {
   top: 25px;
   left: 140px;
   border-radius: 20px;
+  z-index: 1;
 }
 
 #minha_foto {
-  position: relative;
+  position: absolute;
   width: 370px;
   top: 130px;
   left: 30px;
   border-radius: 20%;
 }
+
 
 #licoes_aprendidas {
   position: absolute;
@@ -113,5 +118,15 @@ body {
 
 footer {
   bottom: 0;
+  position: fixed;
+  left: 0;
+  background-color: rgb(135, 118, 244);
+  height: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+div {
   position: absolute;
+  top: 1800px;
 }
