@@ -99,3 +99,11 @@ ol , ul {
   border-radius: 8px;
   padding: 16px;
 }
+
+aside {
+  width: 33%;
+  padding: 16px;
+  float: right;
+  background-color: var(--bg2);
+  color: var(--fg1);
+}
