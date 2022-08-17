@@ -34,15 +34,22 @@ main {
 ol, ul {
   display: inline-block;
   vertical-align: top;
-  width:200px;
-  height:250px;
+  width: 200px;
+  height: 250px;
   padding: 50px;
   padding-top: 25px;
-  margin: 10px;
+  margin: 40px;
   outline: 3px solid rgb(47, 193, 140);
   border-radius: 10%;
 }
 
 li {
   text-align: left;
+}
+
+#rodape {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  text-align: center;
+  font-size: small;
 }
