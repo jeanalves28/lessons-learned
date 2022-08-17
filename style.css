@@ -23,18 +23,25 @@ body {
 }
 #licoes_aprendidas {
     position: relative;
-    top: 340px
+    top: 400px
 }
 
 #licoes_a_aprender {
     position: relative;
     top: 400px;
 }
-#rodape {
-    position: relative;
-    top: 400px;
-}
 article {
     top: 400px;
+    float: left;
     position: relative;
+}
+aside {
+    float: right;
+    top: 400px;
+    position: relative;
+}
+#rodape {
+    top: 500px;
+    position: relative;
+    inline-size: 100px;
 }
