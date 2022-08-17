@@ -43,3 +43,7 @@ aside {
   display: inline-block;
   float: right;
 }
+
+.footer {
+  position: relative;
+}
