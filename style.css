@@ -4,37 +4,78 @@
   background-color: rgb(253, 251, 251);
   margin: 0;
   padding: 0;
-  border: 0;
   box-sizing: border-box;
 }
 
 /* Header Form */
 #cabecalho {
   position: fixed;
-  padding: 1.5em;
   align-content: center;
-  background-size: 25vh;
+  width: 100%;
+  text-align: center;
+  background-color: black
 }
 
 #titulo {
   font-family: Righteous, cursive;
-  font-size: 2em;
+  font-size: 2.2em;
+  padding: 1.2em;
   color: rgba(125, 122, 096, 0.8);
-  width: auto;
+  text-shadow: 0 0 15px rgb(4, 212, 32);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 1);
 }
 
 /* Main Form */
-#main_scenario , #minha_foto {
-  padding: 2em;
-  border-left: 1em;
+#main-scenario {
+  padding-top: 9em;
   font-family: Montserrat, sans-serif;
 }
 
 #minha_foto {
-  width: 300px;
-  background: linear-gradient(rgba (0, 0, 0, 0.6), rgba (0, 0, 0, 0.6));
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border: solid;
+  border-width: 5px 5px 5px 5px;
+  border-image: linear-gradient(45deg,green,blue) 10;
 }
 
-#about-my-learn {
-  line-height: 1.2em;
+.name-information {
+  text-align: center;
+  line-height: 2em;
+}
+
+#list {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  align-items: center;
+  align-content: space-between;
+}
+
+.list-paragraph {
+  order: 2;
+  width: 30%;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 0.9em;
+}
+
+#licoes_aprendidas {
+  order: 1;
+  color:rgb(0, 38, 77);
+  width: 20%;
+  list-style: none;
+}
+
+#licoes_a_aprender {
+  order: 3;
+  width: 20%;
+  padding-left: 2em;
+  list-style: none;
+  color: darkred;
 }
