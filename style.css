@@ -2,7 +2,142 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+h1 {
+    padding-left: 35px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+#lessons-learned {
+    position: absolute;
+    left: 45px;
+    bottom: 180px;
+}
+
+#lessons-to-learn {
+    position: absolute;
+    left: 320px;
+    bottom: 180px;
+
+}
+
 #cabecalho {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(240, 230, 209);
     position: fixed;
     top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(62, 80, 60);
+    z-index: 1;
 }
+
+nav ul li {
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-right: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+nav {
+    text-decoration: none;
+}
+
+article {
+    font-family: 'Raleway', sans-serif;
+    max-width: 525px;
+    margin-left: 35px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 2em;
+}
+
+aside {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    top: 100px;
+    right: 800px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 2em;
+}
+
+#licoes_aprendidas {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    position: relative;
+    left: 20px;
+    top: 80px;
+    margin-bottom: 20px;
+    line-height: 2em;
+
+}
+
+#licoes_a_aprender {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    position: relative;
+    left: 300px;
+    bottom: 260px;
+    line-height: 2em;
+}
+
+img {
+    margin-top: 100px;
+    width: 300px;
+    padding-left: 35px;
+
+}
+
+footer {
+    background-color: rgb(62, 80, 60);
+    font-weight: 400;
+    color: rgb(240, 230, 209);
+    font-family: 'Raleway', sans-serif;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+th, td {
+    padding-top: 12px ;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    border: 1px dotted rgb(62, 80, 60);
+    
+}
+
+table {
+    position: absolute;
+    left: 780px;
+    bottom: 220px
+}
+
+#rocket {
+    position: absolute;
+    max-width: 250px;
+    top: 750px;
+    right: 800px
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+   color: rgb(62, 80, 60);
+   position: absolute;
+   left: 830px;
+   bottom: 100px;
+   
+}
+
