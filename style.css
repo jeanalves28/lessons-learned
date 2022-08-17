@@ -1,8 +1,20 @@
 * {
     margin: 0px;
 }
-body { background-color: rgb(253, 251, 251);
+body { 
+    width: 100%;
+    background-color: rgb(253, 251, 251);
     font-family: 'Epilogue', sans-serif;
+}
+h2 {
+    color: #023031;;
+}
+h3 {
+    color: #023031;
+}
+p {
+    letter-spacing: 1px;
+    
 }
 
 #cabecalho {    
@@ -27,6 +39,7 @@ header h1 {
     text-align: center;
     padding:10px;
     border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 83, 35, 0.37);
 }
 
 .intro {
@@ -36,26 +49,41 @@ header h1 {
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.329);
 }
 
-.intro img {
+#minha_foto {
     width: 200px;
     float: left;
     height: 100%;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.329);
-}
+    }
 
 .intro ol {
     float: left;
     display: inline-block;
-    margin: 45px 150px 45px 150px;
+    margin: 54px 140px 54px 140px;
 }
 
 .intro ul {
     float: left;
     display: inline-block;
-    margin: 45px 150px 45px 100px;
-    
+    margin: 54px 238px 54px 238px;
+}
+
+.intro h2 {
+    font-size: 20px;
 }
 
 footer {
     background-color: #3d495c;;
+}
+.intro li {
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+article {
+    background-color: #036b52;
+}
+
+.learning {
+    background-color: #dddddd;
 }
