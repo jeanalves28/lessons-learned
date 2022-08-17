@@ -61,8 +61,35 @@ body {
 
 .imagem {
   position: absolute;
-  width: 40px;
+  width: 42px;
   display: inline-block;
   top: 87px;
   left: 102px;
+}
+
+.imagem2 {
+  position: absolute;
+  width: 40px;
+  display: inline-block;
+  top: 110px;
+  left: 102px;
+  border-radius: 50px;
+
+}
+
+.imagem3 {
+  position: absolute;
+  width: 40px;
+  display: inline-block;
+  top: 133px;
+  left: 102px;
+  border-radius: 18px;
+
+}
+
+h1 {
+  position: absolute;
+  display: block;
+  margin-left: 125px;
+  margin-top: 400px;
 }
