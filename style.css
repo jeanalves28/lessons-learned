@@ -1,12 +1,26 @@
-
 body {
-background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 .bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 20px 565px;
-    background-color:pink;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px 565px;
+  background-color: #4f7942;
+  text-align: left;
+}
+
+#cabecalho h1 {
+  text-align: left;
+}
+
+.border {
+  border: 5px solid red;
+}
+
+.foto {
+  width: 200px;
+  margin: 200px 10px 50px;
+  border-radius: 30% 10%;
 }
