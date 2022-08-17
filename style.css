@@ -81,11 +81,9 @@ body {
 
 #article {
   max-width: auto;
-  display: inline-block;
 }
 
 #aside {
-  display: inline-block;
   max-width: auto;
 }
 
