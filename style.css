@@ -5,5 +5,13 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: red; /* placeholder */
+  background-color: red; /* placeholder: visible element */
+}
+
+
+aside, section {
+  background-color: lightblue; /* placeholder: visible element */
+  border: 2px solid black;
+  margin: 1em;
+  padding: 1em;
 }
