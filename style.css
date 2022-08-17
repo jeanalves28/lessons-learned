@@ -4,7 +4,6 @@
 
 body {
   background-color: rgb(253, 251, 251);
-
 }
 
 #cabecalho {
@@ -46,3 +45,6 @@ p {
   width: 40%;
 }
 
+footer {
+  margin-top: 600px;
+}
