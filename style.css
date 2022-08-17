@@ -54,6 +54,7 @@ aside {
 }
 
 .text-article {
+    font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     text-align: center;
     display: inline-block;
@@ -94,4 +95,9 @@ aside {
 
 #linkedin-bottom:hover {
     background-color:rgb(35, 5, 117);
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
