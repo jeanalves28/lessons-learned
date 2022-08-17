@@ -1,132 +1,123 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: poppins;
-    padding: 0;
-    margin: 0;
+  background-color: rgb(253, 251, 251);
+  font-family: poppins;
+  padding: 0;
+  margin: 0;
 }
 
-header{
-    text-align: center;
-    background-color:rgb(52, 52, 52);
-    color: rgb(156, 0, 182);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    
+header {
+  text-align: center;
+  background-color: rgb(52, 52, 52);
+  color: rgb(156, 0, 182);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-header h1{
-    font-weight: 700;
+header h1 {
+  font-weight: 700;
 }
 
-.foto{
-    margin: 150px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 30px;
-    color:rgb(52, 52, 52);
-    
+.foto {
+  margin: 150px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(52, 52, 52);
 }
 
-#git{
-    text-decoration:none;
-    color:rgb(52, 52, 52);
-    
-}
-#git img{
-    width: 20px;
-    
+#git {
+  text-decoration: none;
+  color: rgb(52, 52, 52);
 }
 
-#git:hover{
-    color:rgb(156, 0, 182);
-    transition:0.5s;
+#git img {
+  width: 20px;
 }
 
-#minha_foto{
-    width: 300px;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: rgb(52, 52, 52);
-    border-width: 5px;
+#git:hover {
+  color: rgb(156, 0, 182);
+  transition: 0.5s;
 }
 
-.licoes{
-    margin-bottom:5%;
+#minha_foto {
+  width: 300px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(52, 52, 52);
+  border-width: 5px;
 }
 
-.licoes_apr{
-    background-color: rgb(52, 52, 52);
-    color:rgb(156, 0, 182);
-    width: 15%;
-    text-align: center;
-    padding: 1px 0px;
-    margin-right: 0px;
-    display: inline-block;
-    margin-left: 400px;
+.licoes {
+  margin-bottom: 5%;
 }
 
-.licoes_napr{ 
-    background-color: rgb(52, 52, 52);
-    color:rgb(156, 0, 182);
-    width: 15%;
-    text-align: center;
-    padding: 1px 0px;
-    margin-right: 0px;
-    float: right;
-    margin-right: 400px;
-
+.licoes_apr {
+  background-color: rgb(52, 52, 52);
+  color: rgb(156, 0, 182);
+  width: 15%;
+  text-align: center;
+  padding: 1px 0 px;
+  margin-right: 0 px;
+  display: inline-block;
+  margin-left: 400px;
 }
 
-.pdr{
-    text-align: left;
-    font-size: 18px;
+.licoes_napr {
+  background-color: rgb(52, 52, 52);
+  color: rgb(156, 0, 182);
+  width: 15%;
+  text-align: center;
+  padding: 1px 0 px;
+  float: right;
+  margin-right: 400px;
 }
 
-#rodape{
-    
-    height: 80px;
-    background-color: rgb(37, 37, 50);
-    color:rgb(156, 0, 182);
-    font-weight: 600;
-    
+.pdr {
+  text-align: left;
+  font-size: 18px;
 }
 
-#rodape p{
-    padding:30px;
-    margin-right:5px;
+#rodape {
+  height: 80px;
+  background-color: rgb(37, 37, 50);
+  color: rgb(156, 0, 182);
+  font-weight: 600;
 }
 
-.mural{
-    background-color: rgb(52, 52, 52);
+#rodape p {
+  padding: 30px;
+  margin-right: 5px;
 }
-.aprendizado{
-    width: 25%;
-    text-align: center;
-    padding: 2%;
-    margin:3em 0;
-    margin-left:15%;
-    display: inline-block;
-    background-color: rgb(48, 48, 48);
-    color: rgb(156, 0, 182);
-    font-weight: 500;
+
+.mural {
+  background-color: rgb(52, 52, 52);
 }
-.sobre{
-    width: 20%;
-    padding: 2%;
-    text-align: center;
-    float: right;
-    margin:3em 0;
-    margin-right: 15%;
-    background-color: rgb(48, 48, 48);
-    color: rgb(156, 0, 182);
-    font-weight: 500;
+
+.aprendizado {
+  width: 25%;
+  text-align: center;
+  padding: 2%;
+  margin: 3em 0;
+  margin-left: 15%;
+  display: inline-block;
+  background-color: rgb(48, 48, 48);
+  color: rgb(156, 0, 182);
+  font-weight: 500;
 }
-#italic{
-    font-style: italic ;
+
+.sobre {
+  width: 20%;
+  padding: 2%;
+  text-align: center;
+  float: right;
+  margin: 3em 0;
+  margin-right: 15%;
+  background-color: rgb(48, 48, 48);
+  color: rgb(156, 0, 182);
+  font-weight: 500;
 }
-    
 
-
-
-
+#italic {
+  font-style: italic;
+}
