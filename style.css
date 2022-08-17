@@ -1,18 +1,35 @@
 body {
     background-color:rgb(253, 251, 251);
+    margin: 20px;
 }
 
 #cabecalho {
-    position:fixed ;
+    position:fixed;
     top: 0;
+    text-align: center;
+    padding-right: 25%;
+    padding-left: 25%;
+    background-color: rgb(229, 231, 233);
 
 }
 
 #minha_foto {
-    margin: 55px 0px 0px;
+    margin: 70px 0px 0px;
     width: 200px;
+    border-radius: 50% 1% 50% 1%;
 }
 
-.help_box{
-    box-sizing: border-box;
+p {
+    text-align: justify;
+    margin-right: 34%;
+}
+.box_one {
+    display: inline-flex;
+    margin-right: 34%;
+}
+
+.box02 {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(229, 231, 233);
 }
