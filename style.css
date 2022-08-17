@@ -61,10 +61,6 @@ body {
   display: inline-block;
 }
 
-#link-externo {
-  display: block;
-}
-
 .context-container {
   place-items: center;
   text-align: center;
@@ -77,14 +73,6 @@ body {
   font-family: Times New Roman, Times, serif;
   color: red;
   font-size: 15px;
-}
-
-#article {
-  max-width: auto;
-}
-
-#aside {
-  max-width: auto;
 }
 
 #table {
