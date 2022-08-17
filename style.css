@@ -28,10 +28,10 @@ main {
 
 #aprendizado {
   display: inline-block;
-  width:50%;
+  width: 50%;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
   vertical-align: top;
   width: 200px;
@@ -43,13 +43,13 @@ main {
   border-radius: 10%;
 }
 
-#licoes_aprendidas li, #licoes_a_aprender li {
+#licoes_aprendidas li , #licoes_a_aprender li {
   text-align: left;
 }
 
 article {
   margin: auto;
-  width: 50%;
+  width: 80%;
 }
 
 #sobre_mim {
@@ -79,7 +79,7 @@ article {
   border-radius: 10px;
   padding: 10px;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 #meu_github:hover {
