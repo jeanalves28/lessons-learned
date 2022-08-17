@@ -25,3 +25,9 @@ font-family: 'Crimson Text', serif;
     border-radius: 10%;
     }
 
+#rodape {
+    text-align: center;
+    border-top: 2px solid rgb(3, 64, 48);
+    margin-top: 20px;
+}
+
