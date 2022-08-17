@@ -1,22 +1,26 @@
-.body {
-    background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
 }
 
-.cabecalho {
-    top: 0;
-    margin: 0;
-    position: fixed; 
-    height: 300px;
-    width:100%;
-    background-color: rgb(51, 143, 51);
-    border-bottom: 6 px solid rgb(194, 115, 115);
-
+#cabecalho {
+  top: 0;
+  margin: 0;
+  position: fixed;
+  height: 300px;
+  width: 100%;
+  background-color: green;
 }
 
-.titulo {
-    position: absolute;
-    color: white;
-    align-content: center;    
+#titulo {
+  position: absolute;
+  color: white;
+  align-content: center;
+}/* nao sabia como fazer a barra. usei o seguinte video do youtube como reference: https://www.youtube.com/watch?v=dXoZxO10ibE&ab_channel=MatheusBattisti-HoradeCodar */
 
+#minha_foto {
+  align-content: center;
 }
-/* nao sabia como fazer a barra. usei o seguinte video do youtube como reference: https://www.youtube.com/watch?v=dXoZxO10ibE&ab_channel=MatheusBattisti-HoradeCodar */  
+
+#licoes_aprendidas {
+  color: black;
+}
