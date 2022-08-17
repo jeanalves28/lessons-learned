@@ -17,20 +17,24 @@ body {
 #minha_foto {
    position: absolute;
    left: 20px;
-   top: 150px;
+   top: 200px;
    height: 200px;
    width: 200px;
 }
 #licoes_aprendidas {
     position: relative;
-    top: 300px
+    top: 340px
 }
 
 #licoes_a_aprender {
     position: relative;
-    top: 300px;
+    top: 400px;
 }
 #rodape {
     position: relative;
-    top: 300px;
+    top: 400px;
+}
+article {
+    top: 400px;
+    position: relative;
 }
