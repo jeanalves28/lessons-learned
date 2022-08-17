@@ -14,4 +14,7 @@ a {
 
 table {
     border: 2px solid black;
+    margin: auto;
+    border: 0ch;
+    padding: 0%;
 }
