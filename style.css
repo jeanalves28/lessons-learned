@@ -91,7 +91,7 @@ a:hover {
   color: rgb(75, 208, 75);
 }
 
-article , aside , #curiosity {
+article , aside , #curiosity , #list-container {
   border: 0.2rem solid rgb(0, 49, 0);
   padding: 0.5rem 2rem;
   margin: 1.5rem 0;
