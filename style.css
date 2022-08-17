@@ -42,7 +42,7 @@ main {
   border-radius: 10%;
 }
 
-#licoes_aprendidas, #licoes_a_aprender li {
+#licoes_aprendidas li, #licoes_a_aprender li {
   
   text-align: left;
 }
