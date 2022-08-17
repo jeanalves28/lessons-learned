@@ -3,13 +3,17 @@ body {
 }
 
 #cabecalho {
+  padding-left: 20px;
+  position: fixed;
   top: 0;
 }
 
 #titulo {
-  color: black;
+  font-size: 50px;
+  color: burlywood;
 }
 
 #minha_foto {
   width: 300px;
+  padding-top: 100px;
 }
