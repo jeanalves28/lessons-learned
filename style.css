@@ -24,3 +24,7 @@ footer {
     height: 50px;
     background-color: rgb(40, 27, 216);
 }
+
+#cor-do-rodape {
+    color: aliceblue;
+}
