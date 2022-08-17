@@ -57,6 +57,8 @@ aside {
     text-align: center;
     color: rgb(44, 33, 33);
     line-height: 18px;
+    font-size: 17px;
+    font-weight: 520;
 }
 
 #linkedin-bottom {
@@ -111,6 +113,7 @@ table, th, td {
   width: 50%;
   padding-top: 10px;
   line-height: 25px;
+  font-weight: 530;
   
 }
 .lado-esquerdo {
