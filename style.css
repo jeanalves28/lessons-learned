@@ -3,6 +3,10 @@
     padding: 0;
   }
 
+  html {
+    background-color: rgb(253, 251, 251);
+  }
+
   #cabecalho {
     position: fixed;
     top: 0;
@@ -17,18 +21,17 @@
   }
 
   #cabecalho, #titulo, #trybe, .navegacaoPrincipal, .navegacaoPrincipal ul li {
-    background-color: rgb(253, 251, 251);
-    color:  rgb(46,139,87);
+    background-color: rgb(46,139,87);
+    color: rgb(253, 251, 251);
   }
 
   .navegacaoPrincipal {
-    border-top: 1px solid rgb(46,139,87);
-    border-bottom: 1px solid rgb(46,139,87);
+    border-top: 1px solid rgb(253, 251, 251);
     padding: 10px;
   }
 
   #home, #login {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(46,139,87);
     margin-left: 5%;
   }
 
@@ -68,7 +71,7 @@
 
   .licoes_aprendidas, .licoes_a_aprender {
     margin-top: 3%;
-    border-top: 1px solid rgb(46,139,87);
+    border-top: 1px solid rgb(253, 251, 251);
     padding: 2%;
   }
 
