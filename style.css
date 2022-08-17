@@ -28,3 +28,7 @@ table , th , td {
   display: inline-block;
 }
 
+.lado-direito {
+    float: right;
+}
+
