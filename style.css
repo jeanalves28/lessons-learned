@@ -7,6 +7,35 @@ body {
     position: fixed;
 }
 
+#licoes_aprendidas {
+    margin: 1px;
+    padding: 1px;
+    border: 1px;
+    font-size: 20px;
+    color: aqua;
+    line-height: 10px;
+}
+
+#licoes_a_aprender {
+    margin: 1px;
+    padding: 1px;
+    border: 1px;
+    font-size: 20px;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lado-esquerdo{
+    display: inline-block;
+    width: 40%;
+}
+
+.lado-direito {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 100px;
+}
+
 table {
-    padding: 15px;
+    display: inline-block;
 }
