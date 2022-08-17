@@ -17,8 +17,41 @@ body {
 
 }
 
+#cabecalho h1 {
+  color:rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 50px;
+}
+
 main {
   margin-top: 160px;
+
+}
+
+a {
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(2, 48, 49);
+}
+
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+}
+
+article {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+aside {
+  display: inline-block;
+  margin-left: 10px;
 }
 
 #minha_foto {
@@ -26,10 +59,35 @@ main {
   height: 300px;
   margin-left: 20px;
   border-radius: 10px;
+  padding-bottom: 10px;
 }
 
 #rodape {
-  height: 100px;
+  height: 50px;
   width: 100%;
   background-color: rgb(47, 193, 140);
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+footer p {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.list-content {
+  border: 1px solid rgb(2, 48, 49);
+  width: 300px;
+  margin-left: 10px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+table {
+  border: 1px solid rgb(2, 48, 49);
+  border-radius: 8px;
+  margin-top: 30px;
 }
