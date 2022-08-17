@@ -37,16 +37,16 @@ footer {
 
 .left-side {
     display: inline-block;
-    width: 700px;
-    border: 5px solid green;
+    width: 800px;
+    border: 2px solid green;
 
 }
 
 .right-side {
     display: inline-block;
-    width: 400px;
+    width: 300px;
     margin-bottom: 500px;
-    border: 5px solid green;
+    border: 2px solid green;
 
 }
 
