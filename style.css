@@ -4,9 +4,18 @@
 
 body {
   background-color: rgb(253, 251, 251);
+
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
+}
+
+main {
+  margin-top: 50px;
+}
+
+#minha_foto {
+  width: 200px;
 }
