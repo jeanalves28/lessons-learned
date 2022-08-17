@@ -19,9 +19,15 @@ body {
     margin-top: 40px;
 }
 #link_github {
-    display: block;
-    margin-left: 140px;
-    font-size: 25px;   
+    display:block;
+    padding: 8px;
+    margin-right: 840px;
+    margin-left: 130px;
+    font-size: 25px;  
+    background-color: rgb(233, 185, 80); 
+    text-decoration: none;
+    border-radius: 4px;
+    border: 2px solid black;
 }
 
 #licoes_aprendidas p {
@@ -39,7 +45,8 @@ body {
     font-size: 25px;
     font-family: Arial Bold;
     font-style: oblique;
-    
+    margin-left: 500px;
+    margin-top: -380px;
 }
 #licoes_a_aprender p {
     font-size: 30px;
