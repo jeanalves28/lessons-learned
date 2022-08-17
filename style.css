@@ -1,33 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 body {background-color: rgb(253, 251, 251);
-font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text', serif;
 }
 
 #cabecalho {
-    top: 0;
-    text-align: center;
-    background-color: rgb(3, 64, 48);
-    color: rgb(255, 255, 255);
-    position: fixed;
-    width: 100%;
+  top: 0;
+  text-align: center;
+  background-color: rgb(3, 64, 48);
+  color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
 }
 
 #minha_foto {
-    width: 25%;
-    height: 25%;
-    margin-top: 100px;
+  width: 25%;
+  height: 25%;
+  margin-top: 100px;
 }
 
 .licoes {
-    border: 5px solid rgb(3, 64, 48);
-    margin-right: 70%;
-    border-radius: 10%;
-    }
+  border: 5px solid rgb(3, 64, 48);
+  margin-right: 70%;
+  border-radius: 10%;
+}
 
-#rodape {
-    text-align: center;
-    border-top: 2px solid rgb(3, 64, 48);
-    margin-top: 20px;
+#rodape {text-align: center;
+  border-top: 2px solid rgb(3, 64, 48);
+  margin-top: 20px;
 }
 
