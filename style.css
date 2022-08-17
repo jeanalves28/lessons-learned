@@ -1,5 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Ubuntu Mono, monospace;
+  font-size: 1em;
+  color: rgb(1, 1, 1);
+  line-height: 1em;
 }
 
 #cabecalho {
@@ -7,12 +11,29 @@ body {
   position: fixed;
 }
 
+#cabecalho h1 {
+  background-color: rgb(253, 251, 251);
+  line-height: 1em;
+}
+
 #minha_foto {
   max-width: 300px;
 }
 
+.lado-direito {
+  color: bisque;
+  background-color: aqua;
+  float: right;
+}
+
+.lado-esquerdo {
+  color: aqua;
+  background-color: bisque;
+  float: left;
+}
+
 table {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
