@@ -88,3 +88,14 @@ li {
 #rodape a:hover {
   color: rgb(213, 213, 213);
 }
+
+article {
+  padding: 30px 10px 50px;
+  max-width: 660px;
+  margin: auto;
+}
+
+.artigo p {
+  margin: 20px;
+  line-height: 1.4rem;
+}
