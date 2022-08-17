@@ -8,19 +8,36 @@ header {
     text-align: center;
     background-color: azure;
     top: 0;
-}
-#minha_foto {
-    margin-top: 90px;
-}
-footer{
-    position: fixed;
+    }
+
+footer {
     background-color:azure;
     width: 100%;
-    height: 45px;
-    bottom: 0;
+    height: 16px;
     text-align: center;
-  }
+    font-size: 15px;
+     }
 #saiba_mais {
     text-decoration: none;
     color: black;
-}
+    }
+
+#minha_foto {
+    margin-top: 90px;
+    display: table-cell;
+    float: left;
+    }
+#meu_aprendizado {
+    
+    display: table-cell;
+    float: left;
+    width: 83%;
+    margin-top: 55px;
+    margin-left: 5px;
+    
+
+    }
+#foto_aprendizado {
+    width: 100%;
+    display: table;
+    }
