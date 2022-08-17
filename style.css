@@ -65,7 +65,7 @@ h1 , h2 , h3 {
 
 nav {
   width: 100%;
-  padding: 116px 16px 16px 16px;
+  padding: 116px 16px 16px;
   background-color: var(--bg1);
   margin-bottom: 16px;
 }
