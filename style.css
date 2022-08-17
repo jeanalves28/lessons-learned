@@ -23,3 +23,11 @@ background-color: green;
 body{
  background-color:rgb(253, 251, 251);
 }
+#minha_foto{
+    position: absolute;
+    width: 180px;
+    bottom: 240px;
+    left: 20px;
+    border-radius: 10px 10px;
+}
+
