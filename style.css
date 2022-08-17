@@ -33,3 +33,11 @@ body {
   text-align: center;
 }
 
+.forlinks {
+  text-decoration: none;
+}
+
+.forlinks:hover {
+  background-color: #4f7942;
+}
+
