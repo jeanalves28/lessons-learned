@@ -21,11 +21,14 @@ body{
     margin-left: 1em;
 }
 #twice{
-    margin-left: 6em;
+    margin-left: 12.5em;
 }
 #licoes_aprendidas{
     display: inline-block;
 }
 #licoes{
+    display: inline-block;
+}
+.licoess{
     display: inline-block;
 }
