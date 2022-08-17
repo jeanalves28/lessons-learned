@@ -2,9 +2,16 @@ body {
 background-color: rgb(253, 251, 251);
 font-family: 'Courier New', Courier, monospace;
 }
+
 header {
     top: 0;
     position: fixed;
     font-family: monospace;
+}
+
+#minha_foto{
+    width: 200px;
+    height: 250px;
+    border-radius: 10%;
 }
 
