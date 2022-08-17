@@ -34,9 +34,13 @@ footer {
 }
 
 
+.left-side article {
+    left: auto;
 
-.side-by-side article aside {
-    display: flex;
 }
 
+.right-side aside {
+    right: auto;
+
+}
 
