@@ -69,13 +69,13 @@ article p {
   padding: 2%;
 }
 
-.licoes_aprendidas, .licoes_a_aprender {
+#licoes_aprendidas, #licoes_a_aprender {
   margin-top: 3%;
   border-top: 1px solid rgb(253, 251, 251);
   padding: 2%;
 }
 
-.licoes_aprendidas ol, .licoes_a_aprender ol {
+#licoes_aprendidas ol, #licoes_a_aprender ol {
   padding: 2% 2% 0;
   margin-left: 2%;
 }
