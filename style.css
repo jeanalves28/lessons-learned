@@ -5,3 +5,9 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
+#header {
+    background-color: rgb(28, 84, 36);
+    padding: 10%;
+    top: 0;
+}
