@@ -12,6 +12,8 @@ body {
 #titulo {
     font-family: "Dancing Script" , cursive;
     text-align: center;
+    font-size: 70px;
+    color: rgb(2,0,36);
 }
 
 #minha_foto {
@@ -39,12 +41,14 @@ article {
     top: 400px;
     position: relative;
     width: 800px;
+    line-height: 1.5;
 }
 aside {
     float: inline-end;
     top: 400px;
     position: relative;
     width: 800px;
+    line-height: 1.5;
 }
 section {
     display: flex;
