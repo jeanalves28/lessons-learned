@@ -55,14 +55,13 @@ main {
 
 #artigo_aprendizado {
   margin: auto;
-  width: 80%;
   padding: 10px;
   margin-top: 20px;
   width: 85%;
   line-height: 20px;
 }
 
-table, tr, th, td {
+table , tr , th , td {
   margin: auto;
   border: 3px solid white;
   border-collapse: collapse;
