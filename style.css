@@ -11,9 +11,19 @@ body {
 
 main{
   margin-top: 90px;
-  columns: 2;
-  width: 60%;
-  margin-left: 35px;
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  width: 70%;
+  gap: 60px;
+  flex-wrap: nowrap;
+}
+
+.container section{
+  width: 30%;
 }
 
 #cabecalho {
@@ -21,7 +31,6 @@ main{
   top: 0;
   text-align: center;
   margin: 0;
-  border: 1px solid red;
   width: 100%;
   height: 4%;
 }
@@ -34,4 +43,22 @@ main{
 
 #licoes_a_aprender, #licoes_aprendidas {
   text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.sobre {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sobre img{
+  margin-bottom: 20px;
+  border-radius: 50%;
+  width: 50%;
+}
+
+.sobre h4{
+  color: midnightblue;
+  width: 50%;
 }
