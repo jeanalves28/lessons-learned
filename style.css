@@ -84,7 +84,7 @@ body {
   font-size: 15px;
 }
 
-#article {
+.lado-esquerdo {
   position: absolute;
   top: 725px;
   letter-spacing: 1px;
@@ -94,7 +94,7 @@ body {
   font-size: 15px;
 }
 
-#aside {
+.lado-direito {
   position: absolute;
   top: 725px;
   left: 800px;
