@@ -17,6 +17,11 @@ body {
     height: 350px;
 }
 
+#linkedin {
+    text-decoration: none;
+    color: blue;
+}
+
 #licoes_aprendidas {
 
 }
@@ -26,5 +31,5 @@ body {
 }
 
 #rodape {
-    
+
 }
