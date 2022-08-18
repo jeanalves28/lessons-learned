@@ -5,10 +5,14 @@ body {
 }
 
 #cabecalho {
-  display: list-item;
-  text-align: center;
-  height: 100px;
+  display: block;
+  position: fixed;
   top: 0;
+  margin-bottom: 20px;
+  margin-inline: 50px;
+  padding-inline: 650px;
+
+
 }
 
 #titulo {
@@ -16,28 +20,25 @@ body {
 
 }
 
-#imgbox {
-  height: 310px;
-}
-
 #minha_foto {
-  display: list-item;
-  position: relative;
+  display: block;
   width: 150px;
-  top: 0;
-  border-radius: 9%;
+  margin-top: 180px;
   margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 9%;
+
 }
 
 a {
-  position: absolute;
+  /* position: absolute; */
   margin-left: 30px;
   margin-top: 20px;
 }
 
 #artigo {
   display: list-item;
-  position: relative;
+
   margin-top: 120px;
   margin-right: 48%;
   margin-bottom: 30px;
@@ -47,13 +48,13 @@ a {
 
 #licoes_aprendidas {
   display: inline-block;
-  position: relative;
+
   margin: 50px;
 }
 
 #licoes_a_aprender {
   display: inline-block;
-  position: relative;
+
   margin: 50px;
 }
 
