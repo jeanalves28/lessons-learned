@@ -80,6 +80,13 @@ footer {
 }
 
 table {
+  border: 1px solid black;
   width: 500px;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+#curiosidades {
   text-align: center;
 }
