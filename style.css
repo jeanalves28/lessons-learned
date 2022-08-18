@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 header {
     position: fixed;
@@ -8,7 +8,7 @@ header {
     text-align: center;
     background-color: azure;
     top: 0;
-    }
+}
 
 footer {
     background-color:azure;
