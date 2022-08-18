@@ -9,15 +9,15 @@ body {
 }
 
 header {
-    background-color: rgb(150, 148, 148);
-    width: 100%;
-    text-align: center;
-    font-size: small;
+  background-color: rgb(150, 148, 148);
+  width: 100%;
+  text-align: center;
+  font-size: small;
 }
 
 #titulo {
-    margin-top: 0.8%;
-    margin-bottom: 1%;
+  margin-top: 0.8%;
+  margin-bottom: 1%;
 }
 
 #cabecalho {
@@ -33,7 +33,7 @@ header {
   margin-left: 39%;
 }
 
-#licoes_aprendidas {  
+#licoes_aprendidas {
   padding: 1%;
   border-radius: 50%;
   box-shadow: 10px 5px 5px 4px black;
