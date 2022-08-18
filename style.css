@@ -24,9 +24,9 @@ header#cabecalho {
   padding-inline-start: 0px;
   color: white;
   text-decoration: none;
-  padding-right: 50px;
   font-weight: bold;
   font-size: 20px;
+  margin-right: 50px;
 
 }
 #redes-sociais li {
@@ -116,4 +116,10 @@ aside p {
   border-radius: 50%;
   width: 120px;
   margin-left: 70px;
+}
+#redes-sociais li a:hover {
+  background-color: white;
+  color:rgb(232, 78, 232);
+  padding: 5px;
+  border-radius: 5px;
 }
