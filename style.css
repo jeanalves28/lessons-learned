@@ -16,10 +16,9 @@ body {
 header {
   position: fixed;
   top: 0;
-  background-color: aquamarine;
+  background-color: burlywood;
   width: 100%;
   text-align: center;
-  border: 1px solid black;
 }
 
 main {
@@ -28,17 +27,18 @@ main {
   padding: 10px;
 }
 
-img {
-  border: 1px solid black;
-  display: inline-block;
+h2 {
+  margin-top: 10px;
 }
 
-article {
-  display: inline;
+img {
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 60px;
 }
 
 li {
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 table td {
@@ -46,4 +46,38 @@ table td {
   margin: 20px;
   padding: 1px;
   width: 40%;
+}
+
+footer {
+  text-align: center;
+  background-color: burlywood;
+}
+
+.listas {
+  display: inline-block;
+  width: 310%;
+}
+
+ol {
+  float: left;
+}
+
+ul {
+  float: right;
+}
+
+.container {
+  display: inline-block;
+  width: 4000px;
+}
+
+.lado-esquerdo {
+  float: right;
+  width: 500px;
+  margin-right: 70%;
+}
+
+.lado-direito {
+  float: left;
+  width: 500px;
 }
