@@ -21,7 +21,7 @@ body {
 
 p {
     text-align: justify;
-    margin-right: 34%;
+    
 }
 
 .box_one {
@@ -40,9 +40,7 @@ td {
     text-align: center;
 }
 
-.box03 {
-    width: 100%;
-    position: relative;
+.testo_l {
     
-    
+    text-align: left;
 }
