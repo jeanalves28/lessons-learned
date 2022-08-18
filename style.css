@@ -101,3 +101,11 @@ table {
 #esquerda-direita {
   display: inline-block;
 }
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
