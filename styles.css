@@ -5,10 +5,67 @@ body {
 #titulo {
     margin-top: 0;
     text-align: center;
+    background-color: rgb(73, 158, 91);
+    padding: 30px;
 }
 #minha_foto {
     width: 180px;
+    border-radius: 10% 20% ;
+    margin-left: 180px;
+    margin-top: 30px;
 }
-.listas_de_licoes ul,ol{
-    align-items: center;
+.header-content {
+    width: 520px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 18px;
+}
+.header-content h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.header-content p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#rodape {
+    text-align: center;
+    background-color:  rgb(73, 158, 91);
+    padding: 20px;
+}
+#skills-lists {
+    padding-left: 14%;
+}
+.lists-content {
+    border: 1px solid black;
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+}
+.lists-content h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.lists-content li {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+.lists-content img {
+    width: 100px;
+    position: absolute;
+    top: 600px;
+    height: 100px;
+    border-radius: 20%;
+}
+#texto-lateral {
+    position: fixed;
+    margin-right: 20px;
+    right: 0;
+    top: 25%;
+    width: 12em;
+    margin-top: -2.5em;
+    background-color:rgb(73, 158, 91);
+    font-style: italic;
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+      
 }
