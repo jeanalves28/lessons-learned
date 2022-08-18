@@ -1,15 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
-  background-color: green;
+  background-color: #0F4C5C;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  height: 80px;
+  z-index: 2;
+  text-align: center;
+  border-bottom: 6px solid #B32520;
+}
+
+#titulo {
+  margin-top: 20px;
+  color: #FB8B24;
+  font-size: 40px;
+}
+
+.first-colors {
+  position: fixed;
+  left: 20px;
+}
+
+.second-colors {
+  position: fixed;
+  right: 120px;
+}
+
+.cor1 {
+  background-color: #9A031E;
+  color: #9A031E;
+  width: 20px;
+  margin-right: 20px;
+  position: absolute;
+  top: 30px;
+  border-radius: 50%;
+}
+
+.cor2 {
+  background-color: #E36414;
+  color: #E36414;
+  width: 20px;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  border-radius: 50%;
+}
+
+.cor3 {
+  background-color: #470C30;
+  color: #470C30;
+  width: 20px;
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 50px;
+}
+
+.picture {
+  border-bottom: 3px solid #B32520;
+}
+
+.title-lessons, .learning {
+  color: #0F4C5C;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.lessons {
+  border-bottom: 3px solid #B32520;
 }
 
 table, th, td {
   border: 1px solid black;
+}
+
+#minha_foto {
+  margin-top: 90px;
+  border-radius: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  margin-bottom: 60px;
+  box-shadow: 15px 15px 30px 5px black;
+}
+
+aside p {
+  color: red;
+  line-height: 20px;
+}
+
+#rodape {
+  background-color: #470C30;
+  color: #FB8B24;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  height: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: #FB8B24;
+}
+
+.footnote {
+  margin-left: 30px;
+}
+
+.botton {
+  background-color: #5F0F40;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 650px;
+  margin-right: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  border: 1px solid #FB8B24;
+}
+
+.botton:hover {
+  cursor: pointer;
+}
+
+.github {
+  margin-left: 20px;
 }
