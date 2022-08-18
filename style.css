@@ -1,10 +1,13 @@
 body {
+  display: list-item;
   background-color: rgb(253, 251, 251);
+  font-family: "Open Sans", sans-serif;
 }
 
 #cabecalho {
-  display: block;
-  position: fixed;
+  display: list-item;
+  text-align: center;
+  height: 100px;
   top: 0;
 }
 
@@ -13,37 +16,56 @@ body {
 
 }
 
+#imgbox {
+  height: 310px;
+}
+
 #minha_foto {
-  display: block;
-  position: fixed;
+  display: list-item;
+  position: relative;
   width: 150px;
-  top: 100px;
-  border-radius: 30% 0 30% 0
+  top: 0;
+  border-radius: 9%;
+  margin-left: 10px;
 }
 
 a {
-  position: fixed;
-  top: 380px;
-}
-
-#licoes_aprendidas {
-  position: fixed;
-  top: 420px;
-}
-
-#licoes_a_aprender {
-  position: fixed;
-  top: 620px;
-}
-
-#rodape {
-  display: block;
-  position: fixed;
-  top: 810px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 #artigo {
-  display: block;
-  position: fixed;
-  top: 890px;
+  display: list-item;
+  position: relative;
+  margin-top: 120px;
+  margin-left: 16px;
+  margin-right: 48%;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+
+#licoes_aprendidas {
+  display: inline-block;
+  position: relative;
+  margin: 50px;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  position: relative;
+  margin: 50px;
+}
+
+#rodape {
+  display: list-item;
+  position: relative;
+  margin: 50px;
+
+}
+
+p {
+  text-decoration: none;
+
 }
