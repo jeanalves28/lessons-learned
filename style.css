@@ -113,7 +113,12 @@ main table {
   width: 5px;
 }
 
-#licoes_aprendidas::-webkit-scrollbar-thumb , #licoes_a_aprender::-webkit-scrollbar-thumb {
+#licoes_aprendidas::-webkit-scrollbar-thumb {
+  background-color: rgba(128, 128, 128);
+  border-radius: 20%;
+}
+
+#licoes_a_aprender::-webkit-scrollbar-thumb {
   background-color: rgba(128, 128, 128);
   border-radius: 20%;
 }
