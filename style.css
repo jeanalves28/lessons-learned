@@ -1,32 +1,55 @@
-body {
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(253, 251, 251);
 }
 
 .barra{
     background-color: rgb(0, 19, 194);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    text-align: center;
+    
 }
 
-#titulo{
+#titulo, #titulo_1, #content{
     color: rgb(253, 251, 251);
     text-align: center;
 }
 
 .img{
-    display: block;    
+        
     filter: saturate(2);
-    margin: 150px auto;
+    margin: 15px auto;
     text-align:left;
+    margin-top: 50px;
     margin-left: 75px;
+    margin-bottom: 10px;
 }
 
 div{
+    
     display: inline-block;
+    
 }
+
 .listas{
-    display: block;
+    
     margin-left: 75px;
+    margin-bottom: 50px;
+    
 }
+
+#rodape{
+    flex-shrink: 0;
+    background-color: rgb(0, 19, 194);
+    padding: 16px;
+    text-align: center;
+    
+}
+
+
