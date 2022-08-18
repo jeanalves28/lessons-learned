@@ -98,10 +98,10 @@ table {
   line-height: 40px;
 }
 
-.lado-esquero {
+article .lado-esquero {
   float: left;
 }
 
-.lado-direito {
+aside .lado-direito {
   float: right;
 }
