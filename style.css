@@ -2,6 +2,8 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.8;
+  color: black;
+  font-size: large;
 }
 
 #cabecalho {
