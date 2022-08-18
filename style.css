@@ -105,7 +105,7 @@ ul#licoes_a_aprender li:nth-child(2n+1){
 ul#licoes_a_aprender li::marker{
     color: rgb(123, 123, 231);
 }
-footer{
+#rodape{
     color: rgb(63, 63, 247);
     font-weight: bolder;
 }
