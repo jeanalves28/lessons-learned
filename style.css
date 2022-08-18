@@ -1,74 +1,74 @@
 body {
-        background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-        position: fixed;
-        top: 0;
-        color: white;
-        background-color: green;
-        padding: 10px;
-        margin-bottom: 20px;
-        width: 100%;
+  position: fixed;
+  top: 0;
+  color: white;
+  background-color: green;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 #minha_foto {
-        width: 200px;
-        margin-top: 120px;
+  width: 200px;
+  margin-top: 120px;
 }
 
 a {
-        display: block;
-        margin: 20px 0;
-        width: fit-content;
-        padding: 5px;
+  display: block;
+  margin: 20px 0;
+  width: fit-content;
+  padding: 5px;
 }
 
 a:hover {
-        background-color: green;
-        color: white;
+  background-color: green;
+  color: white;
 }
 
 a:active {
-        font-weight: 50px;
+  font-weight: 50;
 }
 
 .article-aside {
-        display: inline-block;
+  display: inline-block;
 }
 
 .lado-esquerdo {
-        width: 49%;
-        text-align: justify;
-        float: left;
-        padding-right: 10px;
+  width: 49%;
+  text-align: justify;
+  float: left;
+  padding-right: 10px;
 }
 
 .lado-direito {
-        width: 49%;
-        text-align: justify;
-        float: right;
-        padding-left: 10px;
-        line-height: 20px;
-        font-family: monospace;
-        font-size: large;
+  width: 49%;
+  text-align: justify;
+  float: right;
+  padding-left: 10px;
+  line-height: 20px;
+  font-family: monospace;
+  font-size: large;
 }
 
 table , th , td {
-        border: 1px solid black;
-        border-collapse: collapse;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 table {
-        margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 td {
-        text-align: center;
-        padding: 0 5px;
+  text-align: center;
+  padding: 0 5px;
 }
 
 #rodape {
-        clear: both;
-        background-color: rgb(231, 231, 231);
+  clear: both;
+  background-color: rgb(231, 231, 231);
 }
