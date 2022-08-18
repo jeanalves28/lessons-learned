@@ -98,12 +98,6 @@ table {
   line-height: 40px;
 }
 
-article {
-  display: inline;
-  float: left;
-}
-
-aside {
-  display: inline;
-  float: right;
+#esquerda-direita {
+  display: inline-block;
 }
