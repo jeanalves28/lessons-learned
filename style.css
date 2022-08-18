@@ -37,16 +37,15 @@ p {
 }
 
 .lado-esquerdo {
-  float: left;
+  display: inline-block;
   width: 40%;
 }
 
 .lado-direito {
-  float: right;
+  display: inline-block;
   width: 40%;
 }
 
 footer {
   bottom: 0;
-  position: fixed;
 }
