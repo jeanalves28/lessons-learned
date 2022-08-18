@@ -2,10 +2,13 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: Josefin, sans-serif;
   font-weight: 500;
+  color: rgb(16, 16, 16);
+  line-height: 1em;
 }
 
 .title {
   font-family: Silkscreen, cursive;
+  line-height: 1em;
 }
 
 .cabecalho {
@@ -91,6 +94,6 @@ body {
 }
 
 .position {
-	margin-left: 200px;
+  margin-left: 200px;
 }
 
