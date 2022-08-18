@@ -32,41 +32,59 @@ header h1 {
   font-family: monospace;
   display: inline-block;
   margin: 2%;
+  position: relative;
+  bottom: 70px;
+  left: 20%;
 }
 
-.item-main0 {
+main {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 80%;
-  margin-left: 20px;
+  justify-content: center;
+  position: relative;
+  background-color: rgb(143, 131, 216);
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.box-low {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(213, 213, 215);
+}
+
+.box-start {
+  position: relative;
 }
 
 .list-skills , .list-learn {
   display: inline-block;
   padding: 10px;
-  margin: 10px 20px;
+  margin: 10px 10%;
+  line-height: 25px;
 }
 
-.artigo {
+.lado-esquerdo {
+  width: 30%;
   display: inline-block;
+  margin: 10px;
   text-align: center;
-  margin-top: 2%;
-  margin-left: 8%;
-  width: 80%;
+  background-color: rgb(65, 51, 93);
+  border-radius: 10px;
+  padding: 5px;
 }
 
-.canto {
-  width: 15%;
-  float: right;
-  position: static;
-  margin: 1px 2%;
-  background-color: rgb(76, 76, 76);
-  color: white;
-  padding: 8px;
-  border-radius: 5px;
+.lado-direto {
+  position: relative;
+  width: 30%;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(133, 84, 117);
+  border-radius: 10px;
+  padding: 5px;
 }
-
 
 footer {
   text-align: center;
@@ -79,12 +97,6 @@ footer {
   margin-top: 20px;
 }
 
-.backgroud-main {
-  background-color: rgb(82, 130, 91);
-  width: 80%;
-  border-radius: 6px;
-}
-
 li , p {
   font-size: 17px;
   font-weight: 500;
@@ -93,21 +105,22 @@ li , p {
 #decoration {
   width: 15%;
   position: absolute;
-  right: 10%;
-  top: 10%;
+  right: 0;
+  top: 11%;
 }
 
 #decoration1 {
   width: 15%;
   position: absolute;
-  right: 25%;
-  top: 60%;
+  right: 0;
+  top: 19%;
 }
 
 h2 {
   font-size: 25px;
 }
 
-h3 {
-  font-size: 22px;
+.title-list {
+  font-size: 23px;
+  font-weight: 600;
 }
