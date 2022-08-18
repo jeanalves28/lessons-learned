@@ -34,6 +34,7 @@ body {
   font-family: Ubuntu, sans-serif;
   text-decoration: none;
   transition: 0.5s all;
+  margin: 3px;
   padding: 3px;
   font-weight: 500;
 }
@@ -69,6 +70,7 @@ main {
   top: 150px;
   left: 20%;
   right: 0;
+
   /* margin: 5px 50px 0; */
 }
 
@@ -97,6 +99,7 @@ main table {
 .box {
   list-style: none;
   padding: 6px;
+  margin: 5px;
   border-radius: 5%;
   box-shadow: 1px 1px 3px gray;
 }
@@ -107,9 +110,13 @@ main table {
 }
 
 #licoes_aprendidas::-webkit-scrollbar , #licoes_a_aprender::-webkit-scrollbar {
-  color: blue;
+  width: 5px;
 }
 
+#licoes_aprendidas::-webkit-scrollbar-thumb , #licoes_a_aprender::-webkit-scrollbar-thumb {
+  background-color: rgba(128, 128, 128);
+  border-radius: 20%;
+}
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
