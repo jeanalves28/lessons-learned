@@ -1,6 +1,5 @@
 * {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
 }
 
 body {
@@ -8,22 +7,25 @@ body {
 }
 
 #cabecalho {
-  background-color: aquamarine;
+  background-color: #2FC18B;
   position: fixed;
   width: 100%;
-  height:55px;
+  height: 55px;
   top: 0;
   left: 0;
 }
 
 #titulo {
   text-align: center;
+  color: white;
+  font-size: 28px;
+  margin: 10.5px auto;
 }
 
 .sectionModel {
   background-color: rgba(241, 241, 237, 0.9);
   border: 1px solid rgb(194, 197, 197);
-  border-radius:7pt;
+  border-radius: 7pt;
   padding: 25px;
 
 }
@@ -36,54 +38,72 @@ main {
   width: 1300px;
 }
 
-div.mainContent{
-  /*border: 1px solid black;*/
+div.mainContent {
   width: 800px;
   display: grid;
   gap: 10px;
 }
 
-section.infoPerfil{
+section.infoPerfil {
   display: inline-block;
   height: fit-content;
   padding: 0;
 }
 
 section.infoPerfil img:first-child {
-  border-radius:7pt 7pt 0pt 0pt;
-  width: fit-content;
+  border-radius: 7pt 7pt 0pt 0pt;
   max-width: 800px;
-  margin-top: 0px;
 }
 
-#minha_foto{
+#minha_foto {
   display: block;
   background-size: cover;
   border-radius: 50%;
+  border: 2px solid rgb(194, 197, 197) ;
   object-fit: cover;
   width: 250px;
   height: 250px;
   margin: -130px auto 5px;
 }
 
-section.infoPerfil h2{
+section.infoPerfil h2 {
   text-align: center;
 }
 
-section.infoPerfil p, #links{
+section.infoPerfil p , #links {
   margin: auto 20px 15px;
 }
 
-section.infoPerfil a{
+section.infoPerfil a {
   display: inline-block;
   text-decoration: none;
 }
 
-div.sideContent{
+div.sideContent {
   width: 300px;
 }
 
-#rodape{
+/*
+  Foi utilizado o modelo de tabela do W3Scools.
+  Ref: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro
+*/
+
+table {
+  border-collapse: collapse;
+  width: fit-content;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:first-child {
+  background-color: #dddddd;
+}
+
+#rodape {
   background-color: cadetblue;
   position: absolute;
   width: 100%;
@@ -91,7 +111,9 @@ div.sideContent{
   left: 0;
 }
 
-#rodape h3{
+#rodape h3 {
+  display: block;
   text-align: center;
+  margin: 45px auto;
 }
 
