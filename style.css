@@ -38,17 +38,17 @@ body {
     text-align: justify;
 }
 
-
-
 .habilidades_container {
     padding: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
 
-.habilidades {
-    margin-right: 100px;
+.habilidades{
+    margin-left: 80px;
 }
+
+
 
 #rodape {
     background-color: black;
@@ -58,6 +58,3 @@ body {
 }
 
 
-div{
-    border: 2px blue;
-}
