@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -128,7 +128,7 @@ h1 {
   border-radius: 15px;
 }
 
-button.websocial a {
+.websocial a {
   text-shadow: 2px 2px black;
   color: rgb(248, 246, 242);
 }
