@@ -21,7 +21,18 @@ header {
   color: blueviolet;
 }
 
-#container {
-  text-align: center;
-  margin-top: 100px;
+.imagem {
+  display: inline-block;
+  border: 5px solid black;
+  margin-left: 5%;
 }
+
+#licoes_aprendidas {
+  color: rgb(30, 76, 116);
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  margin-top: 120px;
+  margin-left: 15%;
+}
+
