@@ -1,7 +1,7 @@
 body {
   display: list-item;
   background-color: rgb(253, 251, 251);
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Times New Roman', Times, serif sans-serif;
   font-size: 1.1em;
   color: rgb(42, 43, 44);
 }
@@ -47,7 +47,6 @@ a {
   display: inline-block;
   margin-inline: 100px;
   margin-top: 50px;
-
 }
 
 #licoes_a_aprender {
@@ -69,7 +68,6 @@ h2 {
 ul,
 ol {
   line-height: 1.4em;
-
 }
 
 .lado-direito {
