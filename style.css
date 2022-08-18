@@ -3,6 +3,28 @@
     margin: 0;
 }
 
+img{
+    width: 300px;
+}
+
 body {
     background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+    margin-top: 0;    
+}
+
+#titulo{
+    padding: 30px;
+    text-align: center;
+}
+
+#minha_foto{
+    display: block;
+    margin: auto;
+}
+
+.foto_container{
+    padding: 30px;
 }
