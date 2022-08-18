@@ -41,7 +41,7 @@ div {
  display: inline-block;
 }
 
-#title {
+.title {
     margin-left: 60px;
     font-size: 25px;
 }
@@ -49,5 +49,13 @@ div {
 #rodape {
     padding: 40px;
     background-color: rgb(34, 156, 232);
-    margin-bottom: 0;
+    
 }
+#artigo {
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(63, 67, 70);
+    display: inline-block;
+    
+}
+
