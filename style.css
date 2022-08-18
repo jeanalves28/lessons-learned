@@ -47,7 +47,7 @@ ul.links-externos li{
     width: 220px;
     border-radius: 5% 20%;
 }
-h2{
+#topico1{
     position: relative;
     top: -124px;
     left: 400px;
@@ -62,14 +62,44 @@ ol#licoes_aprendidas li{
     padding: 1px;
     width: 180px;
 }
-ol#licoes_aprendidas li::marker{
-    color: rgb(123, 123, 231);
-}
 ol#licoes_aprendidas li:nth-child(2n){
     background-color: rgba(238, 224, 164, 0.911);
     color: rgb(123, 123, 231);
+    font-weight: bold;
 }
 ol#licoes_aprendidas li:nth-child(2n+1){
     background-color: rgb(123, 123, 231);
     color: rgba(238, 224, 164, 0.911);
+    font-weight: bold;
+}
+ol#licoes_aprendidas li::marker{
+    color: rgb(123, 123, 231);
+    font-weight: bold;
+}
+#topico2{
+    position: relative;
+    top: -393px;
+    left: 750px;
+    color: rgb(123, 123, 231);
+    font-weight: bold;
+}
+ul#licoes_a_aprender li{
+    position: relative;
+    top: -393px;
+    left: 730px;
+    padding: 1px;
+    width: 170px;
+}
+ul#licoes_a_aprender li:nth-child(2n){
+    background-color: rgba(238, 224, 164, 0.911);
+    color: rgb(123, 123, 231);
+    font-weight: bold;    
+}
+ul#licoes_a_aprender li:nth-child(2n+1){
+    background-color: rgb(123, 123, 231);
+    color: rgba(238, 224, 164, 0.911);
+    font-weight: bold;
+}
+ul#licoes_a_aprender li::marker{
+    color: rgb(123, 123, 231);
 }
