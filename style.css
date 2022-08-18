@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:rgb(253, 251, 251);
+    padding: 2px;
+}
+
+#cabecalho {
+    top: 0;
+    text-align: center;
+    height: 100px;
+    background-color: yellowgreen;
+
+}
+
+#nav-bar-top .botao {
+    text-align: left;
+    margin-left: 15px;
+    text-decoration: none;
+    float: left;
+
+}
+
+#titulo {
+    padding: 10px;
+}
+
+#img-description {
+    padding: 20px;
+    display: inline-block;
+}
+
+#minha_foto {
+    width: 200px;
+    border-radius: 20px;
+    float: left;
+}
+
+#descricao {
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px; 
+}
+
+#licoes-bloco {
+    padding: 25px;
+    margin-left: 5px;
+}
+
+#licoes_a_aprender {
+    padding: 15px;
+    margin-left: 20px;
+
+}
+
+#meu-aprendizado {
+    font-weight: 600;
+    padding: 0 0 20px 25px;
+}
+
+#meu-aprendizado .botoes-artigo {
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #C49BBB;
+    display: block;
+    height: 25px;
+    max-width: 200px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: #585481;
+}
