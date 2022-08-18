@@ -12,7 +12,7 @@ body {
 }
 
 #cabecalho {
-    margin-top: 0;
+    top: 0 auto;
     background-color: darkgray;
 }
 
@@ -30,7 +30,7 @@ body {
 
 .lado-esquerdo{
     width: 300px;    
-    text-align: justify;
+    text-align: justify;    
 }
 
 .lado-direito{
@@ -38,16 +38,26 @@ body {
     text-align: justify;
 }
 
-.habilidades_container {
-    padding: 30px;
+.licoes{
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
-.habilidades{
-    margin-left: 80px;
+#licoes_aprendidas{
+padding: 30px;
 }
 
+#licoes_a_aprender{
+padding: 30px;
+}
+
+#descricao{
+    padding: 10px;
+}
+
+.separar_licoes{
+    margin-right: 50px;
+}
 
 
 #rodape {
