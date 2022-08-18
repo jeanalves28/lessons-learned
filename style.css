@@ -1,43 +1,70 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Josefin', sans-serif;
+	font-weight: 500;
 }
 
-.bar {
+.title {
+	font-family:'Silkscreen', cursive;
+}
+
+.cabecalho {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 10px 447px;
+	padding: 10px 505px;
   background-color: #4f7942;
-  text-align: left;
+  text-align: center;
 }
 
-#cabecalho h1 {
-  text-align: left;
+/*
+.article p h2 {
+  margin: 1000px 40px 10px 100px;
+  display: inline-block;
+} */
+
+.article p {
+  width: 620px;
+  margin: 230px 0px 10px 60px;
+  display: inline-block;
+  text-align: justify;
 }
 
-.border {
-  border: 5px solid red;
+.lado-esquerdo {
+  float: left;
+
+}
+
+.lado-direito p {
+  float: right;
+
 }
 
 .foto {
   width: 200px;
-  margin: 150px 10px 10px 1000px;
+  margin: 190px 10px 10px 250px;
   border-radius: 30% 10%;
   display: inline-block;
-	
+}
+
+.list-titles {
+  font-size: 1.2em;
+  text-align: center;
 }
 
 .forlists {
   display: inline-block;
 }
 
-.list2 {
-  list-style: square;
+.list1 {
+  margin: 15px 20px 100px 100px;
 }
 
-.space {
-  margin: 20px 20px 100px 50px;
+.list2 {
+  list-style: square;
+  margin: 20px 20px 100px 80px;
 }
+
 
 .forrodape {
   text-align: center;
@@ -52,18 +79,12 @@ body {
 }
 
 .about {
-  display: inline-block;
   width: 220px;
-	text-align: justify;
-	margin-left: 400px;
-	
+  text-align: justify;
+	display: inline-block;
+	margin-left: 230px;
 
 }
 
-.text {
-  width: 600px;
-	margin: 10px 50px;
-	display: block;
-	
-}
+
 

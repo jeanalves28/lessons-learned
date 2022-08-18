@@ -7,28 +7,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Silkscreen&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-	<header id="cabecalho" class="bar">
-		<h1 id="titulo">Lessons Learned - by Trybe</h1>
+	<header id="cabecalho" class="cabecalho">
+		<h1 id="titulo" class="title">Lessons Learned</h1>
 	</header>
 
-	<img id="minha_foto" class="foto" src="./profile.jpeg" alt="profile picture">
-
-
-	<article class="text">
-		<p>
+	<article class="article forlists lado-esquerdo">
+			<p>
 			Estou muito feliz com meu aprendizado aqui na Trybe. Sim, estamos apenas no início, mas nesses poucos dias já deu
 			pra ver o quanto eles ensinam. Não estou falando apenas de hard skills. Estamos sendo desenvolvidos como pessoas.
 			E, é claro, correndo atrás de aprender bastante conteúdo num ritmo bem acelerado. Vamo que vamo!
 		</p>
 	</article>
-
-	<section class="forlists">
-		<h2>Lições Aprendidas</h2>
-		<ol id="licoes_aprendidas" class="space">
+	<img id="minha_foto" class="foto" src="./profile.jpeg" alt="profile picture">
+	<section class="forlists list1">
+		<h2 class="list-titles">Lições Aprendidas</h2>
+		<ol id="licoes_aprendidas">
 			<li>Unix</li>
 			<li>Shell</li>
 			<li>Bash</li>
@@ -43,8 +43,8 @@
 	</section>
 
 	<section class="forlists">
-		<h2>Lições a Aprender</h2>
-		<ul id="licoes_a_aprender" class="space list2">
+		<h2 class="list-titles">Lições a Aprender</h2>
+		<ul id="licoes_a_aprender" class="list2">
 			<li>Javascript</li>
 			<li>DOM</li>
 			<li>Eventos</li>
@@ -58,9 +58,9 @@
 		</ul>
 	</section>
 
-	<aside class="about">
+	<aside class="about lado-direito">
 		<p>
-		<h2>Sobre Mim</h2>
+		<h2 class="list-titles">Sobre Mim</h2>
 		Canto, toco violão, gosto de K-Dramas (sim, gosto), adoro Brooklyn 99, só gosto dos primeiros 3 Star Wars e pasmem,
 		também gosto de Startrek. Queria ser Nerd, mas sou mesmo é Geek. Programar é maneiríssimo e falar maneiríssimo é
 		carioquês.
