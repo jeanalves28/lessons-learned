@@ -18,7 +18,7 @@ body {
 }
 
 #minha_foto {
-    width: 492px;
+    width: 600px;
     margin-top: 100px;
 }
 
@@ -38,8 +38,9 @@ section {
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 22px;
-    padding-top: 20px;
+    padding-top: 2px;
     color: #6D2E46;
+    
 }
 
 #licoes_aprendidas {
@@ -84,15 +85,16 @@ p {
 
 aside {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    max-width: 200px;
+    max-width: 215px;
     text-align: right;
     margin-left: 500px;
-   background-color: #ECE2D0;
-   padding-left: 20px;
-   padding-right: 20px;
-   position: absolute;
-   left: 0px;
-   top: 1244px;
+    background-color: #ECE2D0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    position: absolute;
+    left: 0px;
+    top: 769px;
 }
 
 #sobremim {
@@ -103,11 +105,13 @@ aside {
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #6D2E46;
-    max-width: 482px;
     font-size: larger;
     padding: 5px;
     font-weight: 700;
     color: #D5B9B2;
+    position: absolute;
+    top: 1010px;
+    width: 975px;
 }
 
 #rodape:hover {
@@ -118,7 +122,20 @@ footer {
 .aprendidos {
     background-color: #ECE2D0;
     position: absolute;
-    left: 500px;
+    left: 608px;
     top: 133px;
+    width: 374px;
+}
+
+.quero_aprender {
+    position: absolute;
+    left: 608px;
+    top: 447px;
+    width: 374px;
+}
+
+.lado-esquerdo {
+    position:absolute;
+    top: 769px;
     width: 800px;
 }
