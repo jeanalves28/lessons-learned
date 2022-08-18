@@ -24,22 +24,19 @@ body {
   display: block;
   width: 150px;
   margin-top: 180px;
-  margin-left: 10px;
+  margin-left: 25px;
   margin-bottom: 20px;
   border-radius: 9%;
 
 }
 
 a {
-  /* position: absolute; */
-  margin-left: 30px;
+  margin-left: 42px;
   margin-top: 20px;
 }
 
 #artigo {
-  display: list-item;
-
-  margin-top: 120px;
+  margin-top: 95px;
   margin-right: 48%;
   margin-bottom: 30px;
   padding: 15px;
@@ -48,14 +45,13 @@ a {
 
 #licoes_aprendidas {
   display: inline-block;
-
-  margin: 50px;
+  margin-inline: 100px;
+  margin-top: 50px;
 }
 
 #licoes_a_aprender {
   display: inline-block;
-
-  margin: 50px;
+  margin-inline: 100px;
 }
 
 #rodape {
