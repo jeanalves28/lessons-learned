@@ -23,6 +23,7 @@ body {
    padding: 5px;
    border-radius: 25%;
    background-color: rgb(236,188,241);
+   margin: 1%;
 }
 #licoes_aprendidas {
     position: relative;
