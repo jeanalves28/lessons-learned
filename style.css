@@ -14,3 +14,11 @@ body {
     color: rgb(253, 251, 251);
     text-align: center;
 }
+
+.img{
+    display: block;    
+    filter: saturate(2);
+    margin: 150px auto;
+    text-align:right;
+    margin-right: 75px;
+}
