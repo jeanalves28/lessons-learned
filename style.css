@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    position: fixed;    
+    left: 450px;
+    top: 0;
+    
+}
+
+#minha_foto {
+    width: 20%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 90px;
+}
+
+.lado-direito {
+   position: absolute;
+   top: 150px;
+   left: 900px;
+}
+
+.lado-esquerdo {
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}
+
+#listaI {
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+}
+
+#listaII {
+    position: absolute;
+    z-index: 3;
+    top: 400px;
+    left: 300px;
+}
