@@ -35,8 +35,6 @@ body {
     left: 350px;
 }
 
-
-
 #listaI {
     position: absolute;
     z-index: 2;
@@ -50,7 +48,28 @@ body {
     left: 300px;
 }
 
-.rodape {
+caption {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+    margin: 2px;
+}
+
+table, tr, th, td {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 2px darkred solid;
+    margin: 0 auto;
+    width: 30%;
+    padding: 20px;
+}
+#tabela{
+    float: right;
+    position: absolute;
+    right: 90px;
+    bottom: 80px;
+}
+
+#rodape {
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
