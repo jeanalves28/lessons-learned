@@ -19,6 +19,7 @@ header, footer {
   margin-right: 900px;
   text-align: center;
   font-family: monospace;
+ 
 }
 
 aside{
@@ -29,17 +30,19 @@ aside{
   font-weight: 600;
   letter-spacing: 1px;
   width: 30%;
+  line-height: 30px;
 }
 
 article  {
   border: solid 1px yellow;
   margin-left: 700px;
-  margin-top: -260px;
+  margin-top: -292px;
   padding: 62.5px;
   font-family: Times, serif;
   font-weight: 600;
   letter-spacing: 1px;
   width: 30%;
+  line-height: 26px;
 }
 
 table {
