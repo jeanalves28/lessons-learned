@@ -67,6 +67,12 @@ body {
     font-weight: 500;
     padding: 0 0 20px 25px;
     display: inline-block;
+    line-height: normal;
+}
+
+#meu-aprendizado-text {
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 #meu-aprendizado .botoes-artigo {
@@ -81,4 +87,29 @@ body {
     border-radius: 5px;
     color: #585481;
     font-weight: 400;
+}
+
+#table-bloco {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+#table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+#titulo-table {
+    font-weight: 400;
+    text-align: center;
+}
+
+#rodape {
+    background-color: #D1BCE3;
+    height: 50px;
+    text-align: right;
+    padding-top: 25px;
 }
