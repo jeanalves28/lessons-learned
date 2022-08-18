@@ -10,7 +10,6 @@ body {
     margin: 0%;
     background-color: black;
     text-align: center;
-    top: 0;
     color: white;
     position: fixed;
     width: 100%;   
@@ -57,10 +56,6 @@ img {
     background-color: black;
     color: white;
     padding: 11px 2px;
-    text-align: center; 
-}
-#licoes_a_aprender {
-    
 }
 #identidade {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
