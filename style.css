@@ -32,7 +32,7 @@ body {
   padding: 10px;
 }
 
-#img-description {
+.container {
   padding: 20px;
   display: inline-block;
   margin-top: 100px;
@@ -48,6 +48,7 @@ body {
 #descricao {
   margin-top: 10px;
   font-weight: 400;
+
 }
 
 #licoes-bloco {
