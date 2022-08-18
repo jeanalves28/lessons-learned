@@ -1,19 +1,19 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Josefin', sans-serif;
-	font-weight: 500;
+  font-family: Josefin, sans-serif;
+  font-weight: 500;
 }
 
 .title {
-	font-family:'Silkscreen', cursive;
+  font-family: Silkscreen, cursive;
 }
 
 .cabecalho {
   position: fixed;
   top: 0;
   left: 0;
-	padding: 10px 505px;
-  background-color: #4f7942;
+  padding: 10px 505px;
+  background-color: rgb(79, 121, 66);
   text-align: center;
 }
 
@@ -25,7 +25,7 @@ body {
 
 .article p {
   width: 620px;
-  margin: 230px 0px 10px 60px;
+  margin: 230px 0 10px 60px;
   display: inline-block;
   text-align: justify;
 }
@@ -75,7 +75,7 @@ body {
 }
 
 .forlinks:hover {
-  background-color: #4f7942;
+  background-color: rgb(79, 121, 66);
 }
 
 .about {
