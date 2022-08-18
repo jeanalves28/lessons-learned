@@ -16,18 +16,27 @@ body {
 }
 
 #titulo {
-    padding: 30px;
+    padding: 10px;
     text-align: center;
 }
 
-#minha_foto {
-    display: block;
-    margin: auto;
-}
-
-.foto_container {
+.container_main{
+    display: flex; 
+    justify-content: space-between;   
     padding: 30px;
 }
+
+.lado-esquerdo{
+    width: 300px;    
+    text-align: justify;
+}
+
+.lado-direito{
+    width: 300px;
+    text-align: justify;
+}
+
+
 
 .habilidades_container {
     padding: 30px;
@@ -44,4 +53,9 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+
+div{
+    border: 2px blue;
 }
