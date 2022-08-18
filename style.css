@@ -32,29 +32,32 @@ body {
   border: 2px solid black;
 }
 
-.lado-esquerdo {
+.lado-direito {
   display: block;
-  margin-left: 400px;
-  margin-right: 50%;
+  float: right;
+  margin-right: 20px;
+  margin-left: 75%;
   margin-top: -350px;
   padding-bottom: 150px;
   font-size: 20px;
 }
 
-.lado-esquerdo h2 {
+.lado-direito h2 {
   font-size: 25px;
   font-style: italic;
 }
 
-.lado-direito {
+.lado-esquerdo {
+  float: left;
   font-size: 20px;
   margin-top: -470px;
-  margin-left: 60%;
+  margin-right: 40%;
+  margin-left: 30%;
   line-height: 130%;
   padding-bottom: 80px;
 }
 
-.lado-direito h2 {
+.lado-esquerdo h2 {
   font-size: 25px;
   font-style: italic;
 }
