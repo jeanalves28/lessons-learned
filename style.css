@@ -22,7 +22,6 @@ header {
 
 }
 
-
 #minha_foto {
   position: relative;
   top: 80px;
@@ -30,7 +29,12 @@ header {
 
 .licoes_aprendidas {
   position: absolute;
-  top: 350px;
+  top: 500px;
+}
+
+.licoes_a_aprender {
+  position: absolute;
+  top: 750px;
 }
 
 .article {
