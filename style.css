@@ -1,11 +1,11 @@
 * {
     padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;    
 }
 
+
 #minha_foto {
-    width: 350px;
+    max-width: 400px;
     border: 2px solid blue;
 }
 
@@ -38,11 +38,13 @@ main {
 .lado-esquerdo {
     width: 300px;
     text-align: justify;
+    
 }
 
 .lado-direito {
     width: 300px;
     text-align: justify;
+    
 }
 
 .licoes {
@@ -72,5 +74,9 @@ main {
     color: white;
     padding: 20px;
     text-align: center;
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cyan;
+    font-size: 20px;
+    letter-spacing: 4px;
 }
+
