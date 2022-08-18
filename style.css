@@ -12,7 +12,7 @@ header {
     background-color: rgb(150, 148, 148);
     width: 100%;
     font-size: smaller;
-    box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 #cabecalho {
@@ -22,7 +22,7 @@ header {
 }
 
 header h1 {
-    color: #f7f1f1;
+    color: rgb(247, 241, 241);
     margin-top: 1.2%;
     margin-left: 2%;
     margin-bottom: 1.2%;
@@ -63,7 +63,7 @@ header h1 {
 }
 
 h1 {
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px rgb(0, 0, 0);
     color: rgb(248, 246, 242);
     margin-bottom: 2%;
 }
@@ -97,8 +97,8 @@ h1 {
 }
 
 .githubacess {
-  background-color: #17bb12;
-  border: 1px solid #030303;
+  background-color: rgb(23, 187, 18);
+  border: 1px solid rgb(3, 3, 3);
   padding: 1.5%;
   float: right;
   margin-top: -8%;
@@ -109,7 +109,7 @@ h1 {
 .githubacess a {
     font-size: large;
     font-weight: 600;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px rgb(0, 0, 0);
     color: rgb(248, 247, 245);
 }
 
@@ -124,14 +124,14 @@ h1 {
     text-decoration: none;
     font-size: large;
     font-weight: 600;
-    background-color: #2f88d1;
-    border: 1px solid #030303;
+    background-color: rgb(47, 136, 209);
+    border: 1px solid rgb(3, 3, 3);
     padding: 1%;
     margin-left: 3%;
     border-radius: 15px;   
 }
 
 button.websocial a {
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px rgb(0, 0, 0);
     color: rgb(248, 246, 242);
 }
