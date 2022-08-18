@@ -22,7 +22,7 @@ body {
     margin-top: 100px;
 }
 
-h3 {
+h4 {
     font-weight: 100;
     font-size: medium;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -138,4 +138,28 @@ footer {
     position:absolute;
     top: 769px;
     width: 800px;
+}
+
+.tabela {
+    background-color:#D5B9B2;
+    position:absolute;
+    left:755px;
+    top: 768px;
+    border:1px solid black;
+    padding-right: 22px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6D2E46;
+    font-size: medium;
+    padding-left: 10px;
+}
+
+.softwares {
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 12px;
+    border-top: 1px dotted black;
 }
