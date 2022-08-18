@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
 #minha_foto {
@@ -14,6 +14,7 @@ body {
 }
 
 #cabecalho {
+    position: fixed;
     top: 0 auto;
     background-color: darkgray;
 }
@@ -66,4 +67,5 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
+    font-family: fantasy;
 }
