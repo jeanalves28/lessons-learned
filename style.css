@@ -6,6 +6,7 @@
 
 #minha_foto {
     width: 350px;
+    border: 2px solid blue;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 
 #titulo {
     padding: 10px;
-    text-align: center;    
+    text-align: center;
 }
 
 .container_main {
