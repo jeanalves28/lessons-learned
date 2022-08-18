@@ -22,19 +22,20 @@ header {
 
 header h1 {
     color: #f7f1f1;
-    margin-top: 1.5%;
+    margin-top: 1.2%;
     margin-left: 2%;
-    margin-bottom: 1.5%;
+    margin-bottom: 1.2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #minha_foto {
     border-radius: 100%;
     margin-top: 6%;
     width: 10%;
-    margin-left: 13%;
+    margin-left: 39%;
 }
-#licoes_aprendidas{
-    margin: 1%;
+
+#licoes_aprendidas{  
     padding: 1%;
     border-radius: 50%;
     box-shadow: 10px 5px 5px 4px black;
@@ -44,8 +45,9 @@ header h1 {
     width: 30%;
     line-height: normal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    margin-top: -10%;
 }
-
 
 #licoes_a_aprender{
     margin: 1%;
@@ -58,11 +60,82 @@ header h1 {
     width: 30%;
     line-height: normal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    margin-left: 5%;
+    margin-bottom: 2%;
 }
 
 h1 {
     text-shadow: 2px 2px #000000;
     color: rgb(248, 246, 242);
     margin-bottom: 2%;
+}
+
+.lado-esquerdo {
+    box-shadow: 10px 5px 5px 4px black;
+    width: 20%;
+    background-color: rgb(173, 177, 177);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1%;
+    border-radius: 15px;
+    float: right;
+    margin-top: -40%;
+    margin-right: 27%;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+
+.lado-direito {
+    margin-top: 2%;
+    box-shadow: 10px 5px 5px 4px black;
+    width: 20%;
+    background-color: rgb(173, 177, 177);
+    margin-bottom: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1%;
+    border-radius: 15px;
+    float: right;
+    margin-top: -33%;
+    margin-right: 3%;
+    position: relative;
+}
+
+.githubacess {
+  background-color: #17bb12;
+  border: 1px solid #030303;
+  padding: 1.5%;
+  float: right;
+  margin-top: -8%;
+  margin-right: 17%;
+  border-radius: 15px;
+}
+
+.githubacess a {
+    font-size: large;
+    font-weight: 600;
+    text-shadow: 2px 2px #000000;
+    color: rgb(248, 247, 245);
+}
+
+#rodape {
+    background-color: rgb(150, 148, 148);
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+}
+
+#rodape .websocial {
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+    background-color: #2f88d1;
+    border: 1px solid #030303;
+    padding: 1%;
+    margin-left: 3%;
+    border-radius: 15px;   
+}
+
+button.websocial a {
+    text-shadow: 2px 2px #000000;
+    color: rgb(248, 246, 242);
 }
