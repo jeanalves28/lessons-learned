@@ -26,7 +26,7 @@ main {
   color: white;
 }
 
-#aprendizado {
+.lado-esquerdo {
   display: inline-block;
   width: 50%;
 }
@@ -61,7 +61,7 @@ main {
   width: 85%;
 }
 
-#sobre_mim {
+.lado-direito {
   position: static;
   display: inline-block;
   width: 20%;
