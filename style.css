@@ -67,11 +67,10 @@ ol, ul {
 
 .lado-direito {
   background-color: blue;
-
- 
+  float:right;
 }
 
 .lado-esquerdo {
   background-color: aqua;
-  
+  float: left;
 }
