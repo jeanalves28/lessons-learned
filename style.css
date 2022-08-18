@@ -1,0 +1,11 @@
+/* stylelint-disable-next-line no-empty-source */
+body {
+background-color: rgb(253,251,251);
+}
+
+#cabecalho {
+position: fixed;    
+top: 0px;
+background-color: green;
+
+}
