@@ -13,11 +13,13 @@ body {
 
 #cabecalho {
     margin-top: 0;
+    background-color: darkgray;
 }
 
 #titulo {
     padding: 10px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container_main{
