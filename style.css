@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -74,6 +74,10 @@ background-color: bisque;
 
 article {
     background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    line-height: 0.8;
+    color: blue;
 }
 
 /* request #9 */
@@ -82,11 +86,24 @@ aside {
     background-color: lightblue;
 }
 
-/* extra */
+/* request #12*/
+
 table, th{
   border: 1px solid;
 }
 
 th {
   font-size: large;
+}
+
+/* request #15 */
+
+.lado-esquerdo {
+  width: 50%;
+  float: left;
+}
+
+.lado-direito {
+  width: 50%;
+  float: right;
 }
