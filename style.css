@@ -1,5 +1,9 @@
+/* stylelint-disable comment-empty-line-before */
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-disable font-family-name-quotes */
 * {
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.5em;
 }
 
 body {
@@ -7,7 +11,7 @@ body {
 }
 
 #cabecalho {
-  background-color: #2FC18B;
+  background-color: rgb(47, 193, 139);
   position: fixed;
   width: 100%;
   height: 55px;
@@ -38,19 +42,19 @@ main {
   width: 1300px;
 }
 
-div.mainContent {
+.mainContent {
   width: 800px;
   display: grid;
   gap: 10px;
 }
 
-section.infoPerfil {
+.infoPerfil {
   display: inline-block;
   height: fit-content;
   padding: 0;
 }
 
-section.infoPerfil img:first-child {
+.infoPerfil img:first-child {
   border-radius: 7pt 7pt 0pt 0pt;
   max-width: 800px;
 }
@@ -59,28 +63,41 @@ section.infoPerfil img:first-child {
   display: block;
   background-size: cover;
   border-radius: 50%;
-  border: 2px solid rgb(194, 197, 197) ;
+  border: 2px solid rgb(194, 197, 197);
   object-fit: cover;
   width: 250px;
   height: 250px;
   margin: -130px auto 5px;
 }
 
-section.infoPerfil h2 {
+.infoPerfil h2 {
   text-align: center;
 }
 
-section.infoPerfil p , #links {
+.infoPerfil p , #links {
   margin: auto 20px 15px;
 }
 
-section.infoPerfil a {
+.infoPerfil a {
   display: inline-block;
   text-decoration: none;
 }
 
-div.sideContent {
-  width: 300px;
+.listasLicoes ul , ol {
+  padding-left: 50px;
+}
+
+.listasLicoes li {
+  line-height: 1.8em;
+  padding-left: 20px;
+}
+
+.aprendizado {
+  padding: 25px 35px;
+}
+
+.sectionTable {
+  padding-left: 35px;
 }
 
 /*
@@ -91,16 +108,21 @@ div.sideContent {
 table {
   border-collapse: collapse;
   width: fit-content;
+  margin: 40px auto 20px;
 }
 
-td, th {
-  border: 1px solid #dddddd;
+td , th {
+  border: 1px solid rgb(221, 221, 221);
   text-align: center;
   padding: 8px;
 }
 
 tr:first-child {
-  background-color: #dddddd;
+  background-color: rgb(221, 221, 221);
+}
+
+.sideContent {
+  width: 300px;
 }
 
 #rodape {
