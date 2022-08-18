@@ -4,7 +4,17 @@ body {
 
 #cabecalho {
     top: 0;
-    background-color: red;
+}
+
+header h1 {
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#follow-me {
+    text-align: center;
+    font-size: 16px;
 }
 
 .picture-container {
@@ -20,14 +30,31 @@ body {
 #linkedin {
     text-decoration: none;
     color: blue;
+    font-size: 12px;
+}
+
+.lists {
+    margin: 40px 0;
+}
+
+#licoes_aprendidas-titulo {
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
 }
 
 #licoes_aprendidas {
+    padding: 50px auto;
+}
 
+#licoes_a_aprender-titulo {
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
 }
 
 #licoes_a_aprender {
-
+    padding: 50px auto;
 }
 
 .description-container {
@@ -36,7 +63,7 @@ body {
 
 .lado-esquerdo {
     width: 60%;
-    float: left;
+    float:left;
 }
 
 .lado-direito {
@@ -44,6 +71,31 @@ body {
     width: 30%;
 }
 
-#rodape {
+.table-container {
+    margin: 10px 0 10px 42.5%;
+}
 
+table {
+    box-sizing: border-box;
+    border: 3px solid black;
+}
+
+table caption {
+    box-sizing: border-box;
+    border-width: 3px 3px 0 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+caption p {
+    font-weight: 600;
+}
+
+td {
+    border: 3px solid black;
+}
+
+#rodape {
+    text-align: center;
+    margin-top: 40px;
 }
