@@ -22,26 +22,26 @@ header, footer {
  
 }
 
-aside{
+aside {
   border: solid 1px yellow;
-  margin-right: auto;
+  margin-right: 0;
   padding: 100px;
   font-family: Times, serif;
   font-weight: 600;
   letter-spacing: 1px;
-  width: 30%;
+  width: 35%;
   line-height: 30px;
 }
 
-article  {
+article {
   border: solid 1px yellow;
-  margin-left: 700px;
+  margin-left: 0;
   margin-top: -292px;
   padding: 62.5px;
   font-family: Times, serif;
   font-weight: 600;
   letter-spacing: 1px;
-  width: 30%;
+  width: 46%;
   line-height: 26px;
 }
 
@@ -67,10 +67,10 @@ ol, ul {
 
 .lado-direito {
   background-color: blue;
-  float:right;
+  float: right;
 }
 
 .lado-esquerdo {
   background-color: aqua;
-  float: left;
+  
 }
