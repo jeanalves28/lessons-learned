@@ -9,6 +9,7 @@ header {
   text-align: center;
   background-color: azure;
   top: 0;
+  z-index: 1;
 }
 
 footer {
@@ -78,3 +79,7 @@ footer {
   height: 100%;
 }
 
+table {
+  width: 500px;
+  text-align: center;
+}
