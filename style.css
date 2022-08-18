@@ -5,11 +5,12 @@ body {
     position: fixed;
     top: 0;
     background-color: #D5B9B2;
-    max-width: 500px;
+    width: 924px;
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;   
+    z-index: 1;
 }
 
 #titulo {
@@ -112,4 +113,12 @@ footer {
 #rodape:hover {
     background-color: #A26769;
     color: #6D2E46;
+}
+
+.aprendidos {
+    background-color: #ECE2D0;
+    position: absolute;
+    left: 500px;
+    top: 133px;
+    width: 800px;
 }
