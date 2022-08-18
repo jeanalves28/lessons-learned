@@ -12,14 +12,13 @@ body {
   margin-top: 100px;
 }
 
-header, footer {
+header , footer {
   border: 1px solid red;
   margin-left: 5px;
   padding: auto;
   margin-right: 900px;
   text-align: center;
   font-family: monospace;
- 
 }
 
 aside {
@@ -51,7 +50,7 @@ table {
   padding: 1%;
 }
 
-ol, ul {
+ol , ul {
   border: solid 10px green;
   padding: 100px;
   margin-right: 1300px;
@@ -72,5 +71,4 @@ ol, ul {
 
 .lado-esquerdo {
   background-color: aqua;
-  
 }
