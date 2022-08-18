@@ -8,8 +8,8 @@ header{
     padding-left: 20px;
     padding-right: 33%;
 }
-h1{
-    color: wheat;
+h1{ 
+    color: rgba(238, 224, 164, 0.911);
     position: relative;
     left: 650px;
 }
@@ -24,9 +24,9 @@ ul.links-externos li{
 }
 .nav-links{
     display: inline-block;
-    color: wheat;
+    color: rgba(238, 224, 164, 0.911);
     text-decoration: none;
-    padding: 2px;
+    padding-left: 18px;
     font-weight: bolder;
     transition: 0.4s all;
 }
@@ -45,5 +45,31 @@ ul.links-externos li{
     padding: 13px;
     top: 150px;
     width: 220px;
-    border-radius: 15%;
+    border-radius: 5% 20%;
+}
+h2{
+    position: relative;
+    top: -124px;
+    left: 400px;
+    color: rgb(123, 123, 231);
+}
+ol#licoes_aprendidas{
+    position: relative;
+    top: -130px;
+    left: 380px;
+}
+ol#licoes_aprendidas li{
+    padding: 1px;
+    width: 180px;
+}
+ol#licoes_aprendidas li::marker{
+    color: rgb(123, 123, 231);
+}
+ol#licoes_aprendidas li:nth-child(2n){
+    background-color: rgba(238, 224, 164, 0.911);
+    color: rgb(123, 123, 231);
+}
+ol#licoes_aprendidas li:nth-child(2n+1){
+    background-color: rgb(123, 123, 231);
+    color: rgba(238, 224, 164, 0.911);
 }
