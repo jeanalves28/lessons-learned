@@ -1,6 +1,8 @@
 /* stylelint-disable indentation */
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: normal;
 }
 
 #cabecalho {
@@ -13,6 +15,17 @@ body {
   top: 0;
   left: 0;
   right: 0;
+}
+
+h1, h2, h3 {
+    background-color: darkred;
+    color: white;
+    opacity: 0.8;
+}
+
+aside, article{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: normal;
 }
 
 #minha_foto {
@@ -62,7 +75,8 @@ table, tr, th, td {
     width: 30%;
     padding: 20px;
 }
-#tabela{
+
+#tabela {
     float: right;
     position: absolute;
     right: 90px;
