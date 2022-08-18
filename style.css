@@ -66,7 +66,7 @@ body {
   font-weight: 500;
   padding: 0 0 20px 25px;
   display: inline-block;
-  line-height: normal;
+  line-height: 120%;
 }
 
 #meu-aprendizado-text {
