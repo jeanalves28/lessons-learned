@@ -14,13 +14,13 @@ h2 {
 #lessons-learned {
     position: absolute;
     left: 45px;
-    bottom: 180px;
+    top: 740px;
 }
 
 #lessons-to-learn {
     position: absolute;
     left: 320px;
-    bottom: 180px;
+    top: 740px;
 
 }
 
@@ -41,12 +41,18 @@ nav ul li {
     display: inline-block;
     text-align: center;
     position: relative;
+    right: 0px;
     margin-right: 80px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-nav {
+a {
     text-decoration: none;
+    color: rgb(62, 80, 60);
+}
+
+a:hover {
+    color: rgb(148, 156, 129)
 }
 
 article {
@@ -64,7 +70,7 @@ aside {
     width: 250px;
     height: 200px;
     top: 100px;
-    right: 800px;
+    right: 300px;
     text-align: justify;
     text-justify: inter-word;
     line-height: 2em;
@@ -121,23 +127,23 @@ th, td {
 
 table {
     position: absolute;
-    left: 780px;
-    bottom: 220px
+    right: 300px;
+    top: 500px
 }
 
 #rocket {
     position: absolute;
     max-width: 250px;
     top: 750px;
-    right: 800px
+    right: 300px
 }
 
 h4 {
     font-family: 'Raleway', sans-serif;
-   color: rgb(62, 80, 60);
-   position: absolute;
-   left: 830px;
-   bottom: 100px;
+    color: rgb(62, 80, 60);
+    position: absolute;
+    left: 830px;
+    top: 780px;
    
 }
 
