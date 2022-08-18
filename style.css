@@ -5,16 +5,32 @@ body {
     padding: 0%;
     margin-top: 0%;
 }
+#cabecalho {
+    top: 0;
+    margin: 0%;
+    background-color: black;
+    text-align: center;
+    top: 0;
+    color: white;
+    position: fixed;
+    width: 100%;   
+}
 img {
-    width: 200px;
+    width: 300px;
     display: block;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 8%;
 }
 
 .links_topo {
-    background-color: darkgrey;
+    background-color: black;
     text-align: center;
-    top: 0%;
-    }
+    top: 0;
+    font: italic;
+    color: white;
+    text-decoration: none;
+}
 
 .links {
     justify-content: space-around;
@@ -30,10 +46,9 @@ img {
     border-radius: 10px;
     padding: 20px;
 }
-#minha_foto {
+.minha_foto {
     border-radius: 50%;
-    
-    display: block;
+    margin: auto
 }
 .social {
     justify-content: space-around;
@@ -50,5 +65,8 @@ img {
 #identidade {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
-
+}
+.profile {
+    text-align: center;
+    margin-bottom: 5%;
 }
