@@ -68,24 +68,12 @@ body {
 
 .container {
   padding: 50px;
+  margin-bottom: 30px;
 }
 
 .picture {
   border-bottom: 3px solid #B32520;
-}
-
-.title-lessons, .learning {
-  color: #0F4C5C;
-  font-size: 30px;
-  font-style: italic;
-}
-
-.lessons {
-  border-bottom: 3px solid #B32520;
-}
-
-table, th, td {
-  border: 1px solid black;
+  margin-bottom: 30px;
 }
 
 #minha_foto {
@@ -98,9 +86,36 @@ table, th, td {
   box-shadow: 15px 15px 30px 5px black;
 }
 
+.lessons {
+  border-bottom: 3px solid #B32520;
+  margin-bottom: 30px;
+}
+
+.title-lessons, .learning {
+  color: #0F4C5C;
+  font-size: 30px;
+  font-style: italic;
+}
+
+table, th, td {
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
 aside p {
   color: red;
   line-height: 20px;
+}
+
+.lado-esquerdo {
+  background-color: hotpink;
+  width: 40%;
+
+}
+
+.lado-direito {
+  background-color: indianred;
+  width: 40%;
 }
 
 #rodape {
@@ -110,6 +125,8 @@ aside p {
   margin-left: 0;
   margin-right: 0;
   height: 80px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 a {
@@ -117,28 +134,18 @@ a {
   color: #FB8B24;
 }
 
-.footnote {
-  margin-left: 30px;
-}
-
 .botton {
   background-color: #5F0F40;
   width: 80px;
-  height: 20px;
+  height: 15px;
   text-align: center;
-  padding: 5px;
-  margin-top: 20px;
-  margin-left: 650px;
-  margin-right: 10px;
+  padding: 3px;
   display: inline-block;
   border-radius: 20px;
   border: 1px solid #FB8B24;
+  margin: 20px 10px 10px 0;
 }
 
 .botton:hover {
   cursor: pointer;
-}
-
-.github {
-  margin-left: 20px;
 }
