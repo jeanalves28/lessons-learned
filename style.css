@@ -1,6 +1,5 @@
 body{
     background-color: rgb(253, 251, 251);
-    bottom: 0;
 }
 header{
     background-color: rgb(89, 89, 224);
@@ -104,6 +103,27 @@ ul#licoes_a_aprender li:nth-child(2n+1){
 }
 ul#licoes_a_aprender li::marker{
     color: rgb(123, 123, 231);
+}
+h3{
+    position: relative;
+    top: -350px;
+    margin-left: 30px;
+    color: rgb(63, 63, 247);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(238, 224, 164, 0.911);
+    padding: 40px;
+    width: 837px;
+    border-radius: 15px;
+}
+p{
+    position: relative;
+    margin-left: 50px;
+    max-width: 880px;
+    top: -350px;
+    color: rgb(63, 63, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 #rodape{
     color: rgb(63, 63, 247);
