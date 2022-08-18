@@ -1,149 +1,145 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 h1 {
-    padding-left: 35px;
+  padding-left: 35px;
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
 }
 
 #lessons-learned {
-    position: absolute;
-    left: 45px;
-    top: 740px;
+  position: absolute;
+  left: 45px;
+  top: 740px;
 }
 
 #lessons-to-learn {
-    position: absolute;
-    left: 320px;
-    top: 740px;
+  position: absolute;
+  left: 320px;
+  top: 740px;
 
 }
 
 #cabecalho {
-    font-family: 'Raleway', sans-serif;
-    color: rgb(240, 230, 209);
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    background-color: rgb(62, 80, 60);
-    z-index: 1;
+  font-family: Raleway, sans-serif;
+  color: rgb(240, 230, 209);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(62, 80, 60);
+  z-index: 1;
 }
 
 nav ul li {
-    font-family: 'Raleway', sans-serif;
-    list-style: none;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    right: 0px;
-    margin-right: 80px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  font-family: Raleway, sans-serif;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  right: 0;
+  margin-right: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
+
 a {
-    text-decoration: none;
-    color: rgb(62, 80, 60);
+  text-decoration: none;
+  color: rgb(62, 80, 60);
 }
 
 a:hover {
-    color: rgb(148, 156, 129)
+  color: rgb(148, 156, 129);
 }
 
 article {
-    font-family: 'Raleway', sans-serif;
-    max-width: 525px;
-    margin-left: 35px;
-    text-align: justify;
-    text-justify: inter-word;
-    line-height: 2em;
+  font-family: Raleway, sans-serif;
+  max-width: 525px;
+  margin-left: 35px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 2em;
 }
 
 aside {
-    font-family: 'Raleway', sans-serif;
-    position: absolute;
-    width: 250px;
-    height: 200px;
-    top: 100px;
-    right: 300px;
-    text-align: justify;
-    text-justify: inter-word;
-    line-height: 2em;
+  font-family: Raleway, sans-serif;
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  top: 100px;
+  right: 300px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 2em;
 }
 
 #licoes_aprendidas {
-    font-family: 'Raleway', sans-serif;
-    display: block;
-    position: relative;
-    left: 20px;
-    top: 80px;
-    margin-bottom: 20px;
-    line-height: 2em;
-
+  font-family: Raleway, sans-serif;
+  display: block;
+  position: relative;
+  left: 20px;
+  top: 80px;
+  margin-bottom: 20px;
+  line-height: 2em;
 }
 
 #licoes_a_aprender {
-    font-family: 'Raleway', sans-serif;
-    display: block;
-    position: relative;
-    left: 300px;
-    bottom: 260px;
-    line-height: 2em;
+  font-family: Raleway, sans-serif;
+  display: block;
+  position: relative;
+  left: 300px;
+  bottom: 260px;
+  line-height: 2em;
 }
 
 img {
-    margin-top: 100px;
-    width: 300px;
-    padding-left: 35px;
-
+  margin-top: 100px;
+  width: 300px;
+  padding-left: 35px;
 }
 
 footer {
-    background-color: rgb(62, 80, 60);
-    font-weight: 400;
-    color: rgb(240, 230, 209);
-    font-family: 'Raleway', sans-serif;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  background-color: rgb(62, 80, 60);
+  font-weight: 400;
+  color: rgb(240, 230, 209);
+  font-family: Raleway, sans-serif;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-th, td {
-    padding-top: 12px ;
-    padding-right: 30px;
-    padding-bottom: 12px;
-    padding-left: 12px;
-    border: 1px dotted rgb(62, 80, 60);
-    
+th , td {
+  padding-top: 12px;
+  padding-right: 30px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  border: 1px dotted rgb(62, 80, 60);
 }
 
 table {
-    position: absolute;
-    right: 300px;
-    top: 500px
+  position: absolute;
+  right: 300px;
+  top: 500px;
 }
 
 #rocket {
-    position: absolute;
-    max-width: 250px;
-    top: 750px;
-    right: 300px
+  position: absolute;
+  max-width: 250px;
+  top: 750px;
+  right: 300px;
 }
 
 h4 {
-    font-family: 'Raleway', sans-serif;
-    color: rgb(62, 80, 60);
-    position: absolute;
-    left: 830px;
-    top: 780px;
-   
+  font-family: Raleway, sans-serif;
+  color: rgb(62, 80, 60);
+  position: absolute;
+  left: 830px;
+  top: 780px;
 }
-
