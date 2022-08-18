@@ -19,8 +19,18 @@ body {
 #aside_tag {
     font-family: Roboto;
     font-size: medium;
-    color: aqua;
+    color:darkgreen ;
     line-height: 0.8;
+    float: right;
+    background-color: bisque;
+    border: solid;
+    border-color: blueviolet;
+    max-width: 30%;
+}
 
-
+#article {
+    float: left;
+    max-width: 30%;
+    border: solid;
+    color: brown;
 }
