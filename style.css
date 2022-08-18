@@ -81,7 +81,6 @@ h1 {
 
 
 .lado-direito {
-  margin-top: 2%;
   box-shadow: 10px 5px 5px 4px black;
   width: 20%;
   background-color: rgb(173, 177, 177);
@@ -126,7 +125,7 @@ h1 {
   border: 1px solid black;
   padding: 1%;
   margin-left: 3%;
-  border-radius: 15px;   
+  border-radius: 15px;
 }
 
 button.websocial a {
