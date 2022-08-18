@@ -2,66 +2,63 @@ body {
   background-color: rgb(253, 251, 251);
 }
 header {
-    position: fixed;
-    width: 100%;
-    height: 90px;
-    text-align: center;
-    background-color: azure;
-    top: 0;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  background-color: azure;
+  top: 0;
 }
 
 footer {
-    background-color:azure;
-    width: 100%;
-    height: 16px;
-    text-align: center;
-    font-size: 15px;
-     }
+  background-color:azure;
+  width: 100%;
+  height: 16px;
+  text-align: center;
+  font-size: 15px;
+}
+
 #saiba_mais {
-    text-decoration: none;
-    color: black;
-    }
+  text-decoration: none;
+  color: black;
+}
 
 #minha_foto {
-    margin-top: 90px;
-    display: table-cell;
-    float: left;
-    }
+  margin-top: 90px;
+  display: table-cell;
+  float: left;
+}
 #meu_aprendizado {
-    
-    display: table-cell;
-    float: left;
-    width: 83%;
-    margin-top: 55px;
-    margin-left: 5px;
-    
-
-    }
+  display: table-cell;
+  float: left;
+  width: 83%;
+  margin-top: 55px;
+  margin-left: 5px;
+}
 #foto_aprendizado {
-    width: 100%;
-    display: table;
-    }
+  width: 100%;
+  display: table;
+}
 #licoes{
-    position: relative;
-    width: 100%;
-    height: 291px;
-    display:table
+  position: relative;
+  width: 100%;
+  height: 291px;
+  display:table
     }
 #aprendidas{
-    display: table-cell;
-    float: left;
-    width: 48%;
-    border: 1px solid black;
-    height: 100%;
-    }
+  display: table-cell;
+  float: left;
+  width: 48%;
+  border: 1px solid black;
+  height: 100%;
+}
 #aprender {
-    position: absolute;
-    display: table-cell;
-    float: left;
-    width: 48%;
-    margin-left: 50%;
-    border: 1px solid black;
-    height: 100%;
-
+  position: absolute;
+  display: table-cell;
+  float: left;
+  width: 48%;
+  margin-left: 50%;
+  border: 1px solid black;
+  height: 100%;
 }
 
