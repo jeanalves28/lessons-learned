@@ -20,12 +20,6 @@ body {
   text-align: center;
 }
 
-/*
-.article p h2 {
-  margin: 1000px 40px 10px 100px;
-  display: inline-block;
-} */
-
 .article p {
   width: 620px;
   margin: 230px 0 10px 60px;
