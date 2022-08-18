@@ -34,3 +34,11 @@ body {
     border: solid;
     color: brown;
 }
+
+.lado-direito {
+    border-color: tomato;
+}
+
+.lado-esquerdo {
+    border-radius: 50%;
+}
