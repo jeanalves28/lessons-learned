@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 100%;
 }
@@ -12,19 +16,14 @@ body {
   background-color: red; /* placeholder: visible element */
 }
 
-aside,
-figure,
-footer,
-section {
+article , aside , figure , footer , section {
   background-color: lightblue; /* placeholder: visible element */
   border: 2px solid black;
   margin: 1em;
   padding: 1em;
 }
 
-h1,
-h2,
-h3 {
+h1 , h2 , h3 {
   font-family: monospace;
   color: purple;
 }
@@ -34,11 +33,25 @@ h1 {
 }
 
 p {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: 500;
 }
 
 li {
   line-height: 2em;
+}
+
+.artigos {
+  display: flex;
+}
+
+.lado-esquerdo {
+  width: 70%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.lado-direito {
+  width: calc(30% - 1em);
+  align-self: flex-start;
 }
