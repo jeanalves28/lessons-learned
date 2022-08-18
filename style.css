@@ -86,41 +86,6 @@ body {
   display: block;
 }
 
-#titulo_artigo {
-  position: absolute;
-  top: 170px;
-  left: 450px;
-}
-
-#paragrafo_artigo {
-  position: absolute;
-  top: 250px;
-  left: 465px;
-  font-size: 125%;
-  font-weight: 400;
-}
-
-#titulo_aside {
-  position: absolute;
-  left: 1600px;
-  top: 170px;
-  background-color: black;
-  color: white;
-  border-radius: 45%;
-  padding: 0.5%;
-  margin: 0.5%;
-  display: block;
-}
-
-#paragrafo_aside {
-  position: absolute;
-  top: 250px;
-  left: 1600px;
-  font-size: 125%;
-  background-color: rgb(135, 118, 244);
-  border-radius: 8%;
-  margin-right: 0.5%;
-}
 
 #rodape {
   bottom: 0;
@@ -146,10 +111,17 @@ div {
   line-height: 2;
 }
 
-.lado-direto {
-  float: right;
+.lado-esquerdo {
+  position: absolute;
+  left: 500px;
+  top: 270px;
+  float: left;
 }
 
-.lado-esquerdo {
+.lado-direito {
+  position: absolute;
+  top: 250px;
   float: right;
+  left: 1400px;
+  margin-right: 10px;
 }
