@@ -22,11 +22,6 @@ body {
     margin-top: 100px;
 }
 
-h4 {
-    font-weight: 100;
-    font-size: medium;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 section {
     background-color: #CEBEBE;
@@ -37,20 +32,22 @@ section {
 
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-left: 22px;
-    padding-top: 2px;
+    padding-left: 2px;
+    padding-top: 1px;
     color: #6D2E46;
-    
+    font-size: 15px;
 }
 
 #licoes_aprendidas {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
+    font-size: 17px;
 }
 
 #licoes_a_aprender {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
+    font-size: 17px;
 }
 
 #link {
@@ -58,7 +55,7 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
     left: 250px;
-    top: 87px;
+    top: 88px;
     font-size: small;
     background-color: #A26769;
     border-radius: 30%;
@@ -73,6 +70,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    font-size: 17px;
 }
 
 #sobre_mim {
@@ -123,8 +121,9 @@ footer {
     background-color: #ECE2D0;
     position: absolute;
     left: 608px;
-    top: 133px;
+    top: 130px;
     width: 374px;
+    padding-bottom: 20px;
 }
 
 .quero_aprender {
@@ -150,10 +149,11 @@ footer {
     padding-bottom: 20px;
 }
 
-h3 {
+h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #6D2E46;
     font-size: medium;
+    font-weight: 700px;
     padding-left: 10px;
 }
 
@@ -162,4 +162,12 @@ h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 12px;
     border-top: 1px dotted black;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 22px;
+    padding-top: 2px;
+    font-size: 20px;
+    color: #6D2E46;  
 }
