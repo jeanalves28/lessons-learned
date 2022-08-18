@@ -56,6 +56,7 @@ img {
     background-color: black;
     color: white;
     padding: 11px 2px;
+
 }
 #identidade {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -64,4 +65,11 @@ img {
 .profile {
     text-align: center;
     margin-bottom: 5%;
+}
+.licoes_aprendidas {
+    margin-top: auto;
+    
+}
+.licoes_a_aprender {
+    height: auto;
 }
