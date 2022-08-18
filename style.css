@@ -11,9 +11,12 @@ h2 {
 }
 h3 {
     color: #023031;
+    text-align: center;
+    line-height: 60px;
 }
 p {
-    letter-spacing: 1px;
+    margin-left: 40px;
+    letter-spacing: 2px;
     
 }
 
@@ -85,18 +88,29 @@ article {
     background-color: #036b52;
     float: left;
     width: 70%;
+    padding: 30px;
+    margin: 1%;
+    height: 350px;
+    margin-top: 0px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.329);
 }
 
 .learning {
     background-color: #dddddd;
+    height: 98%;
+    box-shadow: 0px 0px 5px 5px rgba(0, 83, 35, 0.37);
+
 }
 aside {
     float:right;
     width: 20%  ;
+    background-color: #036b52;
+    height: 350px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.329);
 }
-
-table {
-    display: table;
-    border-collapse: separate;
-    border-spacing: 2px;
-    border-color: gray
+.about-me {
+    background-color: #dddddd;
+    height: 98%;  
+    box-shadow: 0px 0px 5px 5px rgba(0, 83, 35, 0.37);
+}
