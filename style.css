@@ -19,6 +19,14 @@ body {
     display: block;    
     filter: saturate(2);
     margin: 150px auto;
-    text-align:right;
-    margin-right: 75px;
+    text-align:left;
+    margin-left: 75px;
+}
+
+div{
+    display: inline-block;
+}
+.listas{
+    display: block;
+    margin-left: 75px;
 }
