@@ -1,5 +1,5 @@
 body {
-    background-color: (253, 251, 251);
+    background-color: rgb(253, 251, 251);
 }
 
 .caixa {
@@ -96,6 +96,7 @@ nav a {
     font-size: 17px;
     text-align: justify;
     color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h4 {
@@ -162,13 +163,14 @@ h4 {
 .sobremim {
     text-align: center;
     font-size: 18px;
-    position: relative; 
-    top: 100px;   
+    position: relative;
+    top: 100px;
 }
 
 .sobremim p {
     text-align: justify;
     margin: 0 5% 0 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .sobremim h3 {  
