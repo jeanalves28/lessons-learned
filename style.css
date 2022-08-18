@@ -90,16 +90,26 @@ main table {
   height: 250px;
   font-size: 15px;
   left: 10%;
-  overflow: hidden;
 
   /* margin-left: 50px; */
 }
 
 .box {
-  padding: 1px;
+  list-style: none;
+  padding: 6px;
   border-radius: 5%;
   box-shadow: 1px 1px 3px gray;
 }
+
+#licoes_aprendidas , #licoes_a_aprender {
+  overflow-y: scroll;
+  height: 200px;
+}
+
+#licoes_aprendidas::-webkit-scrollbar , #licoes_a_aprender::-webkit-scrollbar {
+  color: blue;
+}
+
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
