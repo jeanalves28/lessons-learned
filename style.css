@@ -23,8 +23,8 @@ header {
 }
 
 #minha_foto {
-  position: relative;
-  top: 80px;
+  width: 200px;
+  margin-top: 120px;
 }
 
 .licoes_aprendidas {
@@ -37,10 +37,23 @@ header {
   top: 750px;
 }
 
-.article {
-  position: absolute;
-  top: 750px;
-  margin-right: 30px;
+.article-aside {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  width: 30%;
+  text-align: justify;
+  float: left;
+  padding-right: 10px;
+}
+
+.lado-direito {
+  width: 30%;
+  text-align: justify;
+  float: right;
+  padding-left: 15px;
+  padding-right: 50px;
 }
 
 table {
@@ -51,14 +64,6 @@ table {
   border: 1px solid;
   border-collapse: collapse;
   width: 200px;
-}
-
-aside {
-  width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
-  margin-right: 30px;
-  float: right;
 }
 
 .link {
