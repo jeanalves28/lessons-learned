@@ -1,7 +1,4 @@
-<!-- 1. Adicione uma cor de fundo específica para a página
-A página deve possuir uma cor de fundo rgb(253, 251, 251)
-2. Adicione uma barra superior com um título
-Essa barra superior deve possuir o id igual a cabecalho e deve ser fixa no topo da página com a propriedade top tendo 0. O título deve estar dentro da barra e ser um elemento h1 com id igual a titulo.
+<!-- 
 3. Adicione uma foto sua à página
 A foto deve ser inserida utilizando uma tag img com o ID minha_foto.
 4. Adicione uma lista de lições aprendidas à página
@@ -19,7 +16,7 @@ A tag aside deverá possuir mais de 100 caracteres e menos de 300.
 10. Aplique elementos HTML de acordo com o sentido e propósito de cada um deles
 A sua página deve conter os seguintes elementos: article, header, aside e footer.
 11. Teste a semântica da sua página usando o site CodeSniffer
-Teste se a semântica da sua página está aprovada pelo site CodeSniffer. -->
+Teste se a semântica da sua página está aprovada pelo site CodeSniffer. --> -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -31,6 +28,41 @@ Teste se a semântica da sua página está aprovada pelo site CodeSniffer. -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header id="cabecalho">
+        <h1 id="titulo">Ricardo Faria - Desenvolvedor Web Fullstack</h1>
+    </header>
+
+    <div class="picture-container">
+        <img id="minha_foto" src="/img/eu.jpg">
+    </div>
+
+    <section>
+        <ol id="licoes_aprendidas">
+            <li>Unix</li>
+            <li>Git</li>
+            <li>Github</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Lógica de Programação</li>
+            <li>JavaScript</li>
+            <li>Autoliderança</li>
+            <li>Diversidade</li>
+            <li>Empatia</li>
+            <li>Plano de Desenvolvimento Individual</li>
+        </ol>
+
+        <ul id="licoes_a_aprender">
+            <li>Código Limpo</li>
+            <li>Boas Práticas</li>
+            <li>Metodologias Ágeis</li>
+            <li>React</li>
+            <li>Phyton</li>
+            <li>Design Responsivo</li>
+            <li>SQL</li>
+            <li>Node.js</li>
+            <li>Typescript</li>
+            <li>Docker</li>
+        </ul>
+    </section>
 </body>
 </html>

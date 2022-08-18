@@ -1,3 +1,26 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
+#cabecalho {
+    top: 0;
+    background-color: red;
+}
+
+.picture-container {
+    display: block;
+    text-align: center;
+}
+
+#minha_foto {
+    width: 300px;
+    height: 350px;
+}
+
+#licoes_aprendidas {
+
+}
+
+#licoes_a_aprender {
+    
+}
