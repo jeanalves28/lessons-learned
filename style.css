@@ -3,42 +3,42 @@ body {
 }
 #cabecalho {
 
-    background-color: aquamarine;
-    position: fixed;
-    /* margin-top: 0; */
-    top:0;
-    font-family: Montserrat;
+  background-color: aquamarine;
+  position: fixed;
+  /* margin-top: 0; */
+  top:0;
+  font-family: Montserrat;
 }
 
 #minhafoto {
-    margin-top: 100px;
-    padding: 500px;
-    border-radius: 150;
+  margin-top: 100px;
+  padding: 500px;
+  border-radius: 150;
 }
 
 #aside_tag {
-    font-family: Roboto;
-    font-size: medium;
-    color:darkgreen ;
-    line-height: 0.8;
-    float: right;
-    background-color: bisque;
-    border: solid;
-    border-color: blueviolet;
-    max-width: 30%;
+  font-family: Roboto;
+  font-size: medium;
+  color:darkgreen ;
+  line-height: 0.8;
+  float: right;
+  background-color: bisque;
+  border: solid;
+  border-color: blueviolet;
+  max-width: 30%;
 }
 
 #article {
-    float: left;
-    max-width: 30%;
-    border: solid;
-    color: brown;
+  float: left;
+  max-width: 30%;
+  border: solid;
+  color: brown;
 }
 
 .lado-direito {
-    border-color: tomato;
+  border-color: tomato;
 }
 
 .lado-esquerdo {
-    border-radius: 50%;
+  border-radius: 50%;
 }
