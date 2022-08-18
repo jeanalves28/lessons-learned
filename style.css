@@ -14,6 +14,7 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+/* HEADER */
 #cabecalho {
   position: fixed;
   top: 0;
@@ -47,25 +48,61 @@ body {
   font-size: 100px;
 }
 
-ul {
+/* DISPLAY OF NAV BAR LISTS */
+#true-cabecalho ul {
   display: flex;
 }
 
-ul li {
+#true-cabecalho ul li {
   font-family: Raleway, sans-serif;
   list-style: none;
   padding: 10px;
 }
 
-p {
+#true-cabecalho p {
   line-height: 1px;
+}
+
+
+/* SECTION 1 */
+#skills {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#my-lists {
+
+}
+
+#list_learnt {
+
+}
+
+#licoes_aprendidas {
+
+}
+#list_to_learn {
+
+}
+
+#licoes_a_aprender {
+
+}
+
+/* SECTION 2 */
+#artigo {
+  background-color: rgb(51, 81, 86);
 }
 
 #card-info {
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
   background-color: rgb(151, 79, 142);
-  width: 700px;
+  width: fit-content;
   height: 900px;
   border-radius: 5px;
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
@@ -93,4 +130,12 @@ img {
   color: rgb(230, 230, 230);
   width: 20px;
   height: 20px;
+}
+
+article {
+  border: solid black 1px;
+}
+
+aside {
+  border: solid grey 3px;
 }
