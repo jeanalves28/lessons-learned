@@ -46,9 +46,11 @@ body {
 }
 
 #descricao {
-  margin-top: 10px;
   font-weight: 400;
-
+  float: right;
+  width: 84%;
+  line-height: 20px;
+  font-size: large;
 }
 
 #licoes-bloco {
