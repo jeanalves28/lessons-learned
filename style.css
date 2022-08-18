@@ -46,6 +46,7 @@ main {
   padding-bottom: 90px;
   margin: 10px;
   border-radius: 10%;
+  z-index: 0;
 }
 
 #licoes_aprendidas li , #licoes_a_aprender li {
@@ -57,9 +58,15 @@ main {
   width: 80%;
   padding: 10px;
   margin-top: 20px;
-  margin-bottom: 15%;
   width: 85%;
   line-height: 20px;
+}
+
+table, tr, th, td {
+  margin: auto;
+  border: 3px solid white;
+  border-collapse: collapse;
+  font-size: small;
 }
 
 .lado-direito {
