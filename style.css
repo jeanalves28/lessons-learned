@@ -64,13 +64,7 @@ h2 {
   margin: 15px;
 }
 
-/* ul,
-ol {
-  line-height: 1.4em;
-} */
-
-ul,
-ol {
+ul , ol {
   line-height: 1.4em;
 }
 
