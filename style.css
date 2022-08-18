@@ -81,10 +81,16 @@ body {
 .about {
   width: 220px;
   text-align: justify;
-	display: inline-block;
-	margin-left: 230px;
+  display: inline-block;
+  margin-left: 230px;
 
 }
 
+.table , table th , table td {
+  border: 1px solid black;
+}
 
+.position {
+	margin-left: 200px;
+}
 
