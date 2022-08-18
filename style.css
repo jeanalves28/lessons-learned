@@ -1,4 +1,39 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-
+.cabecalho {
+    border: 0px solid rgb(247, 162, 204);
+    margin: 0px;
+    padding: 60px;
+    width: 1420px;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    background-color: rgb(255, 160, 207);
+    border-radius: 10%;
+}
+#titulo {
+    position: absolute;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    left: 70px;
+}
+#minha_foto {
+    height: 200px;
+    position: fixed;
+    top: 130px;
+    left:10px;
+    border-radius: 50%;
+}
+#licoes_aprendidas {
+    position: fixed;
+    top: 120px;
+    left: 230px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#licoes_a_aprender {
+    position: fixed;
+    top: 320px;
+    left: 215px;
+    font-family: 'Courier New', Courier, monospace;
+}
