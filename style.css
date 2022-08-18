@@ -33,20 +33,29 @@ body {
 }
 
 .lado-esquerdo {
-  margin-left: 40px;
+  display: block;
+  margin-left: 400px;
+  margin-right: 50%;
+  margin-top: -350px;
+  padding-bottom: 150px;
   font-size: 20px;
-  margin-right: 80%;
 }
 
-.lado-esquerdo h3 {
+.lado-esquerdo h2 {
   font-size: 25px;
   font-style: italic;
 }
 
 .lado-direito {
   font-size: 20px;
-  margin-top: -320px;
-  margin-left: 40%;
+  margin-top: -460px;
+  margin-left: 60%;
+  padding-bottom: 80px;
+}
+
+.lado-direito h2 {
+  font-size: 25px;
+  font-style: italic;
 }
 
 #licoes_aprendidas p {
