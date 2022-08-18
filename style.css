@@ -12,6 +12,11 @@ header h1 {
     text-align: center;
 }
 
+#follow-me-titulo {
+    text-align: center;
+    font-size: 16px;
+}
+
 #follow-me {
     text-align: center;
     font-size: 16px;
