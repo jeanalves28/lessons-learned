@@ -97,3 +97,11 @@ table {
   margin-left: 31%;
   line-height: 40px;
 }
+
+#lado-esquero {
+  float: left;
+}
+
+#lado-direito {
+  float: right;
+}
