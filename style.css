@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-img{
+img {
     width: 300px;
 }
 
@@ -11,20 +11,37 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-    margin-top: 0;    
+#cabecalho {
+    margin-top: 0;
 }
 
-#titulo{
+#titulo {
     padding: 30px;
     text-align: center;
 }
 
-#minha_foto{
+#minha_foto {
     display: block;
     margin: auto;
 }
 
-.foto_container{
+.foto_container {
     padding: 30px;
+}
+
+.habilidades_container {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.habilidades {
+    margin-right: 100px;
+}
+
+#rodape {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
