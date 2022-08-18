@@ -27,8 +27,9 @@ section #minha_foto {
   width: 30%;
 }
 
-#main-aprendizado {
+#clearfix {
   margin-top: 40px;
+  overflow: auto;
 }
 
 .lado-esquerdo {
@@ -42,7 +43,6 @@ section #minha_foto {
 .lado-direito {
   display: inline-block;
   float: right;
-  border: 2px solid rgb(163, 177, 138);
   background-color: rgb(163, 177, 138);
   width: 46%;
   padding: 5% 1%;
