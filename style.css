@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0;    
+    margin: 0;
 }
 
 
@@ -38,13 +38,13 @@ main {
 .lado-esquerdo {
     width: 300px;
     text-align: justify;
-    
+
 }
 
 .lado-direito {
     width: 300px;
     text-align: justify;
-    
+
 }
 
 .licoes {
@@ -74,9 +74,7 @@ main {
     color: white;
     padding: 20px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: cyan;
-    font-size: 20px;
-    letter-spacing: 4px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
-
