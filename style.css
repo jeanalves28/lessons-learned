@@ -11,6 +11,9 @@ body {
 
 main{
   margin-top: 90px;
+  columns: 2;
+  width: 60%;
+  margin-left: 35px;
 }
 
 #cabecalho {
@@ -29,6 +32,6 @@ main{
   padding: 20px;
 }
 
-#licoes_a_aprender {
+#licoes_a_aprender, #licoes_aprendidas {
   text-transform: capitalize;
 }
