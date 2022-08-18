@@ -82,6 +82,11 @@ aside {
     background-color: lightblue;
 }
 
-/* request #10 */
+/* extra */
+table, th{
+  border: 1px solid;
+}
 
-/* request #11 */
+th {
+  font-size: large;
+}
