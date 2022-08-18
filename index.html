@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
             background-color: rgb(253, 251, 251);
         }
 
-        ul {
+        #check {
             list-style-type: none;
         }
 
@@ -25,10 +25,30 @@
         #titulo {
             text-align: center;
         }
-        h2{
-            font-size: 16px;
+        #licoes_aprendidas{
+            float: left;
+            background-color: aquamarine;
+            border: 1px solid black;
+        }
+        #licoes_a_aprender{
+            float: right;
+            background-color: aquamarine;
+            border: 1px solid black;
+        }
+        #lessons_A{
+            float: right;
+            text-decoration: underline;
+        }
+        #lessons_B{
+            text-decoration: underline;
+        }
+        #minha_foto{
+            padding-top: 90px;
+            width: 120px;
+        }
+        .subtitle{
             font-weight: 600;
-            margin: 20px;
+            text-align: center;
         }
         
     </style>
@@ -39,14 +59,17 @@
         <h1 id="titulo">Lições aprendidas - Trybe!</h1>
    <br>
 
-    <ul>
+    <ul id="check">
         <li>Home</li>
         <li>Login</li>
-    </ul> </header><br>
-    <img id="minha_foto" src="./michelly.Image 2022-08-17 at 16.38.21.jpg" alt='Michelly sorrindo' width="100px"><br>
+    </ul> </header><br><br><br><br>
+    <img id="minha_foto" src="./michelly.Image 2022-08-17 at 16.38.21.jpg" alt='Michelly sorrindo'><br>
     <a href='https://www.linkedin.com/in/michellymoreira/' target="blank">Michelly Moreira </a><br><br>
 
-    <article><h2>Lições</h2><br>
+    <h2 class="subtitle">Lições</h2><br>
+    
+    <h2 id="lessons_A">Aprendidas</h2>
+    <h2 id="lessons_B">À aprender</h2>
 
     <ol id="licoes_aprendidas">
         <li>Unix</li>
@@ -73,6 +96,8 @@
         <li>SQL</li>
         <li>Node.js</li>
     </ul>
+
+    <article></article>
 </body>
 
 </html>
