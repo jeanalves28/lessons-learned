@@ -20,7 +20,7 @@ body {
     text-align: center;
 }
 
-.img {   
+#minha_foto {   
     filter: saturate(2);
     margin: 15px auto;
     text-align: left;
@@ -38,6 +38,12 @@ div {
     margin-bottom: 50px;
 }
 
+.link{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 75px;
+}
+
 #rodape { 
     flex-shrink: 0;
     background-color: rgb(0, 19, 194);
@@ -45,4 +51,10 @@ div {
     text-align: center;
 }
 
+#artigo, #descricao{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 75px;
+    margin-bottom: 10px;
+}
 
