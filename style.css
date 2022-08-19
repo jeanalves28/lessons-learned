@@ -73,13 +73,20 @@ h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 }
-.lado-direito{
-    float: right;
-    max-width: 350px;
-    margin-top: 158px;
-    margin-right: 100px;
+aside.lado-direito{
+    position: absolute;
+    width: 550px;
+    left: 900px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
+}
+p.aside-paragraph{
+    float: left;
+    position: relative;
+    left: 0px;
+    top: -20px;
+    margin-left: 10px;
+    color: rgb(35, 35, 41);
 }
 h3{
     text-align: center;
