@@ -1,32 +1,32 @@
 
-    body{
+    body {
     background-color: rgb(253, 251, 251);
     margin: 0%;
-    } 
-    #cabecalho{
+     } 
+    #cabecalho {
     position: fixed;
     background-color: green;
     top: 0px;
     width: 100%;
 
     }
-    #titulo{
+    #titulo {
     text-align:center;
 
     }
-    #minha_foto{
+    #minha_foto {
     margin-top: 110px;
     margin-left: 30px;
-    }
-    #licoes_aprendidas{
+     }
+    #licoes_aprendidas {
     
-    }
-    #licoes_a_aprender{
+     }
+    #licoes_a_aprender {
 
-    }
-    #rodape{
+     }
+    #rodape {
 
-    }
-    #link{
+     }
+    #link {
     margin-left: 200px;    
-    }
+     }
