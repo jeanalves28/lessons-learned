@@ -8,7 +8,9 @@ body{
 }
 
 #cabecalho{
-top: 0;   
+
+    top: 0%;
+    text-align: center;
 }
 
 img#minha_foto{
