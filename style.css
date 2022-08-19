@@ -14,13 +14,13 @@ body {
   background-color: rgb(50, 48, 49);
   color: rgb(250, 212, 216);
   width: 100%;
-  padding: 80px;
+  padding: 80px 0;
   font-size: 25px;
 }
 
 #titulo {
   text-align: center;
-  margin-left: 50px;
+  margin: auto;
 }
 
 #minha_foto {
@@ -28,16 +28,14 @@ body {
   border-radius: 25%;
   margin-top: 270px;
   margin-left: 100px;
-  float: left;
   background-color: rgb(75, 127, 82);
   padding: 20px;
 }
 
 #licoes_aprendidas {
   display: inline-block;
-  margin-left: 260px;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-bottom: 100px;
   background-color: rgb(250, 212, 216);
   padding: 60px;
   border-radius: 10%;
@@ -45,7 +43,6 @@ body {
 
 #licoes_a_aprender {
   display: inline-block;
-  margin-left: 40px;
   background-color: rgb(219, 211, 201);
   padding: 60px;
   border-radius: 10%;
@@ -56,15 +53,10 @@ body {
 }
 
 h2 {
-  display: inline-block;
   margin-top: 280px;
-  margin-left: 60px;
-  margin-bottom: 0%;
+  margin-left: 220px;
+  margin-bottom: 10px;
   color: rgb(50, 48, 49);
-}
-
-h2:nth-of-type( 1 ) {
-  margin-left: 280px;
 }
 
 .lado-esquerdo {
@@ -83,26 +75,30 @@ h2:nth-of-type( 1 ) {
   font-size: 18px;
   text-align: center;
   background-color: rgb(75, 127, 82);
-  padding: 100px 40px;
+  padding: 10px;
   border-radius: 10%;
+  margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.lado-direito p {
+  margin-top: 50px;
 }
 
 .container {
   display: flex;
+  background-color: rgb(250, 212, 216);
 }
 
 a {
-  margin-left: 190px;
-  text-decoration: none;
-  padding: 20px;
+  margin-left: 200px;
+  padding: 15px 20px;
+  margin-top: 0;
   background-color: rgb(75, 127, 82);
   border-radius: 10%;
   transition: all;
   color: rgb(219, 211, 201);
-  display: block;
-  width: 70px;
-  margin-top: 10px;
+  text-decoration: none;
 }
 
 a:hover {
@@ -116,9 +112,9 @@ table th , td {
 
 table {
   margin-left: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-
 
 #rodape {
   background-color: rgb(50, 48, 49);
@@ -126,3 +122,17 @@ table {
   color: rgb(250, 212, 216);
   font-size: 16px;
 }
+
+#imagem_link {
+  width: 400px;
+  height: 700px;
+}
+
+#habilidades {
+  width: 900px;
+}
+
+#container {
+  display: flex;
+}
+
