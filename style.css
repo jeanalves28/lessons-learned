@@ -5,10 +5,12 @@ body{
 
 #cabecalho{
     top: 10px;
-    margin-left: 60pt;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(196, 87, 196);
     width: 90%; 
     border-radius: 30pt;   
+    padding-bottom: 15pt;
 }
 
 #titulo{
@@ -22,7 +24,7 @@ body{
 }
 
 nav{
-    text-align: center;
+    text-align: center;   
 }
 
 article{    
@@ -86,21 +88,44 @@ h2{
 
 #linkedin{    
     background-color: rgb(214, 214, 142);
-    font-size: 25pt;
-    line-height: 150pt;
-    margin-top: 200pt;
-    margin-bottom: 200pt;
+    font-size: 30pt;
+    font-weight: 400;
+    text-align: center;
+    line-height: 50pt;
+    margin-top: 50pt;
+    margin-bottom: 50pt;
     padding: 20pt 50pt;
     border-radius: 50px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 
-table,
-td {
+table, td {
     border: 1px solid #333;
+    padding: 25pt;
 }
 
-thead,
-tfoot {
+thead, tfoot {
     background-color: #333;
     color: #fff;
+}
+
+#ord-list{
+    color: blue;
+}
+
+#unord-list{
+    color: red;
+}
+
+#modulos{
+    align-content: center;    
+    margin-top: 600pt;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
