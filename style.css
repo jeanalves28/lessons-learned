@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(253, 251, 251);
+}
+
+#cabeçalho{
+    top: 0%;
+    background-color: rgb(166, 57, 101);
+}
+
+#titulo{
+    text-align: center;
+    color: rgb(245, 220, 238);
+
+}
+
+#minha_foto{
+    float: left;
+    height: 300px;
+    padding: 10px;
+}
+
+#lições_aprendidas_titulo{
+    position: absolute;
+    top: 0%;
+    right: 10px;
+    left: 40%;
+    margin: 10px;
+    margin-right: 10px;
+    font-size: 1,8em;
+    color: rgb(245, 220, 238);
+}
+
+#licoes_aprendidas{
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    left: 40%;
+    margin: 10px;
+    margin-right: 10px;
+    font-size: 1.45em;
+    color: rgb(245, 220, 238);
+
+}
+
+#licoes_a_aprender_titulo{
+    position: absolute;
+    top: 0%;
+    right: 10px;
+    left: 70%;
+    margin: 10px;
+    margin-right: 10px;
+    font-size: 1,8em;
+    color: rgb(245, 220, 238);
+
+}
+
+#licoes_a_aprender{
+
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    left: 70%;
+    margin: 10px;
+    margin-right: 10px;
+    font-size: 1.45em;
+    color: rgb(245, 220, 238);
+
+}
+#section{
+    height: 320px;
+    position: relative;
+    background-color: rgb(166, 57, 101);
+
+}
