@@ -2,21 +2,19 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-/* request #1 */
 body {
     background-color: rgb(253, 251, 251);
 }
 
-/* request #2 */
+/* header */
 #cabecalho {
     top: 0;
     position: fixed;
-    width: 100%;
-    padding: 25px;
     background-color: black;
+    width: 100%;
+    padding: 10px;
 }
 
 #titulo {
@@ -24,87 +22,63 @@ body {
     text-align: center;
 }
 
-/* request #3 */
-.picture {
-  display: flex;
-}
-
+/* photo */
 #minha_foto {
   width: 350px;
   height: 350px;
   margin-top: 5%;
   margin-left: 2.5%;
+  border-radius: 50%;
 }
 
-/* request #4 */
+/* lessons learned */
 h2 {
-  margin-left: 5%;
-  font-size: 2rem;
-  text-decoration: underline;
+  margin: 2.5%;
 }
 
 #licoes_aprendidas {
-  font-size: 1.5rem;
-  float: left;
-  width: 50%;
+  margin: 2.5%;
 }
 
-/* request #5 */
+/* lessons I want to learn */
 #licoes_a_aprender {
-  font-size: 1.5rem;
-  float: right;
-   width: 50%;
+  margin: 2.5%;
 }
 
-/* request #6 */
-#rodape {
-    background-color: black;
-    padding: 20px;
-}
-
-/* request #7 */
-#rodape a {
-    text-decoration: none;
-    font-size: large;
-    font-family: sans-serif;
-    color: black;
-}
-
-.btn {
-  padding: 5px;
-}
-
-/* request #8 */
+/* About my lessons learned */
 article {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5rem;
+    font-size: 1em;
     line-height: 0.8;
     color: darkblue;
     text-align: justify;
 }
 
-/* request #9 */
-aside {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    text-align: justify;
-    padding: 50px;
-    font-size: 1.5rem;
-}
-
-/* request #12 */
-table , th {
-  border: 1px solid;
-}
-
-/* request #15 */
 .lado-esquerdo {
   width: 50%;
   float: left;
 }
 
+/* About me */
+aside {
+    display: inline;
+}
+
+/*  chart */
 .lado-direito {
   width: 50%;
   float: right;
+}
+
+/* footer */
+#rodape {
+  background-color: black;
+  padding: 10px;
+}
+
+#rodape a {
+  text-decoration: none;
+  font-size: large;
+  font-family: sans-serif;
+  color: white;
 }
