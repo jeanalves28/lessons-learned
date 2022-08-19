@@ -27,7 +27,7 @@ nav{
     text-align: center;   
 }
 
-article{    
+.lado_esquerdo{    
     width: 60%;
     text-align: justify;  
     text-indent: 50pt;  
@@ -35,7 +35,7 @@ article{
     padding-top: 30pt;    
 }
 
-aside{
+.lado_direito{
     float: right;
     width: 30%;
     margin-top: 45pt;
