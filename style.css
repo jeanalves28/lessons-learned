@@ -69,6 +69,7 @@ h2 {
 aside {
     display: inline;
     font-size: 1.5rem;
+    line-height: normal;
 }
 
 /*  chart */
