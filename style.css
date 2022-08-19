@@ -1,10 +1,8 @@
 body {
     background-color: rgb(253, 251, 251);
-}
-
-.caixa {
-    top: 0;
-    position: fixed;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -32,208 +30,173 @@ header {
     top: 0;
 }
 
-div {
-    display: block;
-}
-
-nav {
-    position: absolute;
-    top: 30px;    
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 10px;
-}
-
-nav a {
-    text-transform: uppercase;
+#portifolio a {
+    text-decoration: none;
     color: white;
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none; 
-}
-
-#inicio {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 25px;
-    padding: 150px;    
-    color: #08758f;
-    font-weight: bold;
-    padding-bottom: 50px;
-}
-
-#inicio p {
-    color:black;
-    font-weight: 400;
-    text-transform: none;
-}
-
-.depoimento {
-    width: auto;
-    margin-left: 50px;
-}
-
-.blocos {
-    display: inline-block;
-    width: 30%;
-    text-align: center;
-    vertical-align: center;
-    height: 500px;
-    padding: 1%;
-    border: 1px solid #08758f;
-    vertical-align: text-top;
-    left: 0;
-    right: 0;
+    padding: 30px;
     margin: 0;
-    color: #08758f;
 }
 
-.blocos p {
-    line-height: 25px;
-    margin: 20px 0;
-    font-size: 17px;
-    text-align: justify;
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-h4 {
-    font-size: 22px;
-}
-
-.geral {
-    bottom: 0;
-}
-
-#pcdev {
-    position: relative;
-    width: 400px;
-    border-radius: 25%;
-    left: 50px;
-    top: 5px;
-    bottom: 0;
-}
-
-.licoes {
-    position: absolute;
-    width: 700px;
-    padding: 0;
-    left: 70px;
-    top: 1000px;
-    bottom: 0;
-}
-
-.lista1 {
-    display: inline-block;
-    bottom: 0;
-}
-
-.lista2 {
-    display: inline-block;
-    bottom: 0;
-}
-
-#licoes_aprendidas {   
-    left: 40px;
-    top: 0px;
-    width: 300px;
-    height: 350px;
-    bottom: 0;
-}
-
-#licoes_a_aprender {
-    left: 40px;
-    top: 0px;
-    width: 300px;
-    height: 350px;
-    bottom: 0;
-}
-
-#minha_foto {
-    position: relative;
-    width: 150px;
-    border-radius: 50%;
-    padding-top: 0px;
-    top: 0px;
-
+#portifolio {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: -10px;
 }
 
 .sobremim {
-    text-align: center;
-    font-size: 18px;
-    position: relative;
-    top: 100px;
+    display: inline-block;
+    max-width: 300px;
+    margin: 2px;
+    padding: 2px;
+    margin-top: 150px;
+    margin-left: 30px;
+    align-items: center;
+
 }
 
 .sobremim p {
-    text-align: justify;
-    margin: 0 5% 0 5%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
 
-.sobremim h3 {  
-    text-decoration: none;
+.sobremim h2 {
+    font-size: 22px;
+    text-align: center;
 }
 
-aside {
+#minhafoto {
+    display: inline-block;
+    border-radius: 50%;
+    width: 200px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+article, aside {
+    display: inline-block;
+}
+
+.lado-esquerdo {
+    display: inline-block;
     position: relative;
-    width: 500px;
-    left: 700px;
+    max-width: 800px;
+    float: top;
+    top: -350px;
+    left: 100px;
+}
+
+.lado-esquerdo h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.lado-esquerdo p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.lado-direito {
+    display: inline-block;
+    position: relative;
+    max-width: 700px;
+    max-height: 400px;
+    float: center;
     top: 0px;
+    left: -550px;
 }
 
-#fotocontato {
+.lista1, .lista2 {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.lista1 {
+    border-right: 3px solid #08758f;
+    margin-right: 0px;
+}
+
+.fotodev {
+    display: inline-block;
     position: relative;
-    width: 500px;
-    border-radius: 25%;
-    left: 1300px;
-    top: -400px;
+    float: right;
+    top: -350px;
+    right: 20px;
 }
 
-#linkedin a, #instagram a, #email{
+#pcdev {
+    border-radius: 0 100px 0 100px;
+    position: relative;
+    display: inline-block;
+    top: -170px;
+}
+
+nav {
+    display: inline-block;
+    position: relative;
+}
+
+#linkedin a, #instagram a, #email {
     color: #08758f;
     text-decoration: none;
 }
 
 table {
-    position: relative;
-    left: 1300px;
-    right: 0;
-    top: -300px;
+    border-collapse: collapse;
+    margin-top: -200px;
+    margin-bottom: 0px;
+    margin-right: -420px;
+    float: right;
 }
 
 table tr td {
     border-style:ridge;
     border-color: #08758f;
-    padding: 5px;
+    padding: 15px;
 }
 
 table td {
     font-weight: bold;
     text-align: center;
-}
-
-#rodape {
-    position: relative;
-    background-color: #08758f;
-    margin: 0;
-    padding: 0;
-    height: 25px;
-    bottom: 0;
-}
-
-#rodape p {
-    text-align: center;
-    color: white;
-    margin-left: 10px;
-    font-size: 20px;
-    font-style: italic;
+    font-size: 15px;
 }
 
 caption {
     font-weight: bold;
     font-size: 30px;
     color: #08758f;
+}
+
+.rodape-final {
+    position: absolute;
+    bottom: -270px;
+    right: 0;
+    left: 0;
+    background-color: #08758f;
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.rodape-final .title-final {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+    bottom: 0;
 }
