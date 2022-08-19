@@ -4,7 +4,8 @@ body{
 }
 
 #cabecalho{
-    top: 10px;
+    position: fixed;
+    top: 0px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(196, 87, 196);
