@@ -1,15 +1,13 @@
 /* mudei a cor de fundo para a cor rgb(253, 251, 251) */
 
-body {
-    background-color:rgb(253, 251, 251);
-} 
-
-/* centralizei o texto em h1 no título*/
+body { background-color:rgb(253, 251, 251); } 
+/**
+ * centralizei o texto em h1 no título */
 h1 {
     text-align: center;
   }
   
-  header {
+  #cabecalho {
 
     background: rgb(0, 147, 192);
  
