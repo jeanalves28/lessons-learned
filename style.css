@@ -12,27 +12,35 @@ header {
   position: fixed;
   top: 0;
   text-align: center;
-  background-color: rgb(108, 50, 131);
+  background-color: black;
   line-height: 100px;
   width: 100%;
 }
 
 #titulo {
-  color: blueviolet;
+  color: rgb(108, 50, 131);
 }
 
 .imagem {
   display: inline-block;
   border: 5px solid black;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 #licoes_aprendidas {
-  color: rgb(30, 76, 116);
+  color: rgb(108, 50, 131);
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: xx-large;
-  margin-top: 120px;
+  margin-top: 130px;
   margin-left: 15%;
 }
 
+#licoes_a_aprender {
+  color: rgb(108, 50, 131);
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  margin-top: 130px;
+  margin-left: 15%;
+}
