@@ -27,22 +27,16 @@ body{
 
 .lado-esquerdo{  
     float: left;  
-    width: 60%;
-    text-align: justify;  
-    text-indent: 50pt;  
-    line-height: 30pt;  
-    padding-top: 30pt;    
+    width: 60%; 
+    text-align: justify;      
 }
 
 .lado-direito{
     float: right;
     width: 30%;
-    margin-top: 45pt;
-    text-align: justify;
-    line-height: 30pt;
-    background-color: rgb(250, 216, 203);
-    padding: 20px;
-    text-indent: 15pt;    
+    background-color: rgb(197, 152, 136); 
+    padding: 20px;   
+    text-align: justify;   
 }
 
 #links_int{
