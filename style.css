@@ -12,46 +12,64 @@ body { background-color: rgb(253, 251, 251)
     background-color: aquamarine;
     text-align: center;
     top: 0%;
+    position: fixed;
 
 }
 #minha_foto {
     width: 300px;
 
 }
-article {
+.lado-esquerdo {
     margin-left: 10px;
     font-style: Calibri;
-    background-color: aquamarine;
-    max-width: 45%;
-
+    background-color: skyblue;
+    width: 50%;
+    /* float: left; */
+    left: 0;
+    display: inline-block;
+  
+    
 }
 #licoes_aprendidas {
     background-color: aquamarine;
     width: 15%;
     margin-left: 5px;
-    float: left;
     list-style-position: inside;
-    text-align: justify;
-
+    float: left;
 }
-aside { margin-left: 80%;
-    background-color: aquamarine;
+.lado-direito { max-width: 30%;
+    background-color:skyblue;
     font-family: Calibri;
     text-align: center;
+    float: right;
+    right: 0;
 }
 #licoes_a_aprender { 
-    width: 25%;
+    width: 15%;
     background-color: aquamarine;
-    display: inline-block;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     list-style-position: inside;
-    text-align: justify
+    display: inline-block;
 }
 #logo-lol {
     width: 15px;
     margin-left: 5px;
 }
-#rodapé {
+#rodape {
+    bottom: 0;
+    left: 0;
+    right: 0;
     text-align: center;
-    background-color:blanchedalmond
+    background-color:blanchedalmond;
+    position: fixed;
+}
+#tabela {
+    float: right;
+    /* position:absolute; */
+    background-color: black;
+    color: red;
+    font-size: large;
+    line-height: 20px;
+    margin-bottom: 20px;
+
 }
