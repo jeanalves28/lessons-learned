@@ -1,91 +1,89 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    background-color: rgb(42, 145, 75);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 120px;
+  background-color: rgb(42, 145, 75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
 }
 
 #titulo {
-    font-family: Verdana, sans-serif;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    line-height: 30px;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 #subtitulo {
-    font-family: Verdana, sans-serif;
-    text-align: center;
-    color: beige;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  color: beige;
 }
 
 table,
 th,
 td {
-    border: 1px solid black;
-    width: 50%;
+  border: 1px solid black;
+  width: 50%;
 }
 
 table {
-    top: 320px;
-    z-index: 3;
-    position: absolute;
+  top: 320px;
+  z-index: 3;
+  position: absolute;
 }
 
 #minha_foto {
-    top: 130px;
-    z-index: 2;
-    position: absolute;
-    padding: 5px;
-    border: 1px solid rgb(13, 167, 28);
-    margin: 5px;
+  top: 130px;
+  z-index: 2;
+  position: absolute;
+  padding: 5px;
+  border: 1px solid rgb(13, 167, 28);
+  margin: 5px;
 }
 
 .lista1 {
-    z-index: 4;
-    top: 410px;
-    position: absolute;
+  z-index: 4;
+  top: 410px;
+  position: absolute;
 }
 
 .lista2 {
-    z-index: 5;
-    top: 410px;
-    position: absolute;
-    left: 250px;
+  z-index: 5;
+  top: 410px;
+  position: absolute;
+  left: 250px;
 }
 
 .lado-esquerdo {
-    z-index: 6;
-    position: absolute;
-    top: 150px;
-    left: 250px;
+  z-index: 6;
+  position: absolute;
+  top: 150px;
+  left: 250px;
 }
 
 .lado-direito {
-    z-index: 7;
-    position: absolute;
-    top: 150px;
-    left: 700px;
+  z-index: 7;
+  position: absolute;
+  top: 150px;
+  left: 700px;
 }
 
 .link {
-    z-index: 8;
-    position: absolute;
-    top: 250px;
-    left: 250px;
+  z-index: 8;
+  position: absolute;
+  top: 250px;
+  left: 250px;
 }
 
 #rodape {
-    z-index: 9;
-    position: absolute;
-    top: 700px;
-    left: 500px;
-}
-
-;
+  z-index: 9;
+  position: absolute;
+  top: 700px;
+  left: 500px;
+};
