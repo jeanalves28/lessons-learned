@@ -2,150 +2,98 @@ body{
     background-color: rgb(253, 251, 251);
 }
 header{
-    background-color: rgb(89, 89, 224);
-    position: fixed;
     top: 0;
-    padding-left: 20px;
-    padding-right: 33%;
+    position: fixed;
+    margin-left: 37.5%;
 }
-h1{ 
-    color: rgba(238, 224, 164, 0.911);
+h1{
+    color: rgb(35, 35, 41);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+#minha_foto{
     position: relative;
-    left: 650px;
+    background-color: rgb(35, 35, 41);
+    padding: 10px;
+    top: -40px;
+    margin-left: 20px;
+    width: 190px;
+    border-radius: 10%;
 }
 nav{
-    width: 1200px;
+    margin-top: 80px;
+    background-color: rgb(35, 35, 41);
+    border-radius: 7px;
+    padding: 8px;
 }
 ul.links-externos li{
-    display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 5px;
+    display: inline;
     text-decoration: none;
+    margin-top: 0;
 }
 .nav-links{
     display: inline-block;
     color: rgba(238, 224, 164, 0.911);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
     text-decoration: none;
-    padding-left: 18px;
-    font-weight: bolder;
-    transition: 0.4s all;
+    padding-left: 50px;
 }
 .nav-links:hover{
     text-decoration: underline;
 }
-.link-main{
-    padding-right: 0px;
+#lessons{
+    display: inline-block;
+    padding-left: 30px;
 }
-.link-sup{
-    padding-left: 35px;
+.lessons-1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
 }
-#minha_foto{
-    background-color: rgb(123, 123, 231);
-    position: relative;
-    padding: 13px;
-    top: 150px;
-    width: 220px;
-    border-radius: 5% 20%;
+.lessons-1 li{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 20px;
 }
-#topico1{
-    position: relative;
-    top: -124px;
-    left: 400px;
-    color: rgb(123, 123, 231);
-}
-ol#licoes_aprendidas{
-    position: relative;
-    top: -130px;
-    left: 380px;
-}
-ol#licoes_aprendidas li{
-    padding: 1px;
-    width: 180px;
-}
-ol#licoes_aprendidas li:nth-child(2n){
-    background-color: rgba(238, 224, 164, 0.911);
-    color: rgb(123, 123, 231);
-    font-weight: bold;
-}
-ol#licoes_aprendidas li:nth-child(2n+1){
-    background-color: rgb(123, 123, 231);
-    color: rgba(238, 224, 164, 0.911);
-    font-weight: bold;
-}
-ol#licoes_aprendidas li::marker{
-    color: rgb(123, 123, 231);
-    font-weight: bold;
-}
-#topico2{
-    position: relative;
-    top: -393px;
-    left: 750px;
-    width: 200px;
-    color: rgb(123, 123, 231);
-    font-weight: bold;
-}
-ul#licoes_a_aprender li{
-    position: relative;
-    top: -396px;
-    left: 730px;
-    padding: 1px;
-    width: 170px;
-}
-ul#licoes_a_aprender li:nth-child(2n){
-    background-color: rgba(238, 224, 164, 0.911);
-    color: rgb(123, 123, 231);
-    font-weight: bold;    
-}
-ul#licoes_a_aprender li:nth-child(2n+1){
-    background-color: rgb(123, 123, 231);
-    color: rgba(238, 224, 164, 0.911);
-    font-weight: bold;
-}
-ul#licoes_a_aprender li::marker{
-    color: rgb(123, 123, 231);
+.lado-esquerdo{
+    max-width: 850px;
+    color: rgb(35, 35, 41);
 }
 h3{
-    position: relative;
-    top: -350px;
-    margin-left: 30px;
-    color: rgb(63, 63, 247);
-    font-weight: bold;
+    background-color: rgb(35, 35, 41);
+    color: rgba(238, 224, 164, 0.911);
+    max-width: 800px;
+    padding: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgba(238, 224, 164, 0.911);
-    padding: 40px;
-    width: 837px;
-    border-radius: 15px;
+    border-radius: 7px;
 }
-p{
-    position: relative;
-    margin-left: 50px;
-    max-width: 880px;
-    top: -350px;
-    color: rgb(63, 63, 247);
+.main-paragraph{
+    margin-left: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+}
+.lado-direito{
+    float: right;
+    max-width: 350px;
+    margin-top: 158px;
+    margin-right: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+h3{
+    text-align: center;
+    font-weight: bolder;
 }
 #rodape{
-    color: rgb(63, 63, 247);
-    font-weight: bolder;
-}
-h4{
-    color: rgb(63, 63, 247);
+    position: absolute;
+    left: 13px;
+    bottom: 10px;
+    background-color: rgb(35, 35, 41);
+    color: rgba(238, 224, 164, 0.911);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
     font-style: italic;
-    text-align: center;
-    position: relative;
-    left: 1100px;
-    top: -900px;
-    background-color: rgba(238, 224, 164, 0.911);
-    padding: 40px;
-    width: 300px;
-    height: 100px;
-}
-.aside-paragraph{
-    position: relative;
-    width: 350px;
-    left: 1070px;
-    top: -1020px;
+    padding: 3px;
+    border-radius: 5px;
 }

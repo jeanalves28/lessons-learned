@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(253, 251, 251);
+}
+header{
+    background-color: rgb(89, 89, 224);
+    position: fixed;
+    top: 0;
+    padding-left: 20px;
+    padding-right: 33%;
+}
+h1{ 
+    color: rgba(238, 224, 164, 0.911);
+    position: relative;
+    left: 650px;
+}
+nav{
+    width: 1200px;
+}
+ul.links-externos li{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+.nav-links{
+    display: inline-block;
+    color: rgba(238, 224, 164, 0.911);
+    text-decoration: none;
+    padding-left: 18px;
+    font-weight: bolder;
+    transition: 0.4s all;
+}
+.nav-links:hover{
+    text-decoration: underline;
+}
+.link-main{
+    padding-right: 0px;
+}
+.link-sup{
+    padding-left: 35px;
+}
+#minha_foto{
+    background-color: rgb(123, 123, 231);
+    position: relative;
+    padding: 13px;
+    top: 150px;
+    width: 220px;
+    border-radius: 5% 20%;
+}
+#topico1{
+    position: relative;
+    top: -124px;
+    left: 400px;
+    color: rgb(123, 123, 231);
+}
+ol#licoes_aprendidas{
+    position: relative;
+    top: -130px;
+    left: 380px;
+}
+ol#licoes_aprendidas li{
+    padding: 1px;
+    width: 180px;
+}
+ol#licoes_aprendidas li:nth-child(2n){
+    background-color: rgba(238, 224, 164, 0.911);
+    color: rgb(123, 123, 231);
+    font-weight: bold;
+}
+ol#licoes_aprendidas li:nth-child(2n+1){
+    background-color: rgb(123, 123, 231);
+    color: rgba(238, 224, 164, 0.911);
+    font-weight: bold;
+}
+ol#licoes_aprendidas li::marker{
+    color: rgb(123, 123, 231);
+    font-weight: bold;
+}
+#topico2{
+    position: relative;
+    top: -393px;
+    left: 750px;
+    width: 200px;
+    color: rgb(123, 123, 231);
+    font-weight: bold;
+}
+ul#licoes_a_aprender li{
+    position: relative;
+    top: -396px;
+    left: 730px;
+    padding: 1px;
+    width: 170px;
+}
+ul#licoes_a_aprender li:nth-child(2n){
+    background-color: rgba(238, 224, 164, 0.911);
+    color: rgb(123, 123, 231);
+    font-weight: bold;    
+}
+ul#licoes_a_aprender li:nth-child(2n+1){
+    background-color: rgb(123, 123, 231);
+    color: rgba(238, 224, 164, 0.911);
+    font-weight: bold;
+}
+ul#licoes_a_aprender li::marker{
+    color: rgb(123, 123, 231);
+}
+h3{
+    position: relative;
+    top: -350px;
+    margin-left: 30px;
+    color: rgb(63, 63, 247);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(238, 224, 164, 0.911);
+    padding: 40px;
+    width: 837px;
+    border-radius: 15px;
+}
+p{
+    position: relative;
+    margin-left: 50px;
+    max-width: 880px;
+    top: -350px;
+    color: rgb(63, 63, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+}
+#rodape{
+    color: rgb(63, 63, 247);
+    font-weight: bolder;
+}
+h4{
+    color: rgb(63, 63, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    left: 1100px;
+    top: -900px;
+    background-color: rgba(238, 224, 164, 0.911);
+    padding: 40px;
+    width: 300px;
+    height: 100px;
+}
+.aside-paragraph{
+    position: relative;
+    width: 350px;
+    left: 1070px;
+    top: -1020px;
+}
+table{
+    border: solid black;
+}
+th, td{
+    border: solid black;
+}
