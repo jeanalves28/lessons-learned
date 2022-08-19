@@ -1,4 +1,35 @@
+
 body {
 background-color: rgb(253, 251, 251);
+font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+    color: whitesmoke;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
+header{
+    background-color: green;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 1rem black;
+}
+
+nav{ 
+    display: flex;
+    margin: 30px;
+}
+
+.menu{
+    list-style-type: none;
+    padding-left: 2rem;
+    color: whitesmoke;
+}
+
+h4{
+color: darkgreen;   
 }
 
