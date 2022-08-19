@@ -15,4 +15,28 @@ header#cabecalho{
 img#minha_foto{
     width: 300px;
 }
+#artigo{
+
+    margin: 10px;
+    padding: 5px;
+   border-style: dashed;
+   border-color: coral;
+   border-width: 2px;
+}
+
+#lateral{
+
+    margin: 5px;
+    padding: 10px;
+    border-style: outset;
+    border-color: greenyellow;
+    border-width: 4px;
+}
+
+.fechamento{
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border-style: ridge;
+}
 
