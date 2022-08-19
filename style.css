@@ -1,3 +1,35 @@
-img{
-    width: 150px;
+#cabecalho{
+    top: 0%;
+    padding: 20px;
+    background-color: #11a36a;
+    margin-left: -25px;
+    margin-right: -50px;
+    margin-top: -25px;
+}
+
+#titulo {
+    font-family: sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 250%;
+}
+
+#minha-foto{
+width: 200px;
+margin-right: 190px;
+border-radius: 150px;
+margin-top: 20px;
+
+}
+
+p{
+    font-family: sans-serif;
+    
+}
+
+#destaque{
+    color: #11a36a;
+    font-size: 25px;
+    margin-left: 5px;
+
 }
