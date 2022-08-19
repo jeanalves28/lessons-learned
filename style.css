@@ -15,14 +15,6 @@ header#cabecalho{
 img#minha_foto{
     width: 300px;
 }
-#artigo{
-
-    margin: 10px;
-    padding: 5px;
-   border-style: dashed;
-   border-color: coral;
-   border-width: 2px;
-}
 
 #lateral{
 
