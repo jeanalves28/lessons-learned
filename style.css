@@ -26,23 +26,35 @@ main {
   text-align: center;
 }
 
+#apresentacao {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+#apresentacao article {
+  font-size: 2rem;
+  text-align: justify;
+  margin-right: 15%;
+}
+
 #sobre_mim {
   display: flex;
-  margin-top: 7em;
   padding-bottom: 60px;
-  justify-content: center;
-  align-items: center;
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 10%;
 }
 
 #sobre_mim p {
   color: black;
   font-size: 2rem;
   line-height: 1.2;
-  margin-right: 2.5%;
   width: 500px;
 }
 
 #minha_foto {
+  margin-top: 5%;
+  margin-left: 15%;
   width: 20%;
   border-radius: 32%;
 }
@@ -50,12 +62,6 @@ main {
 .hero_trybe {
   color: rgb(47, 193, 140);
   font-weight: 700;
-}
-
-article {
-  font-size: 2rem;
-  text-align: justify;
-  padding-bottom: 60px;
 }
 
 #listas {
