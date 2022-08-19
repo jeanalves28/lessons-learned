@@ -1,5 +1,6 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-size: 20pt;
 }
 
 #cabecalho{
@@ -16,3 +17,27 @@ body{
     font-size: 30pt;
     padding-top: 18px;
 }
+
+article{    
+    width: 60%;
+    text-align: justify;  
+    text-indent: 50pt;  
+    line-height: 30pt;  
+}
+
+aside{
+    float: right;
+    width: 35%;
+    margin-top: 310pt;
+    text-align: justify;
+    line-height: 30pt;
+    background-color: rgb(250, 216, 203);
+    padding: 20px;
+}
+
+#minha_foto{
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+
