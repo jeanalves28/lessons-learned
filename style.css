@@ -150,6 +150,4 @@ footer {
 footer a {
   text-decoration: none;
   color: lightgray;
-
-  /* stylelint-disable-next-line no-missing-end-of-source-newline */
 }
