@@ -1,11 +1,14 @@
 body{
     background-color: rgb(253, 251, 251);
-    font-size: 20pt;
+    font-size: 20pt;    
 }
 
 #cabecalho{
-    top: 0;
-    background-color: rgb(196, 59, 196);
+    top: 10px;
+    margin-left: 60pt;
+    background-color: rgb(196, 87, 196);
+    width: 90%; 
+    border-radius: 30pt;   
 }
 
 #titulo{
@@ -15,7 +18,11 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 0.8px;
     font-size: 30pt;
-    padding-top: 18px;
+    padding-top: 20px;    
+}
+
+nav{
+    text-align: center;
 }
 
 article{    
@@ -23,21 +30,77 @@ article{
     text-align: justify;  
     text-indent: 50pt;  
     line-height: 30pt;  
+    padding-top: 30pt;    
 }
 
 aside{
     float: right;
-    width: 35%;
-    margin-top: 310pt;
+    width: 30%;
+    margin-top: 45pt;
     text-align: justify;
     line-height: 30pt;
     background-color: rgb(250, 216, 203);
     padding: 20px;
+    text-indent: 15pt;    
 }
 
 #minha_foto{
     border: 8px solid white;
-    box-shadow: 1px 1px 4px black;
+    box-shadow: 1px 1px 4px black;   
 }
 
+div{
+    position: center;
+    margin-top: 50pt;
+    margin-left: 230pt;   
+}
 
+#aprender{
+    width: 50%;
+    padding-top: 6pt;
+    float: right;
+}
+
+#aprendido{
+    float: left;
+    padding-top: 4pt;       
+}
+
+p{
+    letter-spacing: 0.3px;  
+    line-height: 50px;     
+    margin: 0px;
+}
+
+ol{
+    line-height: 55px;
+}
+
+ul{
+    line-height: 50px;
+}
+
+h2{
+    font-weight: 550;
+}
+
+#linkedin{    
+    background-color: rgb(214, 214, 142);
+    font-size: 25pt;
+    line-height: 150pt;
+    margin-top: 200pt;
+    margin-bottom: 200pt;
+    padding: 20pt 50pt;
+    border-radius: 50px 0px;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
