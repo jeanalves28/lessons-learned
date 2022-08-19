@@ -25,7 +25,6 @@ body {
 
 #link_github {
   display: block;
-  padding: 8px;
   margin-right: 1150px;
   margin-left: 100px;
   font-size: 25px;
@@ -37,10 +36,9 @@ body {
 
 .lado-direito {
   display: block;
-  float: right;
   margin-right: 20px;
   margin-left: 75%;
-  margin-top: -350px;
+  margin-top: -370px;
   padding-bottom: 150px;
   font-size: 20px;
 }
@@ -51,9 +49,9 @@ body {
 }
 
 .lado-esquerdo {
-  float: left;
+  display: block;
+  margin-top: -460px;
   font-size: 20px;
-  margin-top: -470px;
   margin-right: 40%;
   margin-left: 30%;
   line-height: 130%;
@@ -69,22 +67,23 @@ body {
   font-size: 30px;
   font-weight: 600;
   color: green;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 #licoes_aprendidas {
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: oblique;
-  margin-left: 300px;
+  margin-left: 500px;
+  display: inline-block;
 }
 
 #licoes_a_aprender {
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: oblique;
-  margin-left: 800px;
-  margin-top: -380px;
+  margin-top: -400px;
+  display: inline-block;
 }
 
 #licoes_a_aprender p {
