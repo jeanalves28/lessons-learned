@@ -1,133 +1,167 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabeçalho{
-    top: 0%;
+#cabecalho {
+    top: 0;
     background-color: rgb(166, 57, 101);
 }
 
-#titulo{
+#titulo {
     text-align: center;
     color: rgb(245, 220, 238);
-
+    padding: 6px;
 }
 
-#minha_foto{
+#minha_foto {
     float: left;
     height: 300px;
     padding: 10px;
 }
 
-#lições_aprendidas_titulo{
+#lições_aprendidas_titulo {
     position: absolute;
     top: 0%;
     right: 10px;
     left: 40%;
     margin: 10px;
     margin-right: 10px;
-    font-size: 1,8em;
+    font-size: 1, 8em;
     color: rgb(245, 220, 238);
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
     position: absolute;
     top: 10%;
     right: 10px;
     left: 40%;
     margin: 10px;
     margin-right: 10px;
-    font-size: 1.45em;
+    font-size: 1.1em;
     color: rgb(245, 220, 238);
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#licoes_a_aprender_titulo{
+#licoes_a_aprender_titulo {
     position: absolute;
     top: 0%;
     right: 10px;
     left: 70%;
     margin: 10px;
     margin-right: 10px;
-    font-size: 1,8em;
+    font-size: 1, 8em;
     color: rgb(245, 220, 238);
-
 }
 
-#licoes_a_aprender{
-
+#licoes_a_aprender {
     position: absolute;
     top: 10%;
     right: 10px;
     left: 70%;
     margin: 10px;
     margin-right: 10px;
-    font-size: 1.45em;
+    font-size: 1.1em;
     color: rgb(245, 220, 238);
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#section{
+
+#section {
     height: 320px;
     position: relative;
     background-color: rgb(166, 57, 101);
 }
 
-h3{
-    padding-left: .5rem;
+#outras_info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#trybe {
+    width: 50%;
+}
+
+h3 {
+    padding: .5rem;
     margin-left: .5rem;
     background-color: rgb(166, 57, 101);
     color: rgb(245, 220, 238);
-
+    margin-bottom: 9px;
 }
-article{
-    position: absolute;
+
+article {
+    position: relative;
     padding-left: .5rem;
     margin-left: .5rem;
-    float: right;
-    width: 50%;
     text-align: justify;
     color: rgb(166, 57, 101);
 }
 
-aside{
-    position: absolute;
-    width: 40%;
-    left: 55%;
+#sobreMim_redes {
+    width: 50%;
+}
+
+#tamanho_texto {
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+aside {
+    margin-top: 18px;
     text-align: justify;
-    padding-left: .5rem;
-    margin-left: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 1rem;
     float: right;
     box-shadow: inset 5px 0 5px -5px rgb(166, 57, 101);
     font-style: italic;
     color: rgb(166, 57, 101);
+    font-size: 20px;
+    line-height: 25px;
 }
 
-h4{
-    position: absolute;
-    width: 40%;
+h4 {
+    width: 95%;
     left: 55%;
     margin-left: .5rem;
     float: right;
     top: 92%;
     background-color: rgb(166, 57, 101);
     color: rgb(245, 220, 238);
+    padding: 8px;
+    text-align: center;
 }
 
-a{
-    position: absolute;
-    width: 40%;
+a {
     margin-left: .5rem;
     color: rgb(245, 220, 238);
-
-
 }
-#github_espaço{
-    position: absolute;
-    width: 40%;
+
+#github_espaço {
+
     left: 35%;
     margin-left: .5rem;
 }
 
-#rodape{
+table,
+th {
+    border: 1px solid;
+    background-color: rgb(245, 220, 238);
+    color: rgb(166, 57, 101);
+    text-align: center;
+    width: 100%;
+}
 
+td {
+    border: 1px solid;
+    text-align: center;
+}
+
+#rodape {
+    color: rgb(166, 57, 101);
+    padding: 6px;
+}
+
+hr {
+    background-color: rgb(166, 57, 101);
 }
