@@ -1,16 +1,16 @@
+/* stylelint-disable indentation */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* request #1 */
-
 body {
     background-color: rgb(253, 251, 251);
 }
 
 /* request #2 */
-
 #cabecalho {
     top: 0;
     position: fixed;
@@ -25,79 +25,80 @@ body {
 }
 
 /* request #3 */
-
 .picture {
-  width: 100%;
-  height: 100%;
-  margin-top: 5%;
-  background-color: darkgrey;
+  display: flex;
 }
 
 #minha_foto {
-    display: block;
-    margin: auto;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  margin-top: 5%;
+  margin-left: 2.5%;
 }
 
 /* request #4 */
+h2 {
+  margin-left: 5%;
+  font-size: 2rem;
+  text-decoration: underline;
+}
 
-#licoes_aprendidas{
-background-color: bisque;
+#licoes_aprendidas {
+  font-size: 1.5rem;
+  float: left;
+  width: 50%;
 }
 
 /* request #5 */
-
-#licoes_a_aprender{
-background-color: bisque;
+#licoes_a_aprender {
+  font-size: 1.5rem;
+  float: right;
+   width: 50%;
 }
 
 /* request #6 */
-
 #rodape {
-    background-color: darkgrey;
-    padding: 2rem;
+    background-color: black;
+    padding: 20px;
 }
 
 /* request #7 */
-
-#rodape a{
+#rodape a {
     text-decoration: none;
     font-size: large;
     font-family: sans-serif;
-    background-color: aliceblue;
-    padding: 1rem;
+    color: black;
+}
+
+.btn {
+  padding: 5px;
 }
 
 /* request #8 */
-
 article {
-    background-color: lightblue;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
     line-height: 0.8;
-    color: blue;
+    color: darkblue;
+    text-align: justify;
 }
 
 /* request #9 */
-
 aside {
-    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 50px;
+    font-size: 1.5rem;
 }
 
-/* request #12*/
-
-table, th{
+/* request #12 */
+table , th {
   border: 1px solid;
 }
 
-th {
-  font-size: large;
-}
-
 /* request #15 */
-
 .lado-esquerdo {
   width: 50%;
   float: left;
