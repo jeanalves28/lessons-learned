@@ -11,6 +11,7 @@ body {
     letter-spacing: 5px;
     position: fixed;
     width: 100%;
+    top: 0;
 }
 
 #titulo {
@@ -34,7 +35,9 @@ body {
 }
 
 #lado {
-    margin-left: 25.5em;
+    float: right;
+    width: 10em;
+    margin-right: 28em;
 }
 
 #twice {
@@ -45,9 +48,6 @@ body {
     display: inline-block;
 }
 
-#licoes {
-    display: inline-block;
-}
 #lessons{
     margin-left: 1em;
 }
@@ -59,7 +59,7 @@ body {
     margin-left: 1em;
 }
 
-.licoess {
+#licoes_a_aprender {
     display: inline-block;
 }
 table {
