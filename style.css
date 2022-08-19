@@ -5,7 +5,11 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);    
+  background-color: rgb(253, 251, 251);   
+  font-family: 'Nanum Myeongjo', serif; 
+}
+header {
+  padding: 50px, 0;
 }
 
 #cabecalho {
@@ -13,8 +17,39 @@ body {
   background-color: rgb(61, 199, 130);
   position: fixed;
   text-align: center;
+  justify-content: space-around;
+  display: flex;
+  font-size: 30px;
  
 }
 #cabecalho {
   top: 0;
+}
+
+#titulo {
+  display: flex;
+  align-items: center;
+}
+.links li {
+  display: inline-block;
+ 
+ 
+}
+.links li a {
+  font-size: 25px;
+  text-decoration: none;  
+}
+#minha_foto {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+.foto-pessoal {
+  padding: 10px;
+  margin: 100px;
+}
+.aprendidos {
+  font-size: 18px;
+  padding: 0, 50px;
+  
 }
