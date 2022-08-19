@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-p{
+p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     font-size: 15px;
@@ -13,7 +13,7 @@ p{
 
 #minha_foto {
     max-width: 400px;
-    border: 2px solid blue;
+    border: 2px solid rgb(32, 32, 85);
 }
 
 body {
