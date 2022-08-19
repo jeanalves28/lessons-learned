@@ -3,95 +3,6 @@ body {
 }
 
 #cabecalho {
-margin-top: 0;
-    text-align: center;
-    background-color: rgb(246, 107, 107);
-    font-family: 'Courier New', Courier, monospace;
-    color: rgba(0, 0, 0, 0.948);
-    letter-spacing: 5px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
-
-#titulo {
-    margin-top: 0;
-}
-
-#minha_foto {
-    width: 20em;
-    float: left;
-    margin-left: 5.0em;
-}
-
-#sobre {
-    display: inline-block;
-    width: 100%;
-    margin-top: 5em;
-}
-
-#em_breve {
-    float: right;
-    margin-right: 10em;
-    width: 20em;
-}
-
-#lado {
-    float: right;
-    width: 10em;
-    margin-right: 28em;
-}
-
-#twice {
-    margin-left: 12.5em;
-}
-
-#licoes_aprendidas {
-    display: inline-block;
-}
-
-#licoes {
-    display: inline-block;
-}
-
-#lessons {
-    margin-left: 1em;
-}
-
-#tt_p {
-    width: 40%;
-}
-
-#rodape {
-    margin-left: 1em;
-}
-
-.licoess {
-    display: inline-block;
-}
-
-table {
-    width: 30%;
-    text-align: center;
-}
-
-table,
-th,
-td {
-    border: 1px solid black;
-    margin-left: 1em;
-    padding: 0.1em;
-}
-
-#baixo {
-    margin-left: 1em;
-}
-
-body {
-    background-color: rgb(253, 251, 251);
-}
-
-#cabecalho {
     margin-top: 0;
     text-align: center;
     background-color: rgb(246, 107, 107);
@@ -111,23 +22,19 @@ body {
     float: left;
     margin-left: 5.0em;
 }
-
-#sobre {
+#sobre{
     display: inline-block;
     width: 100%;
     margin-top: 5em;
 }
-
-#em_breve {
+#em_breve{
     float: right;
     margin-right: 10em;
     width: 20em;
 }
 
 #lado {
-    float: right;
-    width: 10em;
-    margin-right: 28em;
+    margin-left: 25.5em;
 }
 
 #twice {
@@ -141,36 +48,29 @@ body {
 #licoes {
     display: inline-block;
 }
-
-#lessons {
+#lessons{
     margin-left: 1em;
 }
 
-#tt_p {
+#tt_p{
     width: 40%;
 }
-
-#rodape {
+#rodape{
     margin-left: 1em;
 }
 
 .licoess {
     display: inline-block;
 }
-
 table {
     width: 30%;
     text-align: center;
 }
-
-table,
-th,
-td {
-    border: 1px solid black;
+table, th, td{
+    border:1px solid black;
     margin-left: 1em;
     padding: 0.1em;
 }
-
-#baixo {
+#baixo{
     margin-left: 1em;
 }
