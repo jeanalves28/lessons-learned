@@ -27,7 +27,8 @@ nav{
     text-align: center;   
 }
 
-.lado_esquerdo{    
+.lado_esquerdo{  
+    float: left;  
     width: 60%;
     text-align: justify;  
     text-indent: 50pt;  
@@ -120,12 +121,9 @@ thead, tfoot {
     color: red;
 }
 
-#modulos{
-    align-content: center;    
-    margin-top: 600pt;
-    padding: 0;
+#modulo{   
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50%; 
 }
