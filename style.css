@@ -1,6 +1,10 @@
+
 body {
     background-color:rgb(253, 251, 251);
-    
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    line-height:1.2em;
+    color: rgb(60, 64, 68);
 }
 
 #cabecalho {
@@ -17,6 +21,10 @@ body {
     margin: 75px 0px 0px;
     width: 200px;
     border-radius: 50% 1% 50% 1%;
+}
+
+#sub2 {
+    font-size: 10px;
 }
 
 p {
@@ -41,6 +49,8 @@ td {
 }
 
 .testo_l {
-    
+    text-align: left;
+}
+.lado-esquerdo {
     text-align: left;
 }
