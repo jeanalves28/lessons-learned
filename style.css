@@ -9,7 +9,7 @@ body {
 }
 
 #cabecalho {
-  background-color: #0F4C5C;
+  background-color: #560E3A;
   position: fixed;
   top: 0;
   left: 0;
@@ -57,8 +57,8 @@ body {
 }
 
 .cor3 {
-  background-color: #470C30;
-  color: #470C30;
+  background-color: #B32520;
+  color: #B32520;
   width: 20px;
   position: absolute;
   top: 30px;
@@ -78,12 +78,12 @@ body {
 
 #minha_foto {
   margin-top: 90px;
-  border-radius: 20px;
+  border-radius: 40px;
   margin-left: 50%;
   transform: translateX(-50%);
-  width: 30%;
+  width: 20%;
   margin-bottom: 60px;
-  box-shadow: 15px 15px 30px 5px black;
+  box-shadow: 5px 5px 20px 5px black;
 }
 
 .lessons {
@@ -91,31 +91,42 @@ body {
   margin-bottom: 30px;
 }
 
-.title-lessons, .learning {
+.title-lessons, .learning, .about-me, .title-table {
   color: #0F4C5C;
-  font-size: 30px;
+  font-size: 35px;
   font-style: italic;
 }
 
+.title-table {
+  text-align: center;
+}
+
 table, th, td {
-  border: 1px solid black;
-  margin-bottom: 30px;
+  text-align: center;
+  border: 3px solid #FB8B24;
+  margin: 30px auto;
+  font-size: 16px;
+  padding: 5px;
+}
+
+th {
+  color: #9A031E;
+  font-size: 20px;
 }
 
 aside p {
-  color: red;
   line-height: 20px;
 }
 
 .lado-esquerdo {
-  background-color: hotpink;
-  width: 40%;
-
+  width: 50%;
+  display: inline-block;
 }
 
 .lado-direito {
-  background-color: indianred;
-  width: 40%;
+  width: 30%;
+  display: inline-block;
+  margin-left: 230px;
 }
 
 #rodape {
@@ -132,6 +143,8 @@ aside p {
 a {
   text-decoration: none;
   color: #FB8B24;
+  display: block;
+  line-height: 15px;
 }
 
 .botton {
