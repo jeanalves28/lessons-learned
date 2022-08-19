@@ -7,6 +7,7 @@ body {
     text-align: center;
     background-color: rgb(246, 107, 107);
     font-family: 'Courier New', Courier, monospace;
+    font-size: large;
     color: rgba(0, 0, 0, 0.948);
     letter-spacing: 5px;
     position: fixed;
@@ -20,8 +21,10 @@ body {
 
 #minha_foto {
     width: 20em;
-    float: left;
     margin-left: 5.0em;
+}
+.lado-esquerdo{
+    float: left;
 }
 #sobre{
     display: inline-block;
@@ -34,7 +37,7 @@ body {
     width: 20em;
 }
 
-#lado {
+.lado-direito {
     float: right;
     width: 10em;
     margin-right: 28em;
@@ -62,6 +65,10 @@ body {
 #licoes_a_aprender {
     display: inline-block;
 }
+#sec_licoes_a_aprender{
+    display: inline-block;
+}
+
 table {
     width: 30%;
     text-align: center;
