@@ -8,7 +8,8 @@ body{
     top: 0px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(196, 87, 196);
+    background-color: rgba(196, 87, 196, 0.5);
+    height: 10%;
     width: 90%; 
     border-radius: 30pt;   
     padding-bottom: 15pt;
@@ -22,10 +23,6 @@ body{
     letter-spacing: 0.8px;
     font-size: 30pt;
     padding-top: 20px;    
-}
-
-nav{
-    text-align: center;   
 }
 
 .lado_esquerdo{  
@@ -46,6 +43,11 @@ nav{
     background-color: rgb(250, 216, 203);
     padding: 20px;
     text-indent: 15pt;    
+}
+
+#links_int{
+    position: relative;   
+    margin-top: 80pt; 
 }
 
 #minha_foto{
