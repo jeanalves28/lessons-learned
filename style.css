@@ -18,5 +18,40 @@ body { background-color: rgb(253, 251, 251)
     width: 300px;
 
 }
-   
-    
+article {
+    margin-left: 10px;
+    font-style: Calibri;
+    background-color: aquamarine;
+    max-width: 45%;
+
+}
+#licoes_aprendidas {
+    background-color: aquamarine;
+    width: 15%;
+    margin-left: 5px;
+    float: left;
+    list-style-position: inside;
+    text-align: justify;
+
+}
+aside { margin-left: 80%;
+    background-color: aquamarine;
+    font-family: Calibri;
+    text-align: center;
+}
+#licoes_a_aprender { 
+    width: 25%;
+    background-color: aquamarine;
+    display: inline-block;
+    margin-left: 5px;
+    list-style-position: inside;
+    text-align: justify
+}
+#logo-lol {
+    width: 15px;
+    margin-left: 5px;
+}
+#rodapé {
+    text-align: center;
+    background-color:blanchedalmond
+}
