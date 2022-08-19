@@ -12,7 +12,10 @@
     }
     #titulo {
     text-align:center;
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    font-size: 35px;
+    letter-spacing: 2px;
     }
     #minha_foto {
     margin-top: 110px;
@@ -35,4 +38,10 @@
     border: 1px solid black;
     padding: 10px;
     margin: 10px;  
+    }
+    #artigo {
+    line-height: 25px;
+    }
+    .container .lado-esquerdo .lado-direito {
+        text-align: justify;
     }
