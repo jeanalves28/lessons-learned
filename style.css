@@ -1,8 +1,75 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
-#cabecalho {
-   position: fixed;
-    top: 0%;
+ #cabecalho {
+  position:fixed;
+  top: 0px;
+  background-color: rgb(138, 8, 8);
+  margin: 0px 680px 0px;
+  color: aliceblue;
 }
 
+#titulo {
+  padding: 10px 50px 10px;
+}
+
+#minha_foto {
+  width: 250px;
+  border-radius: 100px;
+}
+
+#artigo {
+  text-align: left;
+  width: 400px;
+  font-size: 18px;
+  color: aliceblue;
+  background-color: rgb(196, 8, 8);
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+
+#descricao {
+  position: absolute;
+  top: 265px;
+  left: 480px;
+  font-size: 18px;
+  padding: 12px 30px;
+  color: aliceblue;
+  background-color: rgb(196, 8, 8);
+  border-radius: 15px;
+  width: 400px;
+}
+
+#licoes_aprendidas {
+  background-color: rgb(196, 9, 9);
+  color:rgb(255, 255, 255);
+  margin: 20px 0px 10px;
+  padding: 15px 50px;
+  line-height: 20px;
+  border-radius: 15px;
+  width: 110px;
+}
+
+#licoes_a_aprender {
+  background-color: rgb(185, 9, 9);
+  color: rgb(255, 255, 255);
+  margin: 20px 0px 10px;
+  padding: 15px 50px;
+  line-height: 20px;
+  border-radius: 15px;
+  width: 110px;
+}
+
+.button {
+  background-color: rgb(185, 9, 9);
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: 25px 800px;
+  transition: 0.5s all;
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover {
+  background-color: yellow;
+}
