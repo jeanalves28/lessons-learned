@@ -31,8 +31,6 @@ h1 { text-align: center;
 
 }
 
-table, th, td {
-  border:1px solid rgb(115, 115, 115);
+table , th , td {
+  border: 1px solid rgb(115, 115, 115);
 }
-</style>
-<body>
