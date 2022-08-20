@@ -102,3 +102,21 @@ article {
     padding: 12px;
     text-align: right;
 }
+#artigo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(35, 47, 53);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 20px;
+    margin: auto;
+    width: auto;
+}
+#artigotexto{
+    background-color: rgb(62, 67, 70);
+    color: white;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-color: rgb(35, 47, 53);
+    font-size: 18px;
+}
