@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(253, 251, 251);
+    font-family: Raleway;
+    color: burlywood;
+}
+
+#cabecalho {
+    background-color: #f2f0ec;
+    background-size: cover;
+    background-position: 100% 25%;
+    width: 100%;
+    padding: 60px 30px 40px;
+    top: 0px;
+    text-align: center;
+    position: fixed;
+}
+
+.picture {
+    width: 200px;
+    padding: 60px 30px 40px;
+    border-radius: 100%;
+    margin-top: 150px;
+}
+
+.banner {
+    width: 950px;
+    padding: 60px 30px 40px;
+}
+
+ol {
+    font-family: Raleway;
+    color: burlywood;
+}
+
+ul {
+    font-family: Raleway;
+    color: burlywood;
+}
+
+.table {
+    font-family: Raleway;
+    color: burlywood;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 80px;
+    border-color: burlywood;
+    padding: 10px;
+}
+
+td,
+th {
+    font-family: Raleway;
+    font-size: 16px;
+    color: burlywood;
+    border: 20px solid #f2f0ec;
+    text-align: left;
+    padding: 8px;
+}
+
+p,
+li {
+    font-family: Raleway;
+    font-size: 16px;
+    color: #475550;
+}
+
+.article {
+    font-family: Raleway;
+    color: #475550;
+    text-align: center;
+    line-height: 26px;
+}
+
+.aside {
+    font-family: Raleway;
+    color: #475550;
+    text-align: center;
+    line-height: 26px;
+}
+
+.ladoalado {
+    float: left;
+    padding: 5em 2px;
+}
+
+.ladoalado section {
+    float: left;
+    width: 50%;
+}
+
+.button {
+    background-color: #f2f0ec;
+    color: burlywood;
+    border-radius: 4px;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    margin: auto;
+    width: 38%;
+    height: 60% transition: 0.5s all;
+
+}
+
+.button:hover {
+    background-color: bisque;
+
+}
+
+.site {
+    font-family: Raleway;
+    font-size: 16px;
+    color: #475550;
+    text-decoration: none;
+    padding: 0 30px;
+    display: inline-block;
+}
+
+.Footer {
+    display: none;
+    background-color: burlywood;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-top: 30px !important;
+}
+
+.tweak-footer-show .Footer {
+    display: block;
+}
