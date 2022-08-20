@@ -7,14 +7,15 @@ body{
     line-height: 25px;
 }
 
-#titulo{
-    background-color: black;
-}
+
 
 #cabecalho{
 
     top: 0%;
-    text-align: center;
+    border: dashed;
+    border-color: black;
+    background-color: aqua;
+    
 }
 
 img#minha_foto{
@@ -31,10 +32,6 @@ img#minha_foto{
     display: block;
     float: right;
     width: 300px;
-}
-#artigo{
-
-    width: 600px;
 }
 
 .fechamento{
