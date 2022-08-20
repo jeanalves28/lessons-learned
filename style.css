@@ -11,7 +11,7 @@ body {
     background-color: rgb(253,251,251);
 }
 
-.barra {
+header {
     background-color: rgb(0,19,194);
     text-align: center;
     position: fixed;
@@ -20,7 +20,7 @@ body {
     right: 0;
 }
 
-#titulo, #titulo_1, #content {
+#titulo, #titulo_1, #titulo_rodape, #content {
     color: rgb(253,251,251);
     text-align: center;
 }
@@ -34,16 +34,18 @@ body {
     margin-bottom: 10px;
 }
 
-div {
+div{
     display: inline-block;
 }
 
-.listas {
+
+#lista_1, #lista_2 {
     margin-left: 75px;
     margin-bottom: 50px;
 }
 
-.link{
+
+#link{
     margin-left: 75px;
 }
 
@@ -57,9 +59,25 @@ div {
     right: 0;
 }
 
-#artigo, #descricao{
+#artigo {
     text-align: left;
     margin-left: 75px;
+    margin-top: 10px;
     margin-bottom: 10px;
+}
+
+section{
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100%;
+}
+
+aside{
+    position:fixed;
+    margin-left: 400px;
+    margin-top: 224px;
+    margin-right: 10px;
+    margin-bottom: 0px;
 }
 
