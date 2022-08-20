@@ -11,10 +11,9 @@ body{
 
 #cabecalho{
 
-    top: 0;
-    border: dashed;
-    border-color: black;
-   
+    top: 0%;
+    text-decoration: underline;
+    background-color: aqua;
     
 }
 
