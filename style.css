@@ -22,6 +22,7 @@ header {
 
 #titulo, #titulo_1, #titulo_rodape, #content {
     color: rgb(253,251,251);
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -40,12 +41,16 @@ div{
 
 
 #lista_1, #lista_2 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1,5;
     margin-left: 75px;
     margin-bottom: 50px;
 }
 
 
 #link{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1,5;
     margin-left: 75px;
 }
 
@@ -60,6 +65,8 @@ div{
 }
 
 #artigo {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1,5;
     text-align: left;
     margin-left: 75px;
     margin-top: 10px;
@@ -74,6 +81,8 @@ section{
 }
 
 aside{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1,5;
     position:fixed;
     margin-left: 400px;
     margin-top: 278px;
