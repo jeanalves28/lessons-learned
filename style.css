@@ -14,12 +14,13 @@ body {
     left: 0;
     right: 0;
 }
-
+ 
 #titulo {
     font-size: larger;
     font-style: oblique;
     font-variant: small-caps;
 }
+#licoestrybe
 
 nav {
     background-color: rgb(62, 67, 70);
@@ -60,7 +61,7 @@ a:hover {
     border-radius: 5%;
 }
 
-h2,h3 {
+#licoestrybe {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgb(35, 47, 53);
     color: rgb(255, 255, 255);
@@ -93,4 +94,11 @@ h2,h3 {
 
 article {
     background-color: rgb(255, 255, 255);
+}
+footer{
+    font-size: 15px;
+    background-color: rgb(35, 47, 53);
+    color: white;
+    padding: 12px;
+    text-align: right;
 }
