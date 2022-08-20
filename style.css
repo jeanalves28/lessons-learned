@@ -8,11 +8,11 @@ body {
     display: flex;
     position: fixed;
     flex-direction: column;
-    background-color: rgb(253,251,251);
+    background-color: rgb(253, 251, 251);
 }
 
 header {
-    background-color: rgb(0,19,194);
+    background-color: rgb(0, 19, 194);
     text-align: center;
     position: fixed;
     padding: 10px;
@@ -23,7 +23,7 @@ header {
 }
 
 #titulo, #titulo_1, #titulo_rodape, #content {
-    color: rgb(253,251,251);
+    color: rgb(253, 251, 251);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -90,9 +90,14 @@ aside {
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1,5;
-    position:fixed;
+    position: fixed;
     margin-left: 400px;
     margin-top: 278px;
     margin-right: 10px;
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
 }
 
