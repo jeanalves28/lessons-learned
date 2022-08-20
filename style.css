@@ -1,4 +1,23 @@
 .background {
-    background: fixed;
     background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    background-color: #11a36a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#titulo {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+#minhafoto {
+    border-radius: 100%;
+    position:relative;
+    top: 150px;
 }
