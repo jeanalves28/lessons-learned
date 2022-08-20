@@ -1,5 +1,5 @@
 #cabecalho{
-    top: 0%;
+    top: 0%;    
     padding: 20px;
     background-color: #11a36a;
     margin-left: -25px;
@@ -19,23 +19,84 @@ width: 200px;
 margin-right: 190px;
 border-radius: 150px;
 margin-top: 20px;
+margin-left: 30px;
+
 
 }
 
 p{
     font-family: sans-serif;
+    margin-left: 15px;
     
 }
 
 #destaque{
     color: #11a36a;
     font-size: 25px;
-    margin-left: 5px;
+    margin-left: 15px;
 
 }
 
+h2{
+    font-family: sans-serif;
+
+}
+
+#licoes_aprendidas{
+    font-family: sans-serif;
+    padding-right: 10%;
+    
+
+
+}
+#bloco1{
+    border: 1px solid #11a36a;
+    margin-left: 10px;
+    padding: 5px; 
+    width: 700px;   
+    
+}
+
+
+
+.sub-titulo{
+    font-family: sans-serif;
+    margin-left: 440px;
+    margin-top: -253px;
+    position: absolute;
+    z-index: 5;
+
+}
 
 #licoes_a_aprender{
+    font-family: sans-serif;
+    margin-left: 438px;
+    margin-top: -201px;
+    position: absolute;
+    z-index: 5;
 
-margin-right: 600px;
+
+}
+
+#lema{
+font-family: sans-serif;
+color: #11a36a;
+margin-left: 15px;
+font-size: 14px;
+
+
+
+}
+
+#botao{
+    color: #11a36a;
+    font-family: sans-serif;
+    text-decoration: none;
+     
+}
+
+#rodape{
+    font-family: sans-serif;
+    font-size: small;
+    margin-left: 15px;
 }

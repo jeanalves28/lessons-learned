@@ -4,6 +4,109 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">   
+    <style>
+        #cabecalho{
+    top: 0%;    
+    padding: 20px;
+    background-color: #11a36a;
+    margin-left: -25px;
+    margin-right: -50px;
+    margin-top: -25px;
+}
+
+#titulo {
+    font-family: sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 250%;
+}
+
+#minha-foto{
+width: 200px;
+margin-right: 190px;
+border-radius: 150px;
+margin-top: 20px;
+margin-left: 30px;
+
+
+}
+
+p{
+    font-family: sans-serif;
+    margin-left: 15px;
+    
+}
+
+#destaque{
+    color: #11a36a;
+    font-size: 25px;
+    margin-left: 15px;
+
+}
+
+h2{
+    font-family: sans-serif;
+
+}
+
+#licoes_aprendidas{
+    font-family: sans-serif;
+    padding-right: 10%;
+    
+
+
+}
+#bloco1{
+    border: 1px solid #11a36a;
+    margin-left: 10px;
+    padding: 5px; 
+    width: 700px;   
+    
+}
+
+
+
+.sub-titulo{
+    font-family: sans-serif;
+    margin-left: 440px;
+    margin-top: -253px;
+    position: absolute;
+    z-index: 5;
+
+}
+
+#licoes_a_aprender{
+    font-family: sans-serif;
+    margin-left: 150px;
+    margin-top: -201px;
+    position: absolute;
+    z-index: 5;
+
+
+}
+
+#lema{
+font-family: sans-serif;
+color: #11a36a;
+margin-left: 15px;
+
+
+
+}
+
+#botao{
+    color: #11a36a;
+    font-family: sans-serif;
+    text-decoration: none;
+     
+}
+
+#rodape{
+    font-family: sans-serif;
+    font-size: small;
+    margin-left: 15px;
+}
+    </style>
 </head>
 
 <body>
@@ -18,9 +121,11 @@
 <p><strong id="destaque">Desenvolvimento Web</strong></p>
 <br>
 
-<h3 class="sub-titulo">Lições Aprendidas</h3>
+<div id="bloco1">
 
-<section>
+</section>
+<h2>Lições Aprendidas</h2>
+
 <ol id="licoes_aprendidas">
     <li>Unix</li>
     <li>Bash</li>
@@ -33,9 +138,12 @@
     <li>Estilização usando CSS</li>
     <li>Estruturas de Páginas</li>
 </ol>
+<section>
+</div>
 
-<h3 class="sub-titulo">Lições a Aprender</h3>
+<h2 class="sub-titulo">Lições a Aprender</h2>
 
+<section>
 <ul id="licoes_a_aprender">
     <li>JavaScript</li>
     <li>DOM</li>
@@ -52,18 +160,20 @@
 <br>
 
 
-<article><p>Desde o primeiro dia de curso, a Trybe fortalece o aprendizado dos alunos através de métodos não convencionais,
- estimulando sempre a nossa busca pelo conhecimento e a auto gestão.
- Já no primeiro bloco, podemos adquirir conhecimentos sobre internet,
- html, css e unix, além da prática com git e github.
- Já realizei cursos online e também vivenciei experiências academicas, porém, a Trybe superou todas as e expectativas que tive até agora no âmbito tecnologico.
+<article><p>Desde o primeiro dia de curso, a Trybe fortalece o aprendizado dos alunos através de métodos não convencionais,<br>
+ estimulando sempre a nossa busca pelo conhecimento e a auto gestão.<br>
+ Já no primeiro bloco, podemos adquirir conhecimentos sobre internet,<br>
+ html, css e unix, além da prática com git e github.<br>
+ Já realizei cursos online e também vivenciei experiências academicas, porém<br> a Trybe superou todas as e expectativas que tive até agora no âmbito tecnologico.
 </p> </article>
 <br>
 
-<aside>Meu nome é João Peixoto, tenho 29 anos, moro em Mogi das Cruzes - SP, sou estudante da Turma 26 da Trybe. E com muito foco e determinação, com certeza irei me tornar um desenvolvedor-web até a primeira metade do ano de 2023. Esse é meu jeito Dev!!!</aside>
+<aside id="lema"><strong>Meu nome é João Peixoto, tenho 29 anos, moro em Mogi das Cruzes - SP, sou estudante da Turma 26 da Trybe.<br> E com muito foco e determinação, com certeza irei me tornar um desenvolvedor-web até a primeira metade do ano de 2023.<br> Esse é meu jeito Dev!!!</strong></aside>
 
-<a href="https://www.betrybe.com/" target="blank"><p id="botao">Para saber mais sobre a Trybe clique aqui</p></a>
 
-<footer id="rodape">Rumo ao desenvolvimento back-end</footer>
+<a id="botao" href="https://www.betrybe.com/" target="blank"><p id="botao">Para saber mais sobre a Trybe clique aqui</p></a>
+
+
+<footer id="rodape">Rumo ao desenvolvimento back-end!!!</footer>
 </body>
 </html>
