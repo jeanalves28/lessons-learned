@@ -9,10 +9,11 @@ body{
 
 
 
-#cabecalho{
+#titulo{
 
     top: 0;
     background-color: aqua;
+    text-decoration: underline;
     
 }
 
