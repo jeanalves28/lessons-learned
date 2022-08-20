@@ -7,6 +7,10 @@ body{
     line-height: 25px;
 }
 
+#titulo{
+    background-color: black;
+}
+
 #cabecalho{
 
     top: 0%;
