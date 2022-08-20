@@ -1,22 +1,27 @@
 /* mudei a cor de fundo para a cor rgb(253, 251, 251) */
+body { background-color: rgb(253, 251, 251); }
 
-body { background-color:rgb(253, 251, 251); } 
+
 /**
- * centralizei o texto em h1 no título */
-h1 {
-    text-align: center;
-  }
-  
-  #cabecalho {
+* centralizei o texto em h1 no título */
 
-    background: rgb(0, 147, 192);
- 
-    position: fixed;
- 
-    top: 0;
- 
-    left: 0;
- 
-    width: 100%;
- 
- }
+h1 { text-align: center;
+}
+
+#cabecalho {
+  background: rgb(0, 147, 192);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+#rodape {
+
+  text-align: center;
+  padding: 3px;
+  background: rgb(0, 147, 192)
+  color: blue;  
+
+}
