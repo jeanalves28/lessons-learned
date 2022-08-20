@@ -1,8 +1,8 @@
-body {
+body { 
     background-color: rgb(253, 251, 251)
 }
 
-#cabecalho{
+#cabecalho {
     position: fixed;
     top: 0%;
     left: 0%;
@@ -14,11 +14,14 @@ body {
     background-position: 25% 50%;
 }
 
-
-#titulo{
+#titulo {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     position: fixed;
     top: 5px;
     left: 175px;
+}
+
+#minha_foto {
+    height: 500px;
 }
