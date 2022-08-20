@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(253, 255, 255);
+    margin: 0;
+    box-sizing:border-box;
+}
+
+#cabecalho {
+    background-color: #036b52;
+    overflow: hidden;
+
+}
