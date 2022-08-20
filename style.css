@@ -22,3 +22,32 @@ body {
   width: 100%;
   height: 20px;
   }
+
+  #licoesAprendidas{
+    display: inline-block;
+    margin-left: 10%;
+
+  }
+
+  #licoesAaprender{
+    display: inline-block;
+}
+
+#imagemDescricao{
+    display: inline-block;
+    width: 20%;
+}
+
+#conteudo{
+    display: inline-block;
+    width: 70%;
+}
+
+#descricao{
+    width: 200px;
+    text-align: justify;
+}
+
+#artigo{
+    text-align: justify;
+}
