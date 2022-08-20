@@ -6,6 +6,7 @@ body { background-color: rgb(253, 251, 251); }
 * centralizei o texto em h1 no título */
 
 h1 { text-align: center;
+  color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -18,10 +19,14 @@ h1 { text-align: center;
 }
 
 #rodape {
-
   text-align: center;
   padding: 3px;
-  background: rgb(0, 147, 192)
-  color: blue;  
+  background: rgb(228, 228, 228);
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  color:rgb(115, 115, 115) ;
+
 
 }
