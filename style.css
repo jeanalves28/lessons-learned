@@ -35,12 +35,13 @@ header {
     margin-bottom: 10px;
 }
 
-div{
+div {
     display: inline-block;
 }
 
 
 #lista_1, #lista_2 {
+    font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1,5;
     margin-left: 75px;
@@ -48,7 +49,8 @@ div{
 }
 
 
-#link{
+#link {
+    font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1,5;
     margin-left: 75px;
@@ -65,6 +67,7 @@ div{
 }
 
 #artigo {
+    font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1,5;
     text-align: left;
@@ -73,20 +76,19 @@ div{
     margin-bottom: 10px;
 }
 
-section{
+section {
     float: left;
-    margin-left: 0px;
     margin-right: 0px;
     height: 100%;
 }
 
-aside{
+aside {
+    font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1,5;
     position:fixed;
     margin-left: 400px;
     margin-top: 278px;
     margin-right: 10px;
-    margin-bottom: 0px;
 }
 
