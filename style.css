@@ -98,8 +98,8 @@ li {
     font-weight: 600;
     margin: auto;
     width: 38%;
-    height: 60% transition: 0.5s all;
-
+    height: 60%;
+    transition: 0.5s all;
 }
 
 .button:hover {
