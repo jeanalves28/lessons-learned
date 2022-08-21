@@ -13,7 +13,8 @@ p {
 
 #minha_foto {
     max-width: 400px;
-    border: 2px solid rgb(32, 32, 85);
+    border: 10px solid cornflowerblue;
+    border-radius: 20px;
 }
 
 body {
@@ -51,7 +52,6 @@ main {
 .lado-direito {
     width: 300px;
     text-align: justify;
-
 }
 
 .licoes {
@@ -76,10 +76,21 @@ main {
 }
 
 #rodape {
-    background-color: black;
-    color: white;
+    background-color: cornflowerblue;    
     padding: 20px;
-    text-align: center;  
+    text-align: center;
     width: 100%;
     bottom: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid cornflowerblue;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: cornflowerblue;    
 }
