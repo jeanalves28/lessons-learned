@@ -5,7 +5,7 @@ body {
 header {
   background-color: rgb(97, 73, 11);
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
 }
 
@@ -14,13 +14,13 @@ header {
 }
 
 .logo-texto {
-  font-family: "courier new";
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   color: white;
 }
 
 #licoes_a_aprender {
-  list-style-type: square; 
+  list-style-type: square;
 }
 
 footer {
