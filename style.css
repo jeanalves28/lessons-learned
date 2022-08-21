@@ -5,10 +5,35 @@ body{
 #cabecalho {
         top: 0;
         position: fixed; 
+        background-color: aquamarine;
+        width: 100%;
         
+        }
         
-    }
 
-    #titulo{
+#titulo{
+    text-align: center;
 
     }
+    h2{
+       background-color: green;
+        width: 400px;
+        border-radius: 30px;
+       
+    }
+#sobre_meu_aprendizado{
+        font-family: 'Courier New'
+  
+
+    
+}
+
+#minha_foto{
+   margin-top: 80px;
+
+}
+
+#rodape{
+    background-color: blue;
+    
+}
