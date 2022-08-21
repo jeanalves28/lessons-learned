@@ -1,3 +1,33 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+ header {
+    background-color: rgb(97, 73, 11);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#minha_foto {
+    margin-top: 100px;
+}
+
+.logo-texto{
+    font-family:"courier new";
+    text-align: center;
+    color: white;
+}
+
+#licoes_a_aprender {
+   list-style-type: square; 
+}
+
+footer {
+    background-color: black;
+    padding: 30px 16px;
+    margin-top: 30px;
+}
+
+.link {
+    color: white;
+}
