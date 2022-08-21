@@ -1,24 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: sans-serif;      
+  background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
 }
 
 #cabecalho {
-    background-color: black;
-    margin-top: 0px;
-    font-weight: bold;
-    color: white;
+  position: fixed;
+  margin-top: 0;
+  margin-left: 10px;
+  padding: 10px;
+  font-weight: bold;
 }
 
 #minha_foto {
-    margin: 20px;
+  margin: 70px 20px;
 }
 
-h2, li {
-    margin-left: 50px;
+h2,
+li {
+  margin-left: 50px;
+}
+
+#rodape {
+  font-style: inherit;
 }
