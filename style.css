@@ -10,6 +10,31 @@ body {
     position: fixed;
     top: 0px;
     width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+#titulo {
+    float: left;
+}
 
+.logotrybe {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+}
+
+.link_cabecalho {
+    float: right;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.link_cabecalho:hover {
+    transition: 0.5s;
+    background-color: #2fc18c;
+    color: whitesmoke;
 }
