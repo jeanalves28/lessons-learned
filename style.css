@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(253, 251, 251);
         }
@@ -7,33 +8,69 @@ body{
         position: fixed; 
         background-color: aquamarine;
         width: 100%;
+        left: 0;
+        font-family: monospace;
+       
         
         }
-        
-
-#titulo{
-    text-align: center;
-
-    }
-    h2{
-       background-color: green;
-        width: 400px;
-        border-radius: 30px;
-       
-    }
-#sobre_meu_aprendizado{
-        font-family: 'Courier New'
-  
-
-    
-}
+        #titulo{
+            text-align: center;
+         
+            }
 
 #minha_foto{
-   margin-top: 80px;
+            margin-top: 80px;
+            
+         
+         }
 
+
+
+    
+ h2{
+      
+        text-align: center;
+       border-radius: 30px;
+       background: green ;
+      width: 300px
+        
+    }
+
+.lado-esquerdo{
+   float: left;
+   width: 300px;
+   
+  
+  
+     
+    }
+
+.lado-direito{
+    float: right;
+    width: 300px;  
+    margin-right: 50%;  
+       
+        }
+#licoes_aprendidas{
+    line-height: 2;
+
+}
+
+#licoes_a_aprender{
+    line-height: 2;
+}
+
+table, th, td{
+    width: 30%;
+    border: 1px solid blue
+    
 }
 
 #rodape{
-    background-color: blue;
+    background-color: green;
+    margin-top: 10px;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
     
-}
+}   
