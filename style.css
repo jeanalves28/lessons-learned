@@ -3,5 +3,9 @@ body {
 }
 #cabecalho{
     position: fixed;
-    top: 0
+    top: 0;
+    background-color: #2929fa;
+    right: 0%;
+    left: 0%;
+
 }
