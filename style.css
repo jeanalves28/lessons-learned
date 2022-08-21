@@ -48,8 +48,33 @@ header {
   padding: 10px;
   margin: 100px;
 }
-.aprendidos {
+
+
+.super_nova {
+  text-align: center;
   font-size: 18px;
-  padding: 0, 50px;
+  width:  30%;
+  font-family: serif;
+  margin-left: 50px;
   
 }
+.Bio {
+  text-align: right;
+  width: 30%;
+  margin: 50px;
+  padding: 20px;
+  font-family: sans-serif;
+  
+}
+#bio-titulo {
+  width: 600px;
+  text-align: center;
+  height: 40px;
+}
+
+#rodape {
+  margin: 150px;
+
+}
+
+
