@@ -18,27 +18,37 @@ body {
     text-align: center;
 }
 #licoes_aprendidas{
-    float: left;
-    background-color: aquamarine;
-    border: 1px solid black;
+    width: 30%;
+    text-align: left;
+    display: inline-block;
+    padding: 0 1.5%;
+    margin-left: 150px;
 }
 #licoes_a_aprender{
-    float: right;
-    background-color: aquamarine;
-    border: 1px solid black;
+    text-align: left;
+    display: inline-block;
+    padding: 0 1.5%;
+    margin-left: 350px;
 }
 #lessons_A{
-    float: right;
     text-decoration: underline;
+    margin-left: 150px;
+    display: inline-block;
+    padding: 0 1.5%;
 }
 #lessons_B{
     text-decoration: underline;
+    margin-left: 15cm;
+    display: inline-block;
+    padding: 0 1.5%;
 }
 #minha_foto{
-    padding-top: 90px;
-    width: 120px;
+    padding-top: 200px;
+    width: 150px;
 }
-.subtitle{
-    font-weight: 600;
+.title{
+    font-weight: bold;
+    font-size: 30px;
     text-align: center;
+    margin-top: 1cm;
 }
