@@ -3,27 +3,50 @@ body {
 }
 
 #cabecalho {
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
     background-color: rgb(73, 158, 91);
-    padding: 20px;
+}
+
+#cabecalho li {
+    display: inline;
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+#cabecalho li a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#cabecalho li a:hover {
+    background-color: cornflowerblue;
+    transition: all .6s;
+     
 }
 
 #minha_foto {
     width: 180px;
     border-radius: 10% 20% ;
     margin-left: 180px;
-    margin-top: 30px;
+    margin-top: 120px;
 }
 
 #rodape {
     text-align: center;
     background-color:  rgb(73, 158, 91);
     padding: 20px;
+    width: 100%;
 }
 
 #skills-lists {
-    padding-left: 14%;
+    padding-left: 50px;
 }
 
 .lists-content {
@@ -51,11 +74,10 @@ body {
 }
 
 #artigo {
-    width: 600px;
+    width: 100%;
     text-align: center;
-    border: 1px solid black;
-    margin-left: 380px;
-    margin-top: 40px;
+    border: 1px solid black;;
+    margin-top: 30px; 
 }
 
 #artigo p {
@@ -66,12 +88,12 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-aside {
+.lado-direito {
     width: 15%;
     padding-left: 10px;
     margin-left: 10px;
     float: right;
     font-style: italic;
     background-color: lightgray;
-    margin-top: 50px; 
+    margin-top: 500px; 
 }
