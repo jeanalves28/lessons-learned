@@ -1,5 +1,5 @@
 body {
-  background-color: #adffa0b9;
+  background-color: rgb(253, 251, 251);
   line-height: 22px;
 }
 
@@ -8,12 +8,15 @@ body {
   background-image: linear-gradient(to right, rgb(151, 214, 151), rgba(95, 126, 95, 0.959), rgb(151, 214, 151));
   color: white;
   text-align: center;
+  position: fixed;
+  top:0;
   height: 90px;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
   border: solid 3px;
+
 }
 
 .texto {
@@ -28,6 +31,7 @@ body {
 }
 
 #minha_foto {
+  margin-top: 150px;
   width: 180px;
   height: 260px;
 }
@@ -68,4 +72,8 @@ h3 {
   width: 900px;
   text-align: justify;
 
+}
+
+.tabela1 {
+  margin-left: 55px;
 }
