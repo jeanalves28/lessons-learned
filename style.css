@@ -67,7 +67,7 @@ a:hover {
   background-color: rgb(35, 47, 53);
   color: rgb(255, 255, 255);
   font-size: 30px;
-  padding: 20px;
+  padding: 25px;
   margin: auto;
   width: auto;
 }
@@ -160,7 +160,27 @@ article {
   background-color: rgb(35, 47, 53);
   color: rgb(255, 255, 255);
   font-size: 30px;
-  padding: 20px;
+  padding: 25px;
   margin: auto;
   width: auto;
+}
+#tabelat {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    line-height: 10px;
+    background-color: rgb(35, 47, 53);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 25px;
+    margin: auto;
+    width: auto;
+}
+#table, th, td, tr{
+    color: rgb(35, 47, 53);
+    width: 50%;
+    border: 2px solid rgb(35, 47, 53);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+
 }
