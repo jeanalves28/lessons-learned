@@ -16,6 +16,10 @@ body {
     display: block;
     width: 100%;
 }
+#minha_foto{
+    border-radius: 50px;
+    position: static;
+}
 #titulo {
     text-align: center;
 }
@@ -24,17 +28,18 @@ body {
     text-align: left;
     display: inline-block;
     padding: 0 1.5%;
-    margin-left: 150px;
+    margin-left: 250px;
+    
 }
 #licoes_a_aprender{
     text-align: left;
     display: inline-block;
     padding: 0 1.5%;
-    margin-left: 350px;
+    margin-left: 300px;
 }
 #lessons_A{
     text-decoration: underline;
-    margin-left: 150px;
+    margin-left: 200px;
     display: inline-block;
     padding: 0 1.5%;
 }
@@ -55,13 +60,22 @@ body {
     margin-top: 1cm;
 }
 #rodape{
-    text-align: right;
+    text-align: center;
     font-size: 14px;
-    color: cadetblue;
+    color: white;
+    display: block;
+    background-color: green;
 }
 .lado-direito{
-    text-align: justify ;
+    text-align: justify;
+    margin: 10px 0;
+    width: 45%;
+    margin-left: 650px;
+    padding: 0 1.5%;
 }
 .lado-esquerdo{
     text-align: justify;
+    width: 45%;
+    padding: 0 1.5%;
+    height: 8px;
 }
