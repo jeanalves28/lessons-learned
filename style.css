@@ -51,7 +51,7 @@ header {
   font-size: large;
 }
 
-#aprendizado {
+.lado-esquerdo {
   color: black;
   font-size: x-large;
   width: 40%;
@@ -61,7 +61,7 @@ header {
   text-align: justify;
 }
 
-#sobre {
+.lado-direito {
   color: black;
   font-size: x-large;
   width: 40%;
@@ -91,7 +91,7 @@ header {
   color: black;
   display: inline-block;
   font-size: large;
-  margin-left: 18%;
+  margin-left: 5%;
   text-align: justify;
 }
 
@@ -105,7 +105,7 @@ header {
   color: black;
   display: inline-block;
   font-size: large;
-  margin-left: 18%;
+  margin-left: 5%;
   text-align: justify;
 }
 
@@ -117,4 +117,27 @@ header {
 
 h2 {
   color: rgb(108, 50, 131);
+}
+
+.tabela {
+  display: inline-block;
+  margin-left: 5%;
+}
+
+th {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+}
+
+caption {
+  font-size: x-large;
+  margin-bottom: 10px;
+  color: rgb(108, 50, 131);
+  font-weight: 900;
+}
+
+td {
+  text-align: center;
+  border: 2px solid black;
+  padding: 7px;
 }
