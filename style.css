@@ -49,7 +49,7 @@ main {
     background-color: rgb(240, 240, 240);
 }
 
-.sumary {
+.sumary, article {
     font-size: larger;
     text-align: center;
     margin-left: 30%;
