@@ -63,6 +63,7 @@ a:hover {
 
 #licoestrybe {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 20px;
     background-color: rgb(35, 47, 53);
     color: rgb(255, 255, 255);
     font-size: 30px;
@@ -72,6 +73,7 @@ a:hover {
 }
 #licoestrybe1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 20px;
     background-color: rgb(35, 47, 53);
     color: rgb(255, 255, 255);
     font-size: 30px;
@@ -96,6 +98,7 @@ a:hover {
     color: white;
     padding: 20px 10px 20px 67px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
     font-weight: bold;
     border-color: rgb(35, 47, 53);
     font-size: 18px;
@@ -141,6 +144,7 @@ article {
 }
 #sobremimtitulo{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 10px;
     background-color: rgb(35, 47, 53);
     color: rgb(255, 255, 255);
     font-size: 30px;
