@@ -1,158 +1,166 @@
 body {
-    background-color: rgb(253, 251, 251)
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    background-color: rgb(35, 47, 53);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: auto;
-    font-size: 28px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+  background-color: rgb(35, 47, 53);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: auto;
+  font-size: 28px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
- 
-#titulo {
-    font-size: larger;
-    font-style: oblique;
-    font-variant: small-caps;
-}
-#licoestrybe
 
-nav {
-    background-color: rgb(62, 67, 70);
-    padding: 10px 200px 20px 200px;
+#titulo {
+  font-size: larger;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+#licoestrybe nav {
+  background-color: rgb(62, 67, 70);
+  padding: 10px 200px 20px 200px;
 }
 
 a {
-    background-color: rgb(62, 67, 70);
-    color: rgb(255, 255, 255);
-    padding: 20px 51px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: auto;
-    font-weight: bold;
-    letter-spacing: 3px;
-    font-size: 14px;
-    text-decoration: none;
+  background-color: rgb(62, 67, 70);
+  color: rgb(255, 255, 255);
+  padding: 20px 51px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: auto;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 .linkfoto {
-    background-color: rgb(62, 67, 70);
-    color: rgb(255, 255, 255);
-    padding: 20px 51px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: auto;
-    font-weight: bold;
-    letter-spacing: 3px;
-    font-size: 18px;
-    text-decoration: none;
+  background-color: rgb(62, 67, 70);
+  color: rgb(255, 255, 255);
+  padding: 20px 51px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: auto;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 18px;
+  text-decoration: none;
 }
+
 a:hover {
-    text-decoration: none;
-    background-color: rgb(25, 27, 28);
+  text-decoration: none;
+  background-color: rgb(25, 27, 28);
 }
 
 #minha_foto {
-    width: 318px;
-    border-radius: 5%;
-    float: left;
+  width: 318px;
+  border-radius: 5%;
+  float: left;
 }
 
 #licoestrybe {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    line-height: 20px;
-    background-color: rgb(35, 47, 53);
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    padding: 20px;
-    margin: auto;
-    width: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 20px;
+  background-color: rgb(35, 47, 53);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding: 20px;
+  margin: auto;
+  width: auto;
 }
+
 #licoestrybe1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    line-height: 30px;
-    background-color: rgb(35, 47, 53);
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    padding: 20px;
-    margin: auto;
-    width: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 30px;
+  background-color: rgb(35, 47, 53);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding: 20px;
+  margin: auto;
+  width: auto;
 }
 
 #licoes_a_aprender {
-    background-color: rgb(62, 67, 70);
-    width: 19%;
-    color: white;
-    padding: 20px 30px 20px 45px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 30px;
-    font-weight: bold;
-    border-color: rgb(35, 47, 53);
-    font-size: 18px;
+  background-color: rgb(62, 67, 70);
+  width: 19%;
+  color: white;
+  padding: 20px 30px 20px 45px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 30px;
+  font-weight: bold;
+  border-color: rgb(35, 47, 53);
+  font-size: 18px;
 }
+
 #licoes_aprendidas {
-    background-color: rgb(62, 67, 70);
-    width: 19%;
-    color: white;
-    padding: 20px 10px 20px 67px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 30px;
-    font-weight: bold;
-    border-color: rgb(35, 47, 53);
-    font-size: 18px;
+  background-color: rgb(62, 67, 70);
+  width: 19%;
+  color: white;
+  padding: 20px 10px 20px 67px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 30px;
+  font-weight: bold;
+  border-color: rgb(35, 47, 53);
+  font-size: 18px;
 }
 
 article {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
-#rodape{
-    font-size: 15px;
-    background-color: rgb(35, 47, 53);
-    color: white;
-    padding: 12px;
-    text-align: right;
+
+#rodape {
+  font-size: 15px;
+  background-color: rgb(35, 47, 53);
+  color: white;
+  padding: 12px;
+  text-align: right;
 }
-#artigo{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(35, 47, 53);
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    padding: 20px;
-    margin: auto;
-    width: auto;
+
+#artigo {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: rgb(35, 47, 53);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding: 20px;
+  margin: auto;
+  width: auto;
 }
-#artigotexto{
-    background-color: rgb(62, 67, 70);
-    color: white;
-    padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    border-color: rgb(35, 47, 53);
-    font-size: 18px;
+
+#artigotexto {
+  background-color: rgb(255, 255, 255);
+  color: rgb(35, 47, 53);
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-color: rgb(35, 47, 53);
+  font-size: 18px;
 }
-.lado-direito{
-    color: rgb(35, 47, 53);
-    width: center;
-    margin: center;
-    padding: 103px 30px 40px 380px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    border-color: rgb(35, 47, 53);
-    font-size: 20px;
+
+.lado-direito {
+  color: rgb(35, 47, 53);
+  width: center;
+  margin: center;
+  padding: 103px 30px 40px 380px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-color: rgb(35, 47, 53);
+  font-size: 20px;
 }
-.lado-esquerdo{
-    margin: left;
+
+.lado-esquerdo {
+  margin: left;
 }
-#sobremimtitulo{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    line-height: 10px;
-    background-color: rgb(35, 47, 53);
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    padding: 20px;
-    margin: auto;
-    width: auto;
+
+#sobremimtitulo {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 10px;
+  background-color: rgb(35, 47, 53);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding: 20px;
+  margin: auto;
+  width: auto;
 }
