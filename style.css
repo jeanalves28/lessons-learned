@@ -1,22 +1,71 @@
 body {
-   background-color: rgb(253, 251, 251);
+  background-color: #adffa0b9;
+  line-height: 22px;
 }
 
 #cabecalho {
-   background-color: #036b52;
-   color: white;
-   text-align: center;
-   height: 90px;
-   position:fixed;
-   top:0;
-   width: 100%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(to right, rgb(151, 214, 151), rgba(95, 126, 95, 0.959), rgb(151, 214, 151));
+  color: white;
+  text-align: center;
+  height: 90px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  border: solid 3px;
 }
-.texto{
-   margin-top: 70px;
-   margin-left: 100px;
+
+.texto {
+  margin-top: 0px;
+  margin-left: 100px;
+  background-color:white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 #minha_foto {
-      width: 180px;
-      height: 260px;
+  width: 180px;
+  height: 260px;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-indent: 20px;
+}
+
+h2 {
+  padding-left: 45px;
+  color: rgb(12, 65, 12);
+  background-image: linear-gradient(rgba(110, 139, 110, 0.253), rgba(170, 226, 170, 0.089));
+}
+
+h3 {
+  padding-left: 45px;
+  color: rgb(12, 65, 12);
+}
+#rodape {
+  background-color: rgb(13, 34, 13);
+  color: white;
+  width: 69.7%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 3px;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+.container {
+  flex: none; /* isto é para a nav ocupar a largura toda menos a logo */
+  justify-content: right; /* alinha horizontalmente */
+  align-items: flex-start;
+  display: flex;
+  width: 900px;
+  text-align: justify;
+
 }
