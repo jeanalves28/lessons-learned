@@ -2,8 +2,6 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-
-
 #cabecalho {
     background-color: greenyellow;
     position: fixed;
@@ -21,18 +19,20 @@ body {
     bottom: 17px;
 }
 
-main {
-    position: relative;
-    top: 140px;
-}
-
-ul li a {
+header ul li a {
     text-decoration: none;
     color: inherit;
 }
 
-ul li {
-    display: block;
+header ul li:hover {
+    background-color: white;
+    transition: 0.3s;
+    width: 7%;
+    height: 21px;
+    border-radius: 5px;
+}
+
+header ul li {
     color: rgb(61, 61, 61);
     font-size: 14pt;
     text-align: center;
@@ -41,38 +41,46 @@ ul li {
     top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 5px;
 }
 
-ul li:hover {
+main {
+    position: relative;
+    top: 170px;
+    background-color: rgb(240, 240, 240);
+}
+
+.sumary {
+    font-size: larger;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+    display: inline-block;
+    margin-top: 0;
     background-color: white;
-    transition: 0.3s;
-    width: 10%;
-    height: 21px;
-    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#licoes_a_aprender {
+    left: 42%;
+}
+
+#licoes_aprendidas {
+    left: 30%;
 }
 
 main div {
     margin-top: 50px;
     position: relative;
-    border: 1px solid black;
-}
-
-main div figure {
-    display:flexbox;
-    border: 1px solid black;
 }
 
 #minha_foto {
-    border-radius: 100%;
-    height: 350px;
+    border-radius: 50%;
+    height: 340px;
+    margin-top: 10px;
     position: relative;
-    left: 35%;
-}
-
-figcaption {
-    margin-left: 40%;
-    font-size: larger;
-    font-style: italic;
-    color: grey;
+    left: 40%;
 }
