@@ -39,6 +39,7 @@ header ul li:hover {
 
 header ul li {
     color: rgb(61, 61, 61);
+    font-size: larger;
     text-align: center;
     display: inline-block;
     position: relative;
@@ -48,11 +49,16 @@ header ul li {
 }
 
 main {
+    line-height: normal;
     margin-bottom: 450px;
     position: relative;
     top: 170px;
     background-color: rgb(240, 240, 240);
     z-index: 1;
+}
+
+span {
+    font-style: italic;
 }
 
 .lado-esquerdo, .lado-direito {
@@ -66,20 +72,17 @@ main {
     bottom: 30px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#list-block1, #list-block2 {
     display: inline-block;
     margin-top: 0;
     background-color: white;
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: 250px;
 }
 
-#licoes_a_aprender {
-    left: 42%;
-}
-
-#licoes_aprendidas {
-    left: 30%;
+#licoes_aprendidas , #licoes_a_aprender {
+    margin: 30px;
 }
 
 main div {
