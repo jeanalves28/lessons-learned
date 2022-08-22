@@ -15,6 +15,7 @@ h1 { text-align: center;
 h2 { color: rgb(115, 115, 115);
   font-family: SourceSansPro-Regular, sans-serif;
   line-height: 1.5;
+  margin: 10px;
 }
 
 h3 { color: rgb(115, 115, 115);
@@ -43,7 +44,6 @@ p { color: rgb(115, 115, 115);
   top: 0;
   left: 0;
   width: 100%;
-
 }
 
 #rodape {
@@ -62,9 +62,23 @@ p { color: rgb(115, 115, 115);
 }
 
 table , th , td {
-  border: 1px solid rgb(115, 115, 115);
+  border: 1px solid rgb(0, 147, 192);
   font-family: SourceSansPro-Regular, sans-serif;
+  color: rgb(115, 115, 115);
 }
 
-#minha_foto { margin: 0;
+#minha_foto { margin: 10px;
+  clip-path: circle(30%);
+}
+
+a { font-family: SourceSansPro-Regular, sans-serif; }
+
+.lado-esquerdo { display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.lado-direito {display: flex;
+  justify-content: center;
+  margin: 10px;
 }
