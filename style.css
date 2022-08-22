@@ -1,22 +1,35 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;	
+}
+
 body {
     background-color: rgb(253, 251, 251);
 }
 
+#barra{
+    top: 0%;
+   
+}
 #cabecalho {
     top: 0;
-    background-color: rgb(166, 57, 101);
+   position: fixed;
 }
 
 #titulo {
     text-align: center;
     color: rgb(245, 220, 238);
     padding: 6px;
+    padding-left: 30px;
 }
+
 
 #minha_foto {
     float: left;
     height: 300px;
     padding: 10px;
+    
 }
 
 #lições_aprendidas_titulo {
@@ -28,6 +41,7 @@ body {
     margin-right: 10px;
     font-size: 1, 8em;
     color: rgb(245, 220, 238);
+    padding-top: 80px;
 }
 
 #licoes_aprendidas {
@@ -38,6 +52,7 @@ body {
     margin: 10px;
     margin-right: 10px;
     font-size: 1.1em;
+    padding-top: 20px;
     color: rgb(245, 220, 238);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -51,6 +66,7 @@ body {
     margin-right: 10px;
     font-size: 1, 8em;
     color: rgb(245, 220, 238);
+    padding-top: 80px;
 }
 
 #licoes_a_aprender {
@@ -60,6 +76,7 @@ body {
     left: 70%;
     margin: 10px;
     margin-right: 10px;
+    padding-top: 20px;
     font-size: 1.1em;
     color: rgb(245, 220, 238);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -67,8 +84,9 @@ body {
 
 #section {
     height: 320px;
-    position: relative;
     background-color: rgb(166, 57, 101);
+    padding-top: 80px;
+    
 }
 
 #outras_info {
