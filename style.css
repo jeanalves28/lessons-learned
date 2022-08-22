@@ -73,7 +73,7 @@ a:hover {
 }
 #licoestrybe1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    line-height: 20px;
+    line-height: 30px;
     background-color: rgb(35, 47, 53);
     color: rgb(255, 255, 255);
     font-size: 30px;
@@ -88,6 +88,7 @@ a:hover {
     color: white;
     padding: 20px 30px 20px 45px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
     font-weight: bold;
     border-color: rgb(35, 47, 53);
     font-size: 18px;
@@ -98,7 +99,7 @@ a:hover {
     color: white;
     padding: 20px 10px 20px 67px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 20px;
+    line-height: 30px;
     font-weight: bold;
     border-color: rgb(35, 47, 53);
     font-size: 18px;
@@ -132,7 +133,7 @@ article {
     border-color: rgb(35, 47, 53);
     font-size: 18px;
 }
-#aside{
+.lado-direito{
     color: rgb(35, 47, 53);
     width: center;
     margin: center;
@@ -141,6 +142,9 @@ article {
     font-weight: bold;
     border-color: rgb(35, 47, 53);
     font-size: 20px;
+}
+.lado-esquerdo{
+    margin: left;
 }
 #sobremimtitulo{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
