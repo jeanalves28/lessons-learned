@@ -2,19 +2,27 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-header {
-    background-color: greenyellow;
-    padding: 20px;
-    border: 1px solid black;
-}
 
-#cabeçalho {
+
+#cabecalho {
+    border: 1px solid black;
+    background-color: greenyellow;
     position: fixed;
     top: 0;
+    left: 0;
+    padding: 30px;
+    width: 100%;
+    height: 90px;
+    z-index: 1;
 }
 
 #titulo {
-    text-align: center;
+    margin-left: 30%;
+}
+
+main {
+    position: relative;
+    top: 200px;
 }
 
 ul li a {
@@ -27,11 +35,18 @@ ul li {
     font-size: 14pt;
     display: inline-block;
     position: relative;
-    top: 20px;
+    top: 10px;
     margin-left: 50px;
 }
 
-main {
+ul li:hover {
+    background-color: white;
+    transition: 0.3s;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+main div {
     margin-top: 50px;
     position: relative;
     border: 1px solid black;
