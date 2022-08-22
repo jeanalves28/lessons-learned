@@ -9,10 +9,7 @@ body{
 
 
 #cabecalho{
-
-    top:0px;
-    
-      
+    top:0;     
 }
 #titulo{
 
@@ -38,21 +35,17 @@ img#minha_foto{
     clear: both;
 }
 
-#artigo{
+.lado-esquerdo{
     display: block;
     float: left;
     width: 600px;
-    text-indent: 10px;
     border-right: 2px dashed black;
     padding: 15px;
-
 }
-#lateral{
+.lado-direito{
     display: block;
     float: right;
     width: 550px;
-    text-indent: 10px;
-
 }
 
 .paragrafo{
