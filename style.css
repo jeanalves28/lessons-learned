@@ -8,7 +8,8 @@ body {
 img , #minha_foto {
   position: fixed;
   width: 20%;
-  top: 13%;
+  top: 20%;
+  border-radius: 50%;
 
 }
 
@@ -48,7 +49,7 @@ header {
   border: 1px solid black;
   padding: 5px;
   border-collapse: collapse;
-  background-color: #d7d7d7;
+  background-color: rgb(202, 202, 202);
 }
 
 #table1 {
@@ -64,30 +65,27 @@ header {
   top: 95%;
 }
 
-#art {
-  display: inline-block;
-  position: fixed;
-}
-
 .lado-esquerdo {
+  font-size: medium;
   position: fixed;
   text-align: left;
   width: 400px;
-  margin-left: 55%;
+  margin-left: 58%;
   margin-top: 19%;
 
 
 }
 
 .lado-direito {
+  font-size: medium;
   text-align: left;
-  width: 400px;
+  width: 350px;
   position: fixed;
-  top: 40%;
-  margin-left: 2%;
+  top: 22%;
+  margin-left: 21%;
 }
 
-#licoes_aprendidas {;
+#licoes_aprendidas {
   position: fixed;
   left: 20px;
   top: 56%;
@@ -103,4 +101,8 @@ header {
 #licoes_aprendidas , #licoes_a_aprender {
   background-color: aqua;
 
+}
+
+div {
+  display: inline-block;
 }
