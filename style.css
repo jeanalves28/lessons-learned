@@ -1,2 +1,20 @@
-body{background-color: rgb(253, 251, 251);}
-#cabecalho{position:fixed;top:0 ;margin: rgb(000,000,000) ;}
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho { position: fixed;
+  top: 0;
+  margin: rgb(133, 28, 207);
+  padding: 100px, 10px;
+  border: 20px, 20px;
+  font-size: 130%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 200;
+}
+
+#licoes_a_aprender {
+  color: rgb(67, 133, 63);
+  word-spacing: 10px;
+  line-height: 19px;
+}
