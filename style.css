@@ -7,10 +7,18 @@ body {
     width: 100%;
     height: 200px;
     padding: 10px;
-    position: fixed;
+   
     
 }
 #titulo {
     color: rgb(253, 251, 251);
     text-align: center;
+}
+#minha_foto {
+    width: 300px;
+    margin-top: 10px;
+    padding: 20px;
+}
+#eu {
+   margin-left: 20px; 
 }
