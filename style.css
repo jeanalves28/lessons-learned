@@ -27,7 +27,6 @@ header ul li a {
 header ul li:hover {
     background-color: white;
     transition: 0.3s;
-    width: 7%;
     height: 21px;
     border-radius: 5px;
 }
@@ -83,4 +82,12 @@ main div {
     margin-top: 10px;
     position: relative;
     left: 40%;
+}
+
+#rodape {
+    border: 1px solid black;
+    position: relative;
+    top: 180px;
+    left: 0;
+    margin-top: 10px;
 }
