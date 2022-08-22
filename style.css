@@ -9,8 +9,8 @@ body {
 }
 
 #cabecalho{
+    position: sticky;
     top: 0px;
-    position: fixed;
     color: white;
     background-color: green;
     display: block;
@@ -19,6 +19,7 @@ body {
 #minha_foto{
     border-radius: 50px;
     position: static;
+    padding-top: 200px;
 }
 #titulo {
     text-align: center;
