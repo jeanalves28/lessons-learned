@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    left: 40%;
+}
+
+nav, nav section {
+    display: inline;
+    position: relative;
+    top: 50px;
+}
+
