@@ -1,25 +1,40 @@
+
+
 .background {
     background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    color: white;
-    background: #11a36a;
+    font-family: sans-serif;
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
+}
+
+#minha_foto {
+    margin-top: 120px;
 }
 
 #navone {
     text-decoration: none;
     color: white;
-    background-color: #089070;
+    background-color: #11a36a;
     font-family: sans-serif;
     border-radius: 5px;
     padding: 5px 10px;
-    margin: 0px 30px;
+    margin: 0px 50px;
 }
 #navone:hover {
-    background-color: aqua;
+    background-color: #066943;
+}
+
+#trybecolor {
+    color: #11a36a;
+}
+
+#rodape {
+    font-size: small;
+}
+
+#lessons {
+    display: inline-block;
 }
