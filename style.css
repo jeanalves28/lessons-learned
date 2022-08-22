@@ -1,47 +1,57 @@
-/* stylelint-disable string-quotes */
-/* stylelint-disable selector-attribute-operator-space-after */
-/* stylelint-disable selector-attribute-operator-space-before */
-/* stylelint-disable selector-attribute-brackets-space-inside */
-/* stylelint-disable function-url-quotes */
-/* stylelint-disable indentation */
 body {
     background-color: rgb(253, 251, 251);
 }
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 800%;
+    background-color: greenyellow;
+    padding: 20px;
+    border: 1px solid black;
 }
 
-header figure img {
-    position: absolute;
+#cabeçalho {
+    position: fixed;
     top: 0;
-    left: 0;
-    width: 13%;
-    height: 700%;
-    opacity: 0.2;
 }
 
 #titulo {
-    position: fixed;
-    top: 0;
-    left: 35%;
-    color: green;
+    text-align: center;
 }
 
-header nav section a {
+ul li a {
     text-decoration: none;
     color: inherit;
 }
 
-nav section {
+ul li {
     color: rgb(61, 61, 61);
     font-size: 14pt;
-    display: inline;
+    display: inline-block;
     position: relative;
-    top: 190px;
-    margin-left: 100px;
+    top: 20px;
+    margin-left: 50px;
 }
 
+main {
+    margin-top: 50px;
+    position: relative;
+    border: 1px solid black;
+}
+
+main div figure {
+    display:flexbox;
+    border: 1px solid black;
+}
+
+#minha_foto {
+    border-radius: 100%;
+    height: 350px;
+    position: relative;
+    left: 35%;
+}
+
+figcaption {
+    margin-left: 40%;
+    font-size: larger;
+    font-style: italic;
+    color: grey;
+}
