@@ -25,7 +25,7 @@ h1 , h2 , h3 {
 }
 
 aside , article {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Times, serif;
   letter-spacing: normal;
 }
 
@@ -90,7 +90,7 @@ table , tr , th , td {
 
 #rodape {
   font-style: italic;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier New, Courier, monospace;
   font-size: small;
   background-color: darkred;
   color: white;
