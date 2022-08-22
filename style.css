@@ -22,6 +22,8 @@ body {
 }
 #minha_foto{
     border-radius: 50px;
+    width: 200px;
+    padding-top: 100px;
 }
 #licoes_aprendidas{
     width: 30%;
@@ -29,7 +31,6 @@ body {
     display: inline-block;
     padding: 0 1.5%;
     margin-left: 250px;
-    
 }
 #licoes_a_aprender{
     text-align: left;
@@ -42,22 +43,21 @@ body {
     margin-left: 200px;
     display: inline-block;
     padding: 0 1.5%;
+    padding-top: 80px;
 }
 #lessons_B{
     text-decoration: underline;
     margin-left: 15cm;
     display: inline-block;
     padding: 0 1.5%;
-}
-#minha_foto{
-    padding-top: 200px;
-    width: 150px;
+    padding-top: 80px;
 }
 .title{
     font-weight: bold;
     font-size: 30px;
     text-align: center;
     margin-top: 1cm;
+    padding-top: 100px;
 }
 #rodape{
     text-align: center;
