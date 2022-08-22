@@ -1,16 +1,47 @@
+/* stylelint-disable string-quotes */
+/* stylelint-disable selector-attribute-operator-space-after */
+/* stylelint-disable selector-attribute-operator-space-before */
+/* stylelint-disable selector-attribute-brackets-space-inside */
+/* stylelint-disable function-url-quotes */
+/* stylelint-disable indentation */
 body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
+header {
     position: fixed;
     top: 0;
-    left: 40%;
+    left: 0;
+    width: 800%;
 }
 
-nav, nav section {
+header figure img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 13%;
+    height: 700%;
+    opacity: 0.2;
+}
+
+#titulo {
+    position: fixed;
+    top: 0;
+    left: 35%;
+    color: green;
+}
+
+header nav section a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav section {
+    color: rgb(61, 61, 61);
+    font-size: 14pt;
     display: inline;
     position: relative;
-    top: 50px;
+    top: 190px;
+    margin-left: 100px;
 }
 
