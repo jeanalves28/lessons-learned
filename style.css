@@ -1,28 +1,85 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
 header {
   position: fixed;
   top: 0;
+  background-color: black;
+  width: 100%;
+  z-index: 3;
+}
+
+h1 {
+  color: white;
+}
+
+#titulo {
+  text-align: center;
+  font-family: Aboreto, cursive;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: Aboreto, cursive;
+  padding: 30px;
+  margin: 0;
+}
+
+.bg {
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 60%;
 }
 
 #minha_foto {
-  margin-top: 70px;
-  margin-bottom: 30px;
-  width: 400px;
+  margin-top: 165px;
+  width: 30%;
+}
+
+aside {
+  position: relative;
+  margin-top: 180px;
+  float: right;
+  width: 60%;
+  padding-right: 30px;
+  margin-right: 80px;
+  z-index: 1;
+}
+
+article {
+  font-family: Times New Roman, Times, serif;
 }
 
 a {
   text-decoration: none;
+  text-align: center;
   font-size: 15px;
   font-family: monospace;
   background-color: blue;
   color: white;
   padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
 }
 
 a:hover {
   background-color: red;
   transition: linear;
+}
+
+table , th , td {
+  border: 1px solid black;
+  width: 50%;
+  margin: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
 }
