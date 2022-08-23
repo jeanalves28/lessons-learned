@@ -1,22 +1,35 @@
-
+p, li, h2, h3 {
+    font-weight: 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: #151515;
+}
 
 .background {
     background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
+    letter-spacing: 5px;
+    color: #151515;
+    background-color: dimgray;
     font-family: sans-serif;
     position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
 }
 
 #minha_foto {
+    border-radius: 100%;
     margin-top: 120px;
 }
 
 #nav1{
+    font-weight: bolder;
+    letter-spacing: 3px;
     text-decoration: none;
-    color: white;
+    color: #151515;
     background-color: #11a36a;
     font-family: sans-serif;
     border-radius: 5px;
@@ -28,8 +41,10 @@
 }
 
 #nav2{
+    font-weight: bolder;
+    letter-spacing: 3px;
     text-decoration: none;
-    color: white;
+    color: #151515;
     background-color: #11a36a;
     font-family: sans-serif;
     border-radius: 5px;
@@ -41,13 +56,15 @@
 }
 
 #nav3{
+    font-weight: bolder;
     text-decoration: none;
-    color: white;
+    color: #151515;
     background-color: #11a36a;
     font-family: sans-serif;
+    letter-spacing: 3px;
     border-radius: 5px;
     padding: 5px 10px;
-    margin: 0px 50px;
+    margin: 0px 0px;
 }
 #nav3:hover {
     background-color: #066943;
