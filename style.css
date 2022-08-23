@@ -5,20 +5,25 @@ body {
 #cabecalho {
   position: fixed;
   top: 0%;
+  place-items: center;
 }
 
 td {
   border: 1px solid black;
-}
-
-table {
-  border: 2px solid red;
+  box-shadow: 3px 3px 3px;
+  color: black;
+  float: inline-start;
 }
 
 #tabela {
-  float: right;
+  float: inline-start;
+}
+
+#tabela_2 {
+  float: inline-start;
 }
 
 #minha_foto {
   width: 160px;
+  border: 2px solid black;
 }
