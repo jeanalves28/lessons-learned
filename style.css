@@ -6,3 +6,19 @@ body {
   position: fixed;
   top: 0%;
 }
+
+td {
+  border: 1px solid black;
+}
+
+table {
+  border: 2px solid red;
+}
+
+#tabela {
+  float: right;
+}
+
+#minha_foto {
+  width: 160px;
+}
