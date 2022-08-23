@@ -1,58 +1,75 @@
 body {
   background-color: rgb(253, 251, 251);
+  display: grid;
+  place-items: center;
+  font-family: karla, sans-serif;
 }
 
 #cabecalho {
   position: fixed;
   top: 0%;
-  place-items: center;
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(3, 94, 3);
+  color: white;
+  font-family: dynaPuff, sans-serif;
 }
 
 #table_one {
   float: right;
-  border: 1px solid black;
-  box-shadow: 3px 3px 3px;
-  margin: 0 10px;}
+  box-shadow: 3px 3px 3px rgb(110, 109, 109);
+  margin: 0 10px;
+}
 
 #table_two {
   float: right;
-  border: 1px solid red;
-  box-shadow: 3px 3px 3px;
+  box-shadow: 3px 3px 3px rgb(110, 109, 109);
   margin: 0 10px;
 }
 
 #minha_foto {
   width: 200px;
-  height: 270px;
-  border: 2px solid black;
+  height: 280px;
+  box-shadow: 3px 3px 3px rgb(110, 109, 109);
   margin: 0 10px;
 }
 
 #inline {
   display: inline-block;
-  border: 1px solid black;
   padding: 20px;
   margin-top: 5%;
 }
 
 .lado-direito {
   float: right;
-  border: 1px solid black;
+  box-shadow: 3px 3px 3px rgb(110, 109, 109);
   width: 300px;
   height: 300px;
-  margin: 0 10px;
+  margin: 10px;
+  word-spacing: 15px;
+  line-height: 200%;
 }
 
 .lado-esquerdo {
   float: left;
-  border: 1px solid black;
+  box-shadow: 3px 3px 3px rgb(110, 109, 109);
   width: 300px;
   height: 300px;
-  margin: 0 10px;
+  margin: 10px;
 }
 
 #article_aside {
   display: inline-block;
   margin-top: 20px;
-  border: 1px solid black;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  margin-top: 10px;
+  font-family: philosopher, sans-serif;
 }
