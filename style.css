@@ -113,47 +113,66 @@ body {
 /* SECTION 2 */
 #artigo {
   background-color: rgb(51, 81, 86);
-  height: fit-content;
+  height: 800px;
   width: 100%;
   display: flex;
+  justify-content: flex-start;
 }
 
 #card-info {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: rgb(151, 79, 142);
   border-radius: 5px;
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
     0 4px 25px 0 rgba(0, 0, 0, 0.12),
     0 8px 10px -5px rgba(0, 0, 0, 0.2);
-  margin-left: 15%;
+  opacity: 0.93;
   margin-top: 70px;
+  margin-left: 50px;
   color: rgb(230, 230, 230);
+  width: 60%;
+  height: 600px;
 }
 
-#card-info h1 {
+.lado-esquerdo {
+  height: 200px;
+  margin-bottom: 50px;
+
+}
+
+#head-info {
+  display: flex;
+  flex-direction: column;
+  border-bottom: #335156 solid 2px;
+}
+
+#head-info h1 {
   font-size: 50px;
-  margin-bottom: 5px;
   padding-left: 20px;
+  font-family: bold italic Libre Franklin, sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
-#card-info h6 {
-  margin-top: 5px;
+#head-info h2 {
   margin-bottom: 5px;
   padding-left: 20px;
   font-size: 18px;
+  font-family: Secular One, sans-serif;
+}
+
+#author {
+  display: flex;
+}
+
+#card-info p {
+  margin-left: 20px;
 }
 
 img {
   color: rgb(230, 230, 230);
-  width: 20px;
-  height: 20px;
-}
-
-article {
-  border: solid black 1px;
-}
-
-aside {
-  border: solid grey 3px;
+  width: 16px;
+  height: 16px;
 }
