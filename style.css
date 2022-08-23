@@ -1,5 +1,5 @@
 body {
-    background-color:  rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);
 }
 #cabecalho {
     background-color: black;
@@ -17,4 +17,16 @@ body {
     color: white;
     width: 80%;
     font-size: 43px;
+}
+#titulo-principal {
+    color: rgb(136, 146, 155);
+}
+#minha_foto {
+    height: 200px;
+    width: 200px;
+    
+}
+#legenda {
+    font-size: 12px;
+    font-style: italic;
 }
