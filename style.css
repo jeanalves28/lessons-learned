@@ -1,11 +1,101 @@
 body {
     background-color: rgb(253, 251, 251);
+    
 }
 #cabecalho{
     position: fixed;
     top: 0;
     background-color: #2929fa;
-    right: 0%;
-    left: 0%;
+    right: 0;
+    left: 0;
+    display: flex;
+    
+}
+#trybe-logo{
+    width: 60px;
+    height: 60px;
+    margin-top: 8px;
+}
+#titulo {
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+#main {
+    display: flex;
+}
+#minha_foto {
+    width: 400px;
+    height: 250px;
+}
+#secao-lista {
+    display: flex;
+}
+#licoes_aprendidas {
+    font-weight: 600;
+    color: black;
+    font-size: large;    margin-right: 10px;
+}
 
+    
+#licoes_a_aprender {
+    font-weight: 600;
+    color: black;
+    font-size: large;
+    
+}
+#artigo-lista {
+    margin-top: 85px;
+    border-width: 50px;
+}
+#artigo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: medium;
+    width: 900px;
+    margin-bottom: 50px;
+    
+}
+#secao-aprendizado {
+    margin-left: 15px;
+}
+
+#aside {
+    margin-left: 125px;
+    border-color: orange;
+    background-color: orangered;
+    margin-top: 70px;
+    text-align: center;
+    border-style: solid;
+}
+#descricao {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+#rodape {
+    position: fixed;
+    bottom: 0;
+    
+}
+.trybe-style-text {
+    color: #11a36a;
+    font-weight: bold;
+}
+#botao {
+    border-radius: 5px;
+    background-color:  #11a36a;
+    height: 25px;
+    margin-top: 40px
+}
+#link {
+    color: white;
+}
+#link:hover {
+    color:black;
+}
+#mypic {
+    width: 310px;
+    height: 200px;
+    margin: 5px;
+    border-style: groove;
 }
