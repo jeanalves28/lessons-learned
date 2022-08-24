@@ -1,5 +1,5 @@
 body {
-background-color: rgb(253, 251, 251);
+background-color: rgb(253,251,251);
 }
 
 header {
@@ -7,31 +7,39 @@ top: 0;
 }
 
 .lado_esquerdo {
-  float: left;
+float: left;
+text-align:left;
 }
 
 .lado_direito {
-  float: right;
+float: right;
+text-align:right;
 }
 
 aside {
-  width: 300px;
-  text-align: center;
-  margin-right: 10px;
+width: 300px;
+text-align: center;
+margin-right: 10px;
 }
 
 aside h2 {
-  font-size: 16px;
+font-size: 16px;
 }
 
 #minha_foto {
-  width: 150px;
+width: 150px;
 }
 
 table {
-  border: 1px solid grey;
+border: 1px solid grey;
 }
 
 ul ol {
-  padding: 5%;
+padding: 5%;
+}
+
+h2 {
+color:rebeccapurple;
+font-family: 'Courier New', Courier, monospace;
+font-kerning: auto;
 }
