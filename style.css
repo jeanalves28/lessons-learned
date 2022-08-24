@@ -25,7 +25,7 @@ footer { background-color: rgb(23, 251, 251);
   font-size: 20px;
 }
 
-#artigo {
+.lado-esquerdo {
   background-color: brown;
   border: 40px;
   border-color: blueviolet;
@@ -34,8 +34,13 @@ footer { background-color: rgb(23, 251, 251);
   float: left;
 }
 
-#aside {
-  font-size: 30px;
+.lado-direito {
+  background-color: blueviolet;
+  font-size: 20px;
   width: 45%;
+  float: right;
+}
+
+#tabela {
   float: right;
 }
