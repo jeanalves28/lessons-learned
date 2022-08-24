@@ -1,45 +1,45 @@
 body {
-background-color: rgb(253,251,251);
+  background-color: rgb(253, 251, 251);
 }
 
 header {
-top: 0;
+  top: 0;
 }
 
 .lado_esquerdo {
-float: left;
-text-align:left;
+  float: left;
+  text-align: left;
 }
 
 .lado_direito {
-float: right;
-text-align:right;
+  float: right;
+  text-align: right;
 }
 
 aside {
-width: 300px;
-text-align: center;
-margin-right: 10px;
-}
-
-aside h2 {
-font-size: 16px;
-}
-
-#minha_foto {
-width: 150px;
-}
-
-table {
-border: 1px solid grey;
-}
-
-ul ol {
-padding: 5%;
+  width: 300px;
+  text-align: center;
+  margin-right: 10px;
 }
 
 h2 {
-color:rebeccapurple;
-font-family: 'Courier New', Courier, monospace;
-font-kerning: auto;
+  color: rebeccapurple;
+  font-family: Courier, monospace;
+  font-kerning: auto;
+}
+
+aside h2 {
+  font-size: 16px;
+}
+
+#minha_foto {
+  width: 150px;
+}
+
+table {
+  border: 1px solid grey;
+}
+
+ul ol {
+  padding: 5%;
 }
