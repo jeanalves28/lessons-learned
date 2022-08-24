@@ -17,6 +17,7 @@ body {
     color: white;
     width: 80%;
     font-size: 43px;
+    font-family: 'Courier New', Courier, monospace;
 }
 #titulo-principal {
     color: rgb(136, 146, 155);
@@ -29,4 +30,27 @@ body {
 #legenda {
     font-size: 12px;
     font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+#licoes_aprendidas {
+ margin-inline: 5px;
+}
+#licoes_a_aprender {
+ margin-inline: 5px;
+}
+.lista {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    margin-inline: 10px;
+}
+#artigo {
+   position: absolute;
+   top: 110px;
+   right: 0px;
+   left: 300px;
+   font-size: 18px;
+   font-family: 'Courier New', Courier, monospace;
+  
 }
