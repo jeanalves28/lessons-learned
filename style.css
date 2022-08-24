@@ -3,7 +3,7 @@
 }
 
 html {
-  background-image: url(./onda.jpg);
+  background-image: url('./onda.jpg');
   animation: colors 25s ease infinite;
 }
 
@@ -105,7 +105,7 @@ body {
 
 .lado-direito {
   text-align: justify;
-  font-family: Amiri;
+  font-family: Amiri, Arial, Helvetica, sans-serif;
   font-weight: 550;
   text-indent: 35px;
 
