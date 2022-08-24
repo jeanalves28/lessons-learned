@@ -30,24 +30,29 @@ header {
   border-radius: 30% 3%;
 }
 
-.secaoListas {
+/* #secaoListas {
+  display: inline-block;
+} */
 
+#table {
+  text-align: left;
+  font-weight: 600;
 }
+
+/* .divListas {
+  display: inline-block;
+} */
 
 #licoes_aprendidas {
   font-family: Georgia, Times New Roman, Times, serif;
   font-weight: 550;
   color: #607eaa;
-  margin-left: 25%;
-  margin-right: auto;
 }
 
 #licoes_a_aprender {
   font-family: Georgia, Times New Roman, Times, serif;
   font-weight: 550;
   color: #607eaa;
-  margin-left: 25%;
-  margin-right: auto;
 }
 
 h2 {
@@ -58,18 +63,13 @@ h2 {
   margin: 15px;
 }
 
-#table {
-  text-align: left;
-  font-weight: 600;
-}
-
 .secaoArticleAside {
   height: 75px;
 }
 
 .lado-esquerdo {
   float: left;
-  width: 55%;
+  width: 48%;
   color: #1c3879;
   font-size: large;
   text-align: justify;
@@ -78,7 +78,7 @@ h2 {
 
 .lado-direito {
   float: right;
-  width: 40%;
+  width: 48%;
   color: #1c3879;
   font-size: large;
   text-align: justify;
