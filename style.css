@@ -1,5 +1,6 @@
 header {
-    position: ;
+    width: 100%;
+    height: 300%;
     background-color: rgb(77, 201, 119);
     top: 0px;
 }
@@ -17,19 +18,11 @@ h2 {
 p {
     font-weight: bold;
 }
-body {
-    background-color: rgb(157, 151, 189);
-}
 img {
-    position: ;
+    position: absolute;
     left: 50%;
     right: 50%;
 }
-
-#listas {
-    display: inline;
-}
-
 #instagram {
     margin-right: 5px;
 }
