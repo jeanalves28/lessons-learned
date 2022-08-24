@@ -18,6 +18,10 @@ body {
   color: slateblue;
 }
 
+#titulo {
+  text-align: center;
+}
+
 #licoes_aprendidas {
   margin-left: 10px;
   padding: 30px 0px 30px 30px;
@@ -40,11 +44,34 @@ h3 {
   color: slateblue;
 }
 
+h4 {
+  margin-top: 20px;
+}
+
 li {
   margin-left: 50px;
 }
 
-#rodape {
-  position: fixed;
-  padding-top: 30px;
+p {
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.lado-esquerdo {
+  max-width: 500px;
+  position: relative;
+  float: left;
+}
+
+.lado-direito {
+  max-width: 500px;
+  position: relative;
+  float: right;
+  padding-right: 50px;
+}
+
+.roda {
+  text-align: center;
+  padding-top: 300px;
+  font-size: small;
 }
