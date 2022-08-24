@@ -2,5 +2,6 @@
 body{
 background-color: rgb(253, 251, 251)
 }
-header {position: fixed; top: 0}
-footer { }
+article {overflow: auto; position: relative;}
+header {position:fixed ; top: 0}
+aside {text-align: justify; right: 500px; }
