@@ -4,9 +4,9 @@ body {
 #cabecalho {
     background-color: black;
     position: fixed;
-    top: 0%;
-    left: 0%;
-    right: 0%;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 80px;
     width: 100%;
     display: flex;
@@ -48,14 +48,14 @@ body {
 #artigo {
    position: absolute;
    top: 110px;
-   right: 0px;
-   left: 300px;
-   font-size: 18px;
+   right: 290px;
+   left: 290px;
+   font-size: 13px;
    font-family: 'Courier New', Courier, monospace;
   
 }
 #aside {
     position: absolute;
-    top: 50px;
-    color: white;
+    
+   
 }
