@@ -30,11 +30,14 @@ header {
   border-radius: 30% 3%;
 }
 
+.secaoListas {
+
+}
+
 #licoes_aprendidas {
   font-family: Georgia, Times New Roman, Times, serif;
   font-weight: 550;
   color: #607eaa;
-  display: inline-block;
   margin-left: 25%;
   margin-right: auto;
 }
@@ -43,7 +46,6 @@ header {
   font-family: Georgia, Times New Roman, Times, serif;
   font-weight: 550;
   color: #607eaa;
-  display: inline-block;
   margin-left: 25%;
   margin-right: auto;
 }
@@ -57,30 +59,30 @@ h2 {
 }
 
 #table {
-  text-align: center;
+  text-align: left;
   font-weight: 600;
 }
 
-.secaoAside {
-  height: 60px;
+.secaoArticleAside {
+  height: 75px;
 }
 
 .lado-esquerdo {
   float: left;
-  width: 60%;
+  width: 55%;
   color: #1c3879;
   font-size: large;
   text-align: justify;
-  /* margin: 20px 5px 10px 5px; */
+  margin: 5px;
 }
 
 .lado-direito {
   float: right;
-  width: 35%;
+  width: 40%;
   color: #1c3879;
   font-size: large;
   text-align: justify;
-  /* margin: 15px 5px 10px 5px; */
+  margin: 5px;
 }
 
 #rodape {
