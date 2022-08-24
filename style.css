@@ -6,8 +6,15 @@ header {
 top: 0%;
 }
 
-aside {
+.lado_esquerdo {
+  float: left;
+}
+
+.lado_direito {
   float: right;
+}
+
+aside {
   width: 300px;
   text-align: center;
   margin-right: 10px;
