@@ -16,6 +16,13 @@ body {
     align-items: center;
 }
 
+#titulo {
+    color: #569932;
+    padding-left: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+}
+
 #box_logotrybe {
     margin: auto;
     display: block;
@@ -27,16 +34,50 @@ body {
     height: 100%;
 }
 
+#meu_nome {
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+#minha_foto {
+    width: 20%;
+    display: block;
+    border: 10px solid #2fc18c;
+    border-radius: 25%;
+    box-shadow: 5px 4px #38886b;
+    margin: auto;
+    margin-top: 10px;
+}
+
+table {
+    margin: auto;
+    padding-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+nav ul li {
+    text-transform: uppercase;
+    line-height: 1%;
+}
+
 #artigo_sobre_mim {
     padding-top: 60px;
 }
 
 #titulo {
     float: left;
-}
-
-.logotrybe {
-
 }
 
 .link_cabecalho {
@@ -52,15 +93,19 @@ body {
     color: whitesmoke;
 }
 
-#minha_foto {
-    width: 20%;
-    margin: auto;
-    display: block;
-    border: 10px solid #2fc18c;
-    border-radius: 25%;
-    box-shadow: 5px 4px #38886b;
+#link_solid {
+    text-decoration: none;
+    background-color: #2fc18c;    
 }
 
-#link_solid {
-    
+article {
+    width: 40%;
+    float: left;
+    padding: 5%;
+}
+
+aside {
+    width: 40%;
+    float: right;
+    padding: 5%;
 }
