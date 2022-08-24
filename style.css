@@ -1,9 +1,27 @@
 body { background-color: rgb(253, 251, 251); }
 
 header { background-color: rgb(253, 0, 251);
-    position: fixed;
-    top: 0; }
+  position: fixed;
+  top: 0; }
 
 footer { background-color: rgb(23, 251, 251);
-    position: fixed;
-    top: 0; }
+  position: fixed;
+  top: 0; }
+
+#licoes_aprendidas {
+  background-color: rgb(112, 9, 9);
+  padding: 40px;
+}
+
+#licoes_a_aprender {
+  background-color: rgb(2, 84, 90);
+  margin: 40px;
+  border: 40px;
+  border-color: blueviolet;
+}
+
+#artigo {
+  background-color: brown;
+  border: 40px;
+  border-color: blueviolet;
+}
