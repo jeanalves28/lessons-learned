@@ -5,10 +5,12 @@ body {
 header {
   top: 0;
   position: fixed;
+  background-color: rgb(253, 251, 251);
 }
 
 .lado-esquerdo {
   float: left;
+  margin-top: 50px;
 }
 
 .lado-direito {
