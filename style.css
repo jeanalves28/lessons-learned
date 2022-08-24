@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  border: 1px solid red;
 }
 
 body {
@@ -60,22 +61,26 @@ h2 {
   font-weight: 600;
 }
 
+.secaoAside {
+  height: 60px;
+}
+
 .lado-esquerdo {
-  display: inline-block;
+  float: left;
   width: 60%;
   color: #1c3879;
   font-size: large;
   text-align: justify;
-  margin: 15px;
+  /* margin: 20px 5px 10px 5px; */
 }
 
 .lado-direito {
-  display: inline-block;
+  float: right;
   width: 35%;
   color: #1c3879;
   font-size: large;
   text-align: justify;
-  margin: 15px;
+  /* margin: 15px 5px 10px 5px; */
 }
 
 #rodape {
