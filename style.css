@@ -54,3 +54,8 @@ body {
    font-family: 'Courier New', Courier, monospace;
   
 }
+#aside {
+    position: absolute;
+    top: 50px;
+    color: white;
+}
