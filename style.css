@@ -4,22 +4,25 @@ body {
 
 header {
   top: 0;
+  position: fixed;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
   float: left;
-  text-align: left;
 }
 
-.lado_direito {
+.lado-direito {
   float: right;
-  text-align: right;
 }
 
 aside {
   width: 300px;
   text-align: center;
   margin-right: 10px;
+}
+
+p {
+  line-height: 20px;
 }
 
 h2 {
