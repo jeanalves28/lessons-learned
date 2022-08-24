@@ -13,8 +13,18 @@ p {
     font-weight: bold;
 }
 body {
-    background-color: rgb(168, 168, 255);
+    background-color: rgb(157, 151, 189);
 }
 img {
-    text-align: center;
+    position: absolut;
+    left: 50%;
+    right: 50%;
+}
+
+#listas {
+    display: inline;
+}
+
+#instagram {
+    margin-right: 5px;
 }
