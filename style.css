@@ -1,7 +1,21 @@
 body {
-    background-color: rgb(253, 251, 251);
-  }
+background-color: rgb(253, 251, 251);
+}
 
 header {
-  top: 0%;
+top: 0%;
+}
+
+aside {
+  float: right;
+  width: 300px;
+  text-align: center;
+}
+
+aside h2 {
+  font-size: 16px;
+}
+
+#minha_foto {
+  width: 150px;
 }
