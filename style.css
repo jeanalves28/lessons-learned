@@ -33,7 +33,8 @@ img {
     left: 50%;
     right: 50%;
     z-index: 1;
-}
+    border-radius: 15px;
+}/*
 #instagram {
     color:white;
     margin-right: 5px;
@@ -42,7 +43,7 @@ img {
 #linkedin {
     color:white;
     background-color: rgb(93, 97, 96);
-}
+}*/
 #rodape {
     width: 100%;
     position: absolute;
@@ -63,8 +64,3 @@ img {
 }
 li:hover {
     background-color: green;
-}
-
-#instagram:hover, #linkedin:hover {
-    background-color: brown;
-}

@@ -1,0 +1,55 @@
+/*design dos botões*/
+
+#instagram {
+    background-color:rgb(172, 42, 122);
+    cursor: pointer; 
+    color: white;
+    width: 120px; 
+    height: 30px; 
+    font-size: 20px; 
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+#linkedin {
+    background-color: skyblue;
+    cursor: pointer;
+    color: white;
+    width: 120px; 
+    height: 30px; 
+    font-size: 20px; 
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+#twitch{
+    background-color:rgb(107, 47, 156);
+    color: white;
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+#discord{
+    background-color:rgb(89, 89, 219);
+    color: white; 
+    cursor: pointer; 
+    width: 120px;
+    height: 30px; 
+    font-size: 20px; 
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+/*-------------------------------------------------------------------------*/
+#instagram:hover{
+    background-color: rgb(133, 1, 148);
+}
+#linkedin:hover{
+    background-color: rgb(73, 133, 168);
+}
+#twitch:hover{
+    background-color: rgb(82, 18, 82);
+}
+#discord:hover{
+    background-color: rgb(45, 31, 126);
+}
