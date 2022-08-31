@@ -1,14 +1,25 @@
-header {
-    position: fixed;
+#cabecalho {
+    position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
     height: 120;
     background-color: black;
     z-index: 2;
 }
-body {
-    background-color: rgb(253, 251, 251)
+footer {
+    position: absolute;
+    bottom: -250px;
+    left: 0px;
+    width: 100%;    
+    background-color: black;    
 }
+body {
+    background-color: rgb(252, 252, 252);
+    height: auto;
+
+}
+/*------------------Títulos---------------------*/
 h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,39 +39,72 @@ p {
     font-weight: bold;
 }
 img {
-    position: absolute;
-    top: 200px;
-    left: 50%;
-    right: 50%;
-    z-index: 1;
-    border-radius: 15px;
-}/*
-#instagram {
-    color:white;
-    margin-right: 5px;
-    background-color: rgb(93, 97, 96);
+    border-radius: 3.5px;
+    width: 160px;
+    float:left;
+    margin-left: 45%;
+    margin-right: 55%;
 }
-#linkedin {
-    color:white;
-    background-color: rgb(93, 97, 96);
-}*/
-#rodape {
+#imagem {
+    margin-top: 150px;
+    background-color: rgb(34, 78, 34);
+    height: 230px;
     width: 100%;
-    position: absolute;
-    background-color: black;
 }
 #links_externos {
     text-align: center;
     margin-bottom: 30px;
 }
-#listas {
-    margin-top: 150px;
-    line-height: 25px;
-}
 #copyright {
     color: white;
     font-size: small;
     margin-left: 20px;
+    font-family: sans-serif;
 }
 li:hover {
-    background-color: green;
+    background-color: rgb(170, 230, 170);
+    border-radius: 5px;
+    
+}
+/*--------------------Texto----------------------*/
+#texto {
+    top: 750px;
+    position: absolute;
+    left: 0px;
+    font-family: sans-serif;
+    background-color: rgb(130, 103, 155);
+}
+article {
+    margin-left: 3%;
+    margin-right: 0%;
+    width: 45%;
+    float: left;
+}
+aside {
+    margin-left: 0%;
+    margin-right: 3%;
+    width: 45%;
+    float: right;
+}
+/*---------------------Listas-----------------------*/
+#listas {
+    width: 100%;
+    top: 400px;
+    line-height: 25px;
+    position: absolute;
+    font-family: sans-serif;
+    left: 0px;
+    background-color: rgb(83, 138, 201);
+}    
+#ordered_list {
+    margin-left: 25%;
+    margin-right: 25px;
+    width: 20%;
+    float: left;
+}
+#unordered_list {
+    margin-right: 25%;
+    margin-left: 25px%;
+    width: 20%;
+    float: right;
+}
