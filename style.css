@@ -1,5 +1,5 @@
 #cabecalho {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -15,7 +15,7 @@ footer {
     background-color: black;    
 }
 body {
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(253, 251, 251);
     height: auto;
 
 }
@@ -41,15 +41,10 @@ p {
 img {
     border-radius: 3.5px;
     width: 160px;
-    float:left;
-    margin-left: 45%;
-    margin-right: 55%;
-}
-#imagem {
-    margin-top: 150px;
-    background-color: rgb(34, 78, 34);
-    height: 230px;
-    width: 100%;
+    margin: auto;
+    margin-top: 148px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 #links_externos {
     text-align: center;
@@ -73,6 +68,8 @@ li:hover {
     left: 0px;
     font-family: sans-serif;
     background-color: rgb(130, 103, 155);
+    border: solid black 3px;
+    padding: solid black 3px;
 }
 article {
     margin-left: 3%;
@@ -95,6 +92,8 @@ aside {
     font-family: sans-serif;
     left: 0px;
     background-color: rgb(83, 138, 201);
+    border: solid black 3px;
+    padding: solid black 3px;
 }    
 #ordered_list {
     margin-left: 25%;
