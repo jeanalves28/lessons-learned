@@ -1,22 +1,27 @@
 * {
     background-color: rgb(253, 251, 251);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: darkgray;
+    line-break: auto;
 }
 #cabecalho {
     position: fixed;
     top: 0px;  
 }
-.titulo {
-
+table {
+    padding: 80px;
+    margin: 50px;
+    border: 5px;
 }
-.minha_foto {
-
+main {
+    display: inline-block;
 }
-.licoes_aprendidas {
-
+article {
+    width: 40%;
+    display: inline-block;
 }
-.licoes_a_aprender {
-
-}
-.rodape {
-
+aside {
+    width: 40%;
+    display: inline-block;
 }
