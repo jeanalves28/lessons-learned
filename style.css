@@ -3,7 +3,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
     color: darkgray;
-    line-break: auto;
+    line-height: 20px;
 }
 #cabecalho {
     position: fixed;
@@ -17,11 +17,11 @@ table {
 main {
     display: inline-block;
 }
-article {
+.lado-direito {
     width: 40%;
     display: inline-block;
 }
-aside {
+.lado-esquerdo {
     width: 40%;
     display: inline-block;
 }
