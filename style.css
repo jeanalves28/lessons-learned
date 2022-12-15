@@ -29,6 +29,8 @@ main {
 #apresentacao {
   display: flex;
   padding-bottom: 50px;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #apresentacao article {
