@@ -57,7 +57,7 @@ header h1 {
   border-radius: 10px;
   width: 240px;
   border: 2px solid black;
-  box-shadow: 0px 0px 8px 3px rgb(204, 204, 204);
+  box-shadow: 0 0 8px 3px rgb(204, 204, 204);
 }
 
 .lado-esquerdo {
