@@ -5,6 +5,7 @@ body {
 
 #cabecalho {
   margin: 0 2rem;
+  margin-left: 3rem;
   width: 78rem;
   border: 0.4em solid rgb(0, 49, 0);
   padding: 0.5rem;
