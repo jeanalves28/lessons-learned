@@ -25,7 +25,7 @@ a {
   color: inherit;
 }
 
-a [ href *= 'betrybe' ] {
+a [href*='betrybe'] {
   text-decoration: underline;
   color: green;
 }
