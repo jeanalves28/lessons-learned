@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho {
+  background-color: greenyellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  width: 100%;
+  height: 90px;
+  z-index: 2;
+}
+
+#titulo {
+  margin-left: 30%;
+  position: relative;
+  bottom: 17px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a [ href *= 'betrybe' ] {
+  text-decoration: underline;
+  color: green;
+}
+
+header ul li {
+  color: rgb(61, 61, 61);
+  font-size: larger;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer nav ul li {
+  display: inline-block;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: white;
+}
+
+header ul li:hover {
+  background-color: white;
+  transition: 0.3s;
+  height: 21px;
+  border-radius: 5px;
+}
+
+footer nav ul {
+  position: relative;
+  left: 36%;
+  margin-bottom: 10px;
+}
+
+footer section {
+  color: white;
+  position: relative;
+  top: 70px;
+  left: 38%;
+}
+
+main {
+  line-height: normal;
+  margin-bottom: 450px;
+  position: relative;
+  top: 170px;
+  background-color: rgb(240, 240, 240);
+  z-index: 1;
+}
+
+span {
+  font-style: italic;
+}
+
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  margin-left: 240px;
+}
+
+.lado-esquerdo {
+  bottom: 30px;
+}
+
+#list-block1 , #list-block2 {
+  display: inline-block;
+  margin-top: 0;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 250px;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {
+  margin: 30px;
+}
+
+main div {
+  margin-top: 50px;
+  position: relative;
+}
+
+#minha_foto {
+  border-radius: 50%;
+  height: 340px;
+  margin-top: 10px;
+  position: relative;
+  left: 40%;
+}
+
+#rodape {
+  border: 1px solid black;
+  background-color: black;
+  margin: 10px;
+  padding: 80px;
+  position: fixed;
+  bottom: -10px;
+  left: -10px;
+  width: 100%;
+}
